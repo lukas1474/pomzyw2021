@@ -1,0 +1,12 @@
+@import "../../../styles/settings.scss";
+
+.root {
+  bottom: 0;
+  display: flex;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}

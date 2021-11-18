@@ -1,5 +1,4 @@
 .root {
-  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,11 +9,11 @@
   min-height: 83vh;
 
   input {
-    width: 80vW;
+    width: 80vw;
   }
 }
 
-.title{
+.title {
   font-size: calc(10px + 2vmin);
   color: black;
 }
