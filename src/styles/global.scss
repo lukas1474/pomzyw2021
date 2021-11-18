@@ -1,4 +1,6 @@
-@import "normalize.scss";
+@import "./normalize.scss";
+@import "./settings.scss";
+@import "./mixins.scss";
 
 *,
 *::before,
@@ -6,4 +8,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  background: $darkWhite;
 }

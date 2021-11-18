@@ -1,9 +1,10 @@
 import React from 'react';
 import styles from './Header.module.scss';
-
+import  Splash  from '../../views/Splash/Splash';
 const Header = () => (
   <header className={styles.header}>
-    <h2 className={styles.title}>Pomoc Żywnościowa 2021</h2>
+    <img src="/images/splash.webp" alt="splash" />
+    <Splash />
   </header>
 );
 
