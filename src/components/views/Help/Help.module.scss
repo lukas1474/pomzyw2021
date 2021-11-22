@@ -1,24 +1,14 @@
+@import '../../../styles/global.scss';
+
 .root {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  font-size: calc(10px + 2vmin);
-  color: black;
+  color: $text-color;
   padding: 20px;
-  min-height: 83vh;
+  margin: 15px 200px 15px 200px;
 
   input {
     width: 80vw;
   }
-}
-
-.title {
-  font-size: calc(10px + 2vmin);
-  color: black;
-}
-
-.description {
-  font-size: calc(6px + 1vmin);
-  color: black;
 }
