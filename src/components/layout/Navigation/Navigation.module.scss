@@ -30,6 +30,7 @@
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
+    transition: $transition;
     width: 20rem;
     &::after {
       background: $menu-bg;
@@ -39,11 +40,17 @@
       width: 100%;
     }
     .logo {
-      bottom: 10%;
+      @include flex(row, baseline, center);
+      bottom: 0;
       left: 50%;
       position: absolute;
       transform: translate(-50%, -50%);
       z-index: 1;
+      img {
+        width: 50%;
+        height: 50%;
+        transition: $transition;
+      }
     }
   }
 
@@ -70,6 +77,15 @@
   top: -2rem;
   .menu {
     bottom: 40%;
+  }
+  .circle {
+    height: 10rem;
+    width: 10rem;
+    bottom: -5rem;
+    .logo img {
+      height: 75%;
+      width: 75%;
+    }
   }
 }
 

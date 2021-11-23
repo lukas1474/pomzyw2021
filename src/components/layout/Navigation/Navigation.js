@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-
-import { Container, Row, Col } from 'react-bootstrap';
+// import { NavHashLink } from 'react-router-hash-link';
 import styles from './Navigation.module.scss';
-import { style } from 'dom-helpers';
 
 const Component = ({ className, children }) => {
   const [scroll, setScroll] = useState(false);
@@ -25,18 +23,31 @@ const Component = ({ className, children }) => {
     };
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
+  // const scrollWidthOffset = (el) => {
+  //   const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+  //   const yOffset = 1;
+  //   window.scrollTo({ top: yCoordinate + yOffset, behavior: `smooth` });
+  // };
+
   return (
     <div className={!scroll ? styles.root: styles.rootScroll}>
       <div className={styles.background}>
       </div>
       <div className={`${styles.menu} ${styles.menuL}`}>
+        {/* <NavHashLink
+          smooth
+          to={`#`}
+          scroll={(el) => scrollWidthOffset(el)}
+          className={styles.navLink}
+        >
+        </NavHashLink> */}
         <p>Menu1</p>
         <p>Menu2</p>
         <p>Menu3</p>
       </div>
       <div className={styles.circle}>
         <div className={styles.logo}>
-          <p>logo</p>
+          <img src="/images/logo.svg" alt="Logo" />
         </div>
       </div>
       <div className={`${styles.menu} ${styles.menuR}`}>
