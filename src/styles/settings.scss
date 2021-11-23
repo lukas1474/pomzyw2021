@@ -3,6 +3,7 @@
 /* DO NOT USE THOSE VARIABLES IN THE OTHER SCSS FILES! */
 $black: #000000;
 $blue: #0000ff;
+$darkblue: #00008B;
 $chocolate: #5c3f1a;
 $cookie: #e89e3b;
 $darkGray: #363636;
@@ -39,3 +40,10 @@ $text-color: $black;
 
 /*Menu*/
 $menu-bg: $darkWhite;
+
+/*Posters*/
+$first-shadow-poster-color: $black;
+$second-shadow-poster-color: $darkblue;
+
+$icon-color: $white;
+
