@@ -22,20 +22,6 @@
   @include flex(row, center, center);
 }
 
-@media (max-width: 991px){
-  .postersGallery {
-    width: 75%;
-    @include flex(column, center, center);
-  }
-}
-
-@media (max-width: 480px){
-  .postersGallery {
-    width: 100%;
-    @include flex(column, center, center);
-  }
-}
-
 /*modal*/
 
 .modal {
@@ -74,8 +60,25 @@
   position: fixed;
   top: 20px;
   right: 50px;
+
   padding: 2px;
   background-color: rgba(0, 0, 0, 0.4);
   color: $white;
   cursor: pointer;
+}
+
+/*RWD*/
+
+@media (max-width: 991px){
+  .postersGallery {
+    width: 75%;
+    @include flex(column, center, center);
+  }
+}
+
+@media (max-width: 480px){
+  .postersGallery {
+    width: 100%;
+    @include flex(column, center, center);
+  }
 }
