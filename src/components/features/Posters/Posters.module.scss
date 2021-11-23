@@ -3,26 +3,19 @@
 /*main view*/
 
 .postersGallery {
-  -webkit-column-count: 2;
-  column-count: 2;
-  -moz-column-count: 2;
-  -webkit-column-width: 50%;
-  column-width: 50%;
-  -moz-column-width: 50%;
-  padding: 0 12px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .postersGallery .poster {
-  -webkit-transition: all 350ms ease;
-  transition: all 350ms ease;
   cursor: pointer;
-  margin-bottom: 12px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 12px 6px;
+  box-shadow: 0px 0px 0px $black, 0 0 2px $darkblue, 0 0 0px $black;
 }
 
 .postersGallery .poster:hover {
-  filter: opacity(.8);
+  filter: opacity(.7);
 }
 
 .poster {
@@ -34,20 +27,19 @@
 
 @media (max-width: 991px){
   .postersGallery {
-    -webkit-column-count: 1;
-    column-count: 1;
-    -moz-column-count: 1;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
 @media (max-width: 480px){
   .postersGallery {
-    -webkit-column-count: 1;
-    column-count: 1;
-    -moz-column-count: 1;
-    -webkit-column-width: 100%;
-    column-width: 100%;
-    -moz-column-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
   }
 }
 
@@ -59,35 +51,40 @@
   position: fixed;
   top: 0;
   left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
   background-color:rgba(0, 0, 0, 0.8);
-  transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out;
   visibility: hidden;
   opacity: 0;
-  transform: scale(1);
-  overflow: hidden;
+  overflow-y: scroll;
   z-index: 999;
-  border: 1px solid blue;
 }
 
 .modalOpen{
   visibility: visible;
   opacity: 1;
-  transform: scale(1);
 
   @extend .modal;
 }
 
 .modalOpen img{
   width: auto;
-  max-width: 125%;
+  max-width: 175%;
   height: auto;
-  max-height: 125%;
+  max-height: 175%;
   display: block;
-  line-height: 0;
-  box-sizing: border-box;
-  padding: 20px 0 20px;
   margin: 0 auto;
+  box-sizing: border-box;
+  padding: 25px;
+}
+
+.icon{
+  position: fixed;
+  top: 20px;
+  right: 50px;
+  width: 2rem;
+  height: 2rem;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: $white;
+  cursor: pointer;
 }

@@ -1,12 +1,10 @@
-import React, {useState,
-  // useEffect, useRef
-} from 'react';
+import React, {useState, useEffect} from 'react';
 import styles from './Posters.module.scss';
 
-// import CloseIcon from '@mui/icons-material/Close';
+import CloseIcon from '@material-ui/icons/Close';
 
-import firstPoster from '../../../posters/pomzyw1.jpg';
-import secondPoster from '../../../posters/pomzyw2.jpg';
+import firstPoster from '../../../posters/pomzyw1.webp';
+import secondPoster from '../../../posters/pomzyw2.webp';
 
 const Posters = () => {
   let data = [
@@ -22,28 +20,19 @@ const Posters = () => {
 
   const [modal, setModal] = useState(false);
   const [tempingSrc, setTempingSrc] = useState('');
-  console.log('1', modal);
 
   const getImg = (imgSrc) => {
     setTempingSrc(imgSrc);
     setModal(true);
   };
 
-  // const useOutsidePopup = (ref) => {
-  //   useEffect(() => {
-  //     function handleClickOutside(e) {
-  //       if (ref.current && !ref.current.contains(e.target)) {
-  //         setVisible(false);
-  //       }
-  //     }
-  //     document.addEventListener(`mouseup`, handleClickOutside);
-  //     return () => {
-  //       document.removeEventListener(`mouseup`, handleClickOutside);
-  //     };
-  //   }, [ref]);
-  // };
-  // const popupRef = useRef(null);
-  // useOutsidePopup(popupRef);
+  useEffect(() => {
+    if (modal) {
+      document.body.style.overflow = `hidden`;
+    } else {
+      document.body.style.overflow = `unset`;
+    }
+  }, [modal]);
 
   return (
     <>
@@ -51,15 +40,25 @@ const Posters = () => {
         <h2>Plakaty</h2>
       </div>
       <div className={modal ? styles.modalOpen : styles.modal}>
-        <img src={tempingSrc} alt='poster_modal'/>
-        {/* <CloseIcon></CloseIcon> */}
+        <img
+          src={tempingSrc}
+          alt='poster_modal'
+        />
+        <CloseIcon
+          className={styles.icon}
+          onClick={() => setModal(false)}
+        />
       </div>
       <div className={styles.postersGallery}>
         {data.map((item, index) => {
           return(
-            <div className={styles.posters} key={index}>
-              <img src={item.imgSrc} alt='plakat' className={styles.poster} onClick={() => getImg(item.imgSrc)}/>
-            </div>
+            <img
+              key={index}
+              src={item.imgSrc}
+              alt='plakat'
+              className={styles.poster}
+              onClick={() => getImg(item.imgSrc)}
+            />
           );
         })}
       </div>
