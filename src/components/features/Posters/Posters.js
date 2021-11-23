@@ -19,10 +19,10 @@ const Posters = () => {
   ];
 
   const [modal, setModal] = useState(false);
-  const [tempingSrc, setTempingSrc] = useState('');
+  const [srcImg, setSrcImg] = useState('');
 
   const getImg = (imgSrc) => {
-    setTempingSrc(imgSrc);
+    setSrcImg(imgSrc);
     setModal(true);
   };
 
@@ -41,7 +41,7 @@ const Posters = () => {
       </div>
       <div className={modal ? styles.modalOpen : styles.modal}>
         <img
-          src={tempingSrc}
+          src={srcImg}
           alt='poster_modal'
         />
         <CloseIcon
