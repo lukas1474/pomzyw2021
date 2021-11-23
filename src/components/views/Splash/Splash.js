@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Splash.module.scss';
+
 const Splash = () => (
   <div className={styles.root}>
     <svg id="curve2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 150">
