@@ -10,7 +10,7 @@
 .postersGallery .poster {
   cursor: pointer;
   margin: 12px 12px;
-  box-shadow: 0px 0px 1px $black, 0 0 12px $darkblue, 0 0 3px $black;
+  box-shadow: 0px 0px 1px $first-shadow-poster-color, 0 0 12px $second-shadow-poster-color, 0 0 3px $first-shadow-poster-color;
 }
 
 .postersGallery .poster:hover {
@@ -63,7 +63,7 @@
 
   padding: 2px;
   background-color: rgba(0, 0, 0, 0.4);
-  color: $white;
+  color: $icon-color;
   cursor: pointer;
 }
 
