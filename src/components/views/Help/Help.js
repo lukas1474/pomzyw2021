@@ -8,10 +8,18 @@ import ProgramDepartments from '../../common/ProgramDepartments/ProgramDepartmen
 
 const Help = () => (
   <div className={styles.root}>
-    <ProgramName />
-    <AboutProgram />
-    <Posters />
-    <ProgramDepartments />
+    <section id="program">
+      <ProgramName />
+    </section>
+    <section id="oProgramie">
+      <AboutProgram />
+    </section>
+    <section id="posters">
+      <Posters />
+    </section>
+    <section id="punktypomocy">
+      <ProgramDepartments />
+    </section>
   </div>
 );
 

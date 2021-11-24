@@ -13,3 +13,24 @@
 body {
   background: $darkWhite;
 }
+
+a {
+  color: $linkColor;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: $transition;
+  font-family: $text-font;
+}
+
+/* Media non-touch  */
+a:hover {
+  text-decoration: none;
+  color: $linkColor-active;
+}
+/*Media touchable*/
+@media (pointer: coarse) {
+  a:active {
+    color: $linkColor-active;
+    transition: 0s;
+  }
+}
