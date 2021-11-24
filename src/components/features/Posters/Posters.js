@@ -35,10 +35,7 @@ const Posters = () => {
   }, [modal]);
 
   return (
-    <>
-      <div>
-        <h2>Plakaty</h2>
-      </div>
+    <div className={styles.root}>
       <div className={modal ? styles.modalOpen : styles.modal}>
         <img
           src={srcImg}
@@ -62,7 +59,7 @@ const Posters = () => {
           );
         })}
       </div>
-    </>
+    </div>
   );
 };
 

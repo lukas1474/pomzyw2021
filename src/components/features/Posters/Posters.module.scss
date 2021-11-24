@@ -2,6 +2,11 @@
 
 /*main view*/
 
+.root {
+  @include flex(row, center, center);
+  padding-bottom: $padding-below-sections;
+}
+
 .postersGallery {
   width: 50%;
   @include flex(row, center, center);
