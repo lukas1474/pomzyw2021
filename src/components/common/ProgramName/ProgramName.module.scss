@@ -1,6 +1,19 @@
 @import '../../../styles/global.scss';
 
+.root {
+  @include flex(column, center, center);
+  padding-bottom: 200px;
+}
+
 .programName {
   font-size: 50px;
-  margin: 0 0 100px 0;
+  text-transform: uppercase;
+}
+
+.podprogramName {
+  font-size: 40px;
+}
+
+.programName .podprogramName {
+  font-family: $text-font;
 }

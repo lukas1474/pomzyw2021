@@ -1,11 +1,20 @@
 @import '../../../styles/settings.scss';
 
+.root {
+  padding-bottom: $padding-below-sections;
+}
+
 .aboutProgramTitle {
   font-size: 30px;
   padding: 10px;
+  font-family: $text-font;
 }
 
 .aboutProgram {
   font-size: 20px;
   padding: 10px;
+  font-family: $text-font;
+  text-indent: 50px;
+  text-align: justify;
+  line-height: 1.5;
 }

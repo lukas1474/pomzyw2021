@@ -3,17 +3,20 @@
 .root {
   width: 75vw;
   @include flex(column, center, center);
+  padding-bottom: $padding-below-sections;
 }
 
 .title {
   font-size: 30px;
   padding: 10px;
   width: 100%;
+  font-family: $text-font;
 }
 
 .department {
   padding: 5px;
   margin: 15px;
+  font-family: $text-font;
 }
 
 .row{
@@ -31,7 +34,7 @@
 }
 
 .container{
-  width: 65vw;
+  width: 70vw;
   @include flex(row, center, start);
   flex-wrap: wrap;
 }
