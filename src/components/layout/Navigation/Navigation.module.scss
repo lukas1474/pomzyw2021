@@ -2,14 +2,15 @@
 
 .root {
   @include flex(column, center, space-around);
-  height: 10rem;
+  height: 8rem;
   position: fixed;
   top: 0;
   transition: $transition;
   width: 100%;
   z-index: 10;
+
   .background {
-    @include flex(column, center, start);
+    @include flex(column, center, flex-start);
     filter: drop-shadow(5px 5px 40px rgba(0, 0, 0, 0.4));
     height: 100%;
     position: relative;
@@ -19,19 +20,18 @@
       background: $menu-bg;
       clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
       content: "";
-      height: 8rem;
+      height: 6rem;
       width: 100%;
     }
   }
   .circle {
     @include flex(row, center, center);
-    bottom: -10rem;
-    height: 20rem;
+    bottom: -4rem;
+    height: 10rem;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    transition: $transition;
-    width: 20rem;
+    width: 10rem;
     &::after {
       background: $menu-bg;
       border-radius: 50%;
@@ -77,15 +77,6 @@
   top: -2rem;
   .menu {
     bottom: 40%;
-  }
-  .circle {
-    height: 10rem;
-    width: 10rem;
-    bottom: -5rem;
-    .logo img {
-      height: 75%;
-      width: 75%;
-    }
   }
 }
 
