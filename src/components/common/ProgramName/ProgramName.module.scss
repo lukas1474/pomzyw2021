@@ -1,8 +1,9 @@
 @import '../../../styles/global.scss';
 
 .root {
-  @include flex(column, center, center);
-  padding-bottom: 200px;
+  @include flex(column, center, start);
+  height: 45vh;
+  padding: 25px 0 25px 0;
 }
 
 .programName {

@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './ProgramDepartments.module.scss';
 
 import { Container, Row, Col } from 'react-bootstrap';
-
 import departments from '../../../data/departments.json';
 
 const ProgramDepartments = () => {
