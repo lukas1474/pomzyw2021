@@ -1,24 +1,23 @@
 @import '../../../styles/settings.scss';
 
 .root {
-  padding-bottom: $padding-below-sections;
-  width: 67vw;
+  width: 60vw;
 }
 
 .aboutProgramTitle {
-  font-size: 30px;
+  font-size: 25px;
   padding: 10px;
   font-family: $text-font;
-  margin: 0 20px 0 20px;
-  border-bottom: 1px solid $second-shadow-poster-color;
+  margin: 0 25px 0 25px;
+  border-bottom: 1px solid $bottom-color-below-title;
 }
 
 .aboutProgram {
-  font-size: 20px;
+  font-size: 15px;
   padding: 10px;
   font-family: $text-font;
   text-indent: 50px;
   text-align: justify;
   line-height: 1.5;
-  margin: 0 20px 0 20px;
+  margin: 0 25px 0 25px;
 }

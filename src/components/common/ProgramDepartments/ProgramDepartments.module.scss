@@ -2,16 +2,16 @@
 
 .root {
   height: 70vh;
-  width: 67vw;
+  width: 60vw;
   padding-bottom: $padding-below-sections;
 }
 
 .title {
-  font-size: 30px;
+  font-size: 25px;
   padding: 10px;
-  margin: 0 20px 0 20px;
+  margin: 0 25px 0 25px;
   font-family: $text-font;
-  border-bottom: 1px solid $second-shadow-poster-color;
+  border-bottom: 1px solid $bottom-color-below-title;
 }
 
 .department {
@@ -26,7 +26,7 @@
 }
 
 .departmentTitle{
-  font-size: 20px;
+  font-size: 18px;
   margin: 10px 0;
   max-width: 20vw;
 }

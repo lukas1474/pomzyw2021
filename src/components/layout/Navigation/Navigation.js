@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { NavHashLink } from 'react-router-hash-link';
 import styles from './Navigation.module.scss';
+
+import { NavHashLink } from 'react-router-hash-link';
 
 const Navigation = () => {
   const data = [
