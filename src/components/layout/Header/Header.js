@@ -7,7 +7,7 @@ import Splash from '../../features/Splash/Splash';
 const Header = () => (
   <header className={styles.header}>
     <Navigation />
-    <img src="/images/splash.webp" alt="splash" />
+    <img src="/images/splash4.webp" alt="splash" />
     <Splash />
   </header>
 );
