@@ -1,12 +1,12 @@
 import React from 'react';
-import styles from './Help.module.scss';
+import styles from './MainPage.module.scss';
 
 import AboutProgram from '../../common/AboutProgram/AboutProgram';
 import ProgramName from '../../common/ProgramName/ProgramName';
 import Posters from '../../features/Posters/Posters';
 import ProgramDepartments from '../../common/ProgramDepartments/ProgramDepartments';
 
-const Help = () => (
+const MainPage = () => (
   <div className={styles.root}>
     <section id="program">
       <ProgramName />
@@ -23,4 +23,4 @@ const Help = () => (
   </div>
 );
 
-export default Help;
+export default MainPage;

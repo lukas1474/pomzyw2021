@@ -4,7 +4,7 @@ import { BrowserRouter, Switch, Route} from 'react-router-dom';
 import { Redirect } from 'react-router';
 
 import MainLayout from './components/layout/MainLayout/MainLayout';
-import Help from './components/views/Help/Help';
+import MainPage from './components/views/MainPage/MainPage';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <MainLayout>
           <Switch>
-            <Route exact path="/" component={Help} />
+            <Route exact path="/" component={MainPage} />
             <Redirect  from='/#/users' to={'/users'} />
 
           </Switch>

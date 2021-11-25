@@ -1,40 +1,42 @@
 @import "../../../styles/settings.scss";
 
 .root {
-  width: 75vw;
-  @include flex(column, center, center);
+  height: 70vh;
+  width: 67vw;
   padding-bottom: $padding-below-sections;
 }
 
 .title {
   font-size: 30px;
   padding: 10px;
-  width: 100%;
+  margin: 0 20px 0 20px;
   font-family: $text-font;
+  border-bottom: 1px solid $second-shadow-poster-color;
 }
 
 .department {
   padding: 5px;
-  margin: 15px;
   font-family: $text-font;
+  width: 20vw;
+  max-width: 20vw;
 }
 
 .row{
-  padding: 12px;
+  padding: 10px;
 }
 
 .departmentTitle{
-  font-size: 25px;
-  margin: 10px 0;
-
-}
-.departmentDetails {
   font-size: 20px;
+  margin: 10px 0;
+  max-width: 20vw;
+}
+
+.departmentDetails {
+  font-size: 18px;
   margin: 5px;
 }
 
 .container{
-  width: 70vw;
-  @include flex(row, center, start);
+  @include flex(row, start, center);
   flex-wrap: wrap;
 }

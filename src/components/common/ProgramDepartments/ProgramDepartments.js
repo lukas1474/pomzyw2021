@@ -7,7 +7,7 @@ const ProgramDepartments = () => {
   let data = [
     {
       id: 1,
-      name: 'Oddział Śląski w Katowicach 1',
+      name: 'Oddział Śląski w Katowicach 1212 231 231',
       address: 'ul. Słoneczna 1, 01-100 Katowice',
       nrTel: '+48 123 456 789',
       mail: 'odzialkatowice@program.pl',
@@ -21,14 +21,14 @@ const ProgramDepartments = () => {
     },
     {
       id: 3,
-      name: 'Oddział Śląski w Katowicach 3',
+      name: 'Oddział Śląski w Katowicach asdasd ',
       address: 'ul. Słoneczna 1, 01-100 Katowice',
       nrTel: '+48 123 456 789',
       mail: 'odzialkatowice@program.pl',
     },
     {
       id: 4,
-      name: 'Oddział Śląski w Katowicach 4',
+      name: 'Oddział Śląski w Katowicach asdasd 4',
       address: 'ul. Słoneczna 1, 01-100 Katowice',
       nrTel: '+48 123 456 789',
       mail: 'odzialkatowice@program.pl',

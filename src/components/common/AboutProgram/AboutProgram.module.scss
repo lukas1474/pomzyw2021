@@ -2,12 +2,15 @@
 
 .root {
   padding-bottom: $padding-below-sections;
+  width: 67vw;
 }
 
 .aboutProgramTitle {
   font-size: 30px;
   padding: 10px;
   font-family: $text-font;
+  margin: 0 20px 0 20px;
+  border-bottom: 1px solid $second-shadow-poster-color;
 }
 
 .aboutProgram {
@@ -17,4 +20,5 @@
   text-indent: 50px;
   text-align: justify;
   line-height: 1.5;
+  margin: 0 20px 0 20px;
 }

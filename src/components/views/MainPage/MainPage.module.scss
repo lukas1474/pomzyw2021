@@ -1,0 +1,19 @@
+@import "../../../styles/settings.scss";
+
+.root {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  color: $text-color;
+  padding: 0 auto;
+  // margin: 15px 200px 15px 200px;
+  // border: 1px solid red;
+  background: $white;
+  width: 67vw;
+
+  // input {
+  //   border: solid 1px blue;
+  //
+  // }
+}

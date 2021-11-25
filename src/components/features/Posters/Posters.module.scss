@@ -3,8 +3,9 @@
 /*main view*/
 
 .root {
-  @include flex(row, center, center);
+  @include flex(row, start, center);
   padding-bottom: $padding-below-sections;
+  height: 70vh;
 }
 
 .postersGallery {
