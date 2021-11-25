@@ -1,7 +1,7 @@
 @import "../../../styles/settings.scss";
 
 .root {
-  height: 70vh;
+  // min-height: 30vh;
   width: 60vw;
   padding-bottom: $padding-below-sections;
 }
@@ -12,7 +12,7 @@
   margin: 0 25px 0 25px;
   font-family: $text-font;
   border-bottom: 3px solid $bottom-color-below-title;
-  width: 25%;
+  width: 30%;
 }
 
 .department {
