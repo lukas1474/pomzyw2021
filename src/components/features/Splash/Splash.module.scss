@@ -1,15 +1,24 @@
 @import "../../../styles/settings.scss";
 
 .root {
-  bottom: 0;
-  display: flex;
+  @include flex(column, center, center);
+  background-color: $splash-overlay;
+  height: 100vh;
   left: 0;
   margin: 0;
   padding: 0;
   position: absolute;
+  top: 0;
   width: 100%;
   z-index: 1;
-  #curve2 path {
+
+  .bottomCurve {
+    @include flex(column, center, flex-end);
+    bottom: 0;
+    position: absolute;
     width: 100%;
+    svg {
+      width: 100%;
+    }
   }
 }
