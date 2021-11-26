@@ -7,7 +7,7 @@ const Navigation = () => {
   const data = [
     {
       id: 1,
-      linkSrc: `#program`,
+      linkSrc: `#oProgramie`,
       linkName: `o Programie`,
       side: `L`,
     },
