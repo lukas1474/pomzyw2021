@@ -2,7 +2,6 @@
 
 .footer {
   @include flex(column, center, center);
-  color: black;
   font-family: $text-font;
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.4));
 }
