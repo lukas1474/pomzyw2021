@@ -1,11 +1,5 @@
 @import "../../../styles/settings.scss";
 
-.root {
-  // min-height: 30vh;
-  width: 60vw;
-  padding-bottom: $padding-below-sections;
-}
-
 .title {
   font-size: 25px;
   padding: 10px;
@@ -27,13 +21,13 @@
 }
 
 .departmentTitle{
-  font-size: 18px;
+  font-size: 15px;
   margin: 10px 0;
   max-width: 20vw;
 }
 
 .departmentDetails {
-  font-size: 18px;
+  font-size: 15px;
   margin: 5px;
 }
 

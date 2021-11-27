@@ -7,20 +7,26 @@ const Navigation = () => {
   const data = [
     {
       id: 1,
-      linkSrc: `#oProgramie`,
-      linkName: `o Programie`,
+      linkSrc: `#oNas`,
+      linkName: `o nas`,
       side: `L`,
     },
     {
       id: 2,
-      linkSrc: `#punktypomocy`,
-      linkName: `Punkty pomocy`,
+      linkSrc: `#oProgramie`,
+      linkName: `o programie`,
       side: `L`,
     },
     {
       id: 3,
+      linkSrc: `#punktyPomocy`,
+      linkName: `punkty pomocy`,
+      side: `R`,
+    },
+    {
+      id: 4,
       linkSrc: `#`,
-      linkName: `Menu3`,
+      linkName: `kontakt`,
       side: `R`,
     },
   ];
