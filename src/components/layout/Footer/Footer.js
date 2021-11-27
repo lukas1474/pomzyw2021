@@ -21,7 +21,7 @@ const Footer = () => (
           </Col>
         </Col>
         <Col className={styles.contactText}>
-          <h2 className={styles.contactHeader}>Kontakt:</h2>
+          <h2 className={styles.contactHead}>Kontakt:</h2>
           <h3 className={styles.contactTitle}>{contact.title}</h3>
           <p className={styles.contactDetails}>{contact.address}</p>
           <p className={styles.contactDetails}>{contact.tel}</p>
