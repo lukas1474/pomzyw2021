@@ -24,6 +24,7 @@
       width: 100%;
     }
   }
+
   .circle {
     @include flex(row, center, center);
     bottom: -4rem;
@@ -61,14 +62,14 @@
     margin: 0 1rem 0 1rem;
     position: absolute;
     transition: $transition;
-    width: 40%;
+    width: 30%;
     z-index: 1;
   }
   .menuL {
-    left: 0;
+    left: 15%;
   }
   .menuR {
-    right: 0;
+    right: 15%;
   }
 }
 
