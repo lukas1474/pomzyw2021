@@ -10,7 +10,7 @@ const AboutUs = () => {
   return (
     <Container className={styles.root}>
       <h2 className={styles.aboutUsTitle}>{aboutUs.title}</h2>
-      <Row className={styles.asd}>
+      <Row className={styles.aboutUsRow}>
         <Col className={styles.colLogo}>
           <img src={logo} alt="logo"/>
         </Col>

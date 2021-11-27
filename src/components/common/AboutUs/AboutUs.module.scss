@@ -19,10 +19,8 @@
   margin-right: 25px;
 }
 
-.asd {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.aboutUsRow {
+  @include flex(row, center, null);
 }
 
 .colLogo {
@@ -58,10 +56,8 @@ img {
 
 /* Small Devices, Small tablets Large Phones */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  .asd {
-    display: flex;
-    flex-direction: column;
-    // width: 100%;
+  .aboutUsRow {
+    @include flex(column, null, null)
   }
 
   .aboutUsDesc1  {
@@ -71,10 +67,8 @@ img {
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 0px) and (max-width: 479px) {
-  .asd {
-    display: flex;
-    flex-direction: column;
-    // width: 100%;
+  .aboutUsRow {
+    @include flex(column, null, null)
   }
 
   .aboutUsDesc1  {
