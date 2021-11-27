@@ -12,7 +12,7 @@ const ProgramDepartments = () => {
         {departments.map((department, index) => {
           return(
             <Row className={styles.row} key={index}>
-              <Col className={`${styles.department} col-12 col-md-6 col-lg-4`}>
+              <Col className={`${styles.department} col-12 col-xs-12 col-md-6 col-lg-4`}>
                 <h3 className={styles.departmentTitle}>{department.name}</h3>
                 <p className={styles.departmentDetails}>{department.address}</p>
                 <p className={styles.departmentDetails}>{department.nrTel}</p>

@@ -1,17 +1,51 @@
 @import "../../../styles/settings.scss";
 
 .footer {
-  background-color: #282c34;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 25px;
-  color: white;
-  text-align: center;
-  max-height: 5vh;
+  color: black;
+  font-family: $text-font;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.4));
+}
+
+.abc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 55vw;
+}
+
+.contactText {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactTitle{
+  font-size: 15px;
+}
+
+.contactDetails {
+  font-size: 15px;
 }
 
 .textFooter {
   margin: 5px;
+  font-size: 25px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.asd {
+  margin: 0 10px 0 10px;
+
+  img {
+    width: 100px;
+  }
 }
