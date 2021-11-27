@@ -25,7 +25,7 @@ const Navigation = () => {
     },
     {
       id: 4,
-      linkSrc: `#`,
+      linkSrc: `#kontakt`,
       linkName: `kontakt`,
       side: `R`,
     },
