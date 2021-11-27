@@ -1,27 +1,20 @@
 @import "../../../styles/settings.scss";
 
 .footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  @include flex(column, center, center);
   color: black;
   font-family: $text-font;
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.4));
 }
 
-.abc {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+.footerRow {
+  @include flex(row, center, space-between);
   width: 55vw;
 }
 
 .contactText {
+  @include flex(column, null, null);
   padding: 15px;
-  display: flex;
-  flex-direction: column;
 }
 
 .contactTitle{
@@ -38,11 +31,10 @@
 }
 
 .logo {
-  display: flex;
-  flex-direction: row;
+  @include flex(row, null, null);
 }
 
-.asd {
+.logoDetails {
   margin: 0 10px 0 10px;
 
   img {
