@@ -12,7 +12,6 @@ const AboutUs = () => {
   return (
     <Container className={styles.root}>
       <h2 className={styles.aboutUsTitle}>{aboutUs.title}</h2>
-
       <div className={styles.logo}>
         <img className={styles.descriptionLogo}src={starokatolickiLogo} alt="logo"/>
         <img className={styles.descriptionLogo}src={programLogo} alt="logo"/>
@@ -22,7 +21,6 @@ const AboutUs = () => {
       <p dangerouslySetInnerHTML={{__html: aboutUs.description3}} className={styles.aboutUsDesc}/>
       <p dangerouslySetInnerHTML={{__html: aboutUs.description4}} className={styles.aboutUsDesc}/>
       <p dangerouslySetInnerHTML={{__html: aboutUs.description5}} className={styles.aboutUsDesc}/>
-
     </Container>
   );
 };
