@@ -29,11 +29,15 @@
 
 .descriptionLogo {
   float: left;
-  margin: 10px 10px 2px 25px;
   width: 250px;
 }
 
-
+.logo {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin: 0 10px 0 25px;
+}
 
 /* ExtraExtraLarge Devices, UltraWide Desktops  */
 @media (min-width: 1921px) {
