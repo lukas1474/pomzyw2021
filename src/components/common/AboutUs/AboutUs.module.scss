@@ -9,10 +9,6 @@
   width: 30%;
 }
 
-.aboutUsRow {
-  @include flex(row, center, null);
-}
-
 .colLogo {
   margin: 15px;
 }
@@ -33,6 +29,7 @@
 }
 
 .logo {
+  @include flex(column, null, null);
   display: flex;
   flex-direction: column;
   float: left;
@@ -47,40 +44,77 @@
 
 /* ExtraLarge Devices, Desktops  */
 @media (min-width: 1200px) and (max-width: 1920px) {
-  .root {
-  }
+
 }
 /* Large Devices, Laptops, Large Tablets iPad Pro */
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
-  .root {
+  .aboutUsContent {
+    @include flex(column, center, center);
+  }
+
+  .logo{
+    @include flex(row, center, center)
+  }
+
+  .aboutUsRow {
+    @include flex(column, null, null)
+  }
+
+  .aboutUsDesc  {
+    margin: 0 25px 0 25px;
   }
 }
 
 /* Medium Devices, Tablets iPad */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .root {
+  .aboutUsContent {
+    @include flex(column, center, center);
+  }
+
+  .logo{
+    @include flex(row, center, center)
+  }
+
+  .aboutUsRow {
+    @include flex(column, null, null)
+  }
+
+  .aboutUsDesc  {
+    margin: 0 25px 0 25px;
+  }
+
+  .aboutUsTitle {
+    width: 40%;
   }
 }
 
 /* Small Devices, Small tablets Large Phones */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  .aboutUsRow {
-    @include flex(column, null, null)
+  .aboutUsContent {
+    @include flex(column, center, center);
   }
 
-  .aboutUsDesc1  {
-    margin: 0 25px 0 25px;
+  .aboutUsDesc  {
+    margin-right: 25px ;
+  }
+
+  .aboutUsTitle {
+    width: 40%;
   }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 0px) and (max-width: 479px) {
-  .aboutUsRow {
-    @include flex(column, null, null)
+  .aboutUsContent {
+    @include flex(column, center, center);
   }
 
-  .aboutUsDesc1  {
-    margin: 0 25px 0 25px;
+  .aboutUsDesc  {
+    margin-right: 25px ;
+  }
+
+  .aboutUsTitle {
+    width: 50%;
   }
 }
 

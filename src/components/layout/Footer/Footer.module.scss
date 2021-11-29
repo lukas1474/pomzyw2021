@@ -3,11 +3,12 @@
 .footer {
   @include flex(column, center, center);
   font-family: $text-font;
-  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(3px 3px 7px rgba(0, 0, 0, 0.4));
 }
 
 .footerRow {
-  @include flex(row, center, space-between);
+  @include flex(row, center, center);
+
   width: 55vw;
 }
 
@@ -43,5 +44,65 @@
 
   img {
     width: 100px;
+  }
+}
+
+/* ExtraExtraLarge Devices, UltraWide Desktops  */
+@media (min-width: 1921px) {
+  .root {
+  }
+}
+
+/* ExtraLarge Devices, Desktops  */
+@media (min-width: 1200px) and (max-width: 1920px) {
+
+}
+/* Large Devices, Laptops, Large Tablets iPad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+
+}
+
+/* Medium Devices, Tablets iPad */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    @include flex(column, center, center);
+  }
+
+  .footerRow {
+    @include flex(row, center, space-between);
+  }
+}
+
+/* Small Devices, Small tablets Large Phones */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .footer {
+    @include flex(column, center, center);
+  }
+
+  .footerRow {
+    @include flex(column, center, space-between);
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .footer {
+    @include flex(column, center, center);
+  }
+
+  .footerRow {
+    @include flex(column, center, space-between);
+  }
+}
+
+/* Media pointer*/
+@media (hover: hover) and (pointer: fine) {
+  .root {
+  }
+}
+
+/* Media touchable */
+@media (pointer: coarse) {
+  .root {
   }
 }

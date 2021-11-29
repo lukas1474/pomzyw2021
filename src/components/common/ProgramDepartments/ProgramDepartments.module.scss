@@ -3,7 +3,7 @@
 .title {
   font-size: 25px;
   padding: 10px;
-  margin: 0 25px 0 25px;
+  margin: 0 25px 10px 25px;
   font-family: $text-font;
   border-bottom: 3px solid $bottom-color-below-title;
   width: 30%;
@@ -12,18 +12,16 @@
 .department {
   padding: 5px;
   font-family: $text-font;
-  width: 20vw;
-  max-width: 20vw;
 }
 
 .row{
-  padding: 10px;
+  margin: 0 25px 0 25px;
+  width: 30%;
 }
 
 .departmentTitle{
   font-size: 15px;
   margin: 10px 0;
-  max-width: 20vw;
 }
 
 .departmentDetails {
@@ -32,6 +30,124 @@
 }
 
 .container{
-  @include flex(row, start, center);
+  @include flex(row, center, center);
   flex-wrap: wrap;
+}
+
+/* ExtraExtraLarge Devices, UltraWide Desktops  */
+@media (min-width: 1921px) {
+  .root {
+  }
+}
+
+/* ExtraLarge Devices, Desktops  */
+@media (min-width: 1200px) and (max-width: 1920px) {
+
+}
+/* Large Devices, Laptops, Large Tablets iPad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .title {
+    width: 50%;
+  }
+
+  .row {
+    width: 75%;
+    margin: 0 25px 0 25px;
+    @include flex(column, center, center);
+  }
+
+  .department {
+    width: 90%;
+  }
+
+  .departmentDetails {
+    width: 90%;
+  }
+}
+
+/* Medium Devices, Tablets iPad */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .title {
+    width: 50%;
+  }
+
+  .container{
+    @include flex(column, null, null);
+  }
+
+  .row {
+    width: 75%;
+    margin: 0 25px 0 25px;
+    @include flex(column, center, center);
+  }
+
+  .department {
+    width: 90%;
+  }
+
+  .departmentDetails {
+    width: 90%;
+  }
+}
+
+/* Small Devices, Small tablets Large Phones */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .title {
+    width: 70%;
+  }
+
+  .container{
+    @include flex(column, null, null);
+  }
+
+  .row {
+    width: 75%;
+    margin: 0 25px 0 25px;
+    @include flex(column, center, center);
+  }
+
+  .department {
+    width: 90%;
+  }
+
+  .departmentDetails {
+    width: 90%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .title {
+    width: 70%;
+  }
+
+  .container{
+    @include flex(column, null, null);
+  }
+
+  .row {
+    width: 75%;
+    margin: 0 25px 0 25px;
+    @include flex(column, center, center);
+  }
+
+  .department {
+    width: 90%;
+  }
+
+  .departmentDetails {
+    width: 90%;
+  }
+}
+
+/* Media pointer*/
+@media (hover: hover) and (pointer: fine) {
+  .root {
+  }
+}
+
+/* Media touchable */
+@media (pointer: coarse) {
+  .root {
+  }
 }
