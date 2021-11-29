@@ -29,6 +29,7 @@
 }
 
 .logo {
+  @include flex(column, null, null);
   display: flex;
   flex-direction: column;
   float: left;

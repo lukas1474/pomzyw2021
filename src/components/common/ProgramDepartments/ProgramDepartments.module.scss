@@ -50,22 +50,18 @@
     width: 50%;
   }
 
-  .container{
-    @include flex(column, null, null);
-  }
-
   .row {
-    width: 100%;
+    width: 75%;
     margin: 0 25px 0 25px;
     @include flex(column, center, center);
   }
 
   .department {
-    width: 100%;
+    width: 90%;
   }
 
   .departmentDetails {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -80,17 +76,17 @@
   }
 
   .row {
-    width: 100%;
+    width: 75%;
     margin: 0 25px 0 25px;
     @include flex(column, center, center);
   }
 
   .department {
-    width: 100%;
+    width: 90%;
   }
 
   .departmentDetails {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -105,23 +101,43 @@
   }
 
   .row {
-    width: 100%;
+    width: 75%;
     margin: 0 25px 0 25px;
     @include flex(column, center, center);
   }
 
   .department {
-    width: 100%;
+    width: 90%;
   }
 
   .departmentDetails {
-    width: 100%;
+    width: 90%;
   }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 0px) and (max-width: 479px) {
+  .title {
+    width: 70%;
+  }
 
+  .container{
+    @include flex(column, null, null);
+  }
+
+  .row {
+    width: 75%;
+    margin: 0 25px 0 25px;
+    @include flex(column, center, center);
+  }
+
+  .department {
+    width: 90%;
+  }
+
+  .departmentDetails {
+    width: 90%;
+  }
 }
 
 /* Media pointer*/
