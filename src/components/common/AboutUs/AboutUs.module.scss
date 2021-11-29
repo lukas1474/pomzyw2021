@@ -9,16 +9,6 @@
   width: 30%;
 }
 
-.aboutUsDesc1  {
-  font-size: 15px;
-  padding: 10px;
-  font-family: $text-font;
-  text-indent: 50px;
-  text-align: justify;
-  line-height: 1.5;
-  margin-right: 25px;
-}
-
 .aboutUsRow {
   @include flex(row, center, null);
 }
@@ -27,9 +17,23 @@
   margin: 15px;
 }
 
-img {
-  width: 230px;
+.aboutUsDesc  {
+  font-size: 15px;
+  padding: 10px;
+  font-family: $text-font;
+  text-indent: 50px;
+  text-align: justify;
+  line-height: 1.5;
+  margin: 0 25px 0 25px;
 }
+
+.descriptionLogo {
+  float: left;
+  margin: 10px 10px 2px 25px;
+  width: 250px;
+}
+
+
 
 /* ExtraExtraLarge Devices, UltraWide Desktops  */
 @media (min-width: 1921px) {
