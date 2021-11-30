@@ -70,7 +70,7 @@
 
   .menu {
     @include flex(row, center, center);
-    bottom: 50%;
+    bottom: 45%;
     height: 5vh;
     margin: 0 1rem 0 1rem;
     position: absolute;
@@ -81,7 +81,7 @@
       @extend .menu;
     }
     .navLink {
-      font-size: 1.5rem;
+      font-size: 1.15rem;
       font-weight: 600;
     }
   }
@@ -91,7 +91,7 @@
   @extend .root;
   top: -2rem;
   .menu {
-    bottom: 40%;
+    bottom: 35%;
   }
 }
 
