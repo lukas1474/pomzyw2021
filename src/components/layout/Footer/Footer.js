@@ -5,19 +5,16 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 import contact from '../../../data/contact.json';
 
-import SKlogo from '../../../posters/logo-starokatolicki.webp';
-import programLogo from '../../../posters/programLogo.webp';
-
 const Footer = () => (
   <footer className={styles.footer} id="kontakt">
     <Container>
       <Row className={styles.footerRow}>
         <Col className={styles.logo}>
           <Col className={styles.logoDetails}>
-            <img className={styles.SKlogo} src={SKlogo} alt='Starokatolicki' />
+            <img className={styles.SKlogo} src="/images/logo-starokatolicki__black.webp" alt='Logo Starokatolicki' />
           </Col>
           <Col className={styles.logoDetails}>
-            <img className={styles.programLogo} src={programLogo} alt='Program logo' />
+            <img className={styles.programLogo} src="/images/logo-calatrava.webp" alt='Logo Program' />
           </Col>
         </Col>
         <Col className={styles.contactText}>
