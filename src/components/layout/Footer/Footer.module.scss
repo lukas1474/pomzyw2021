@@ -1,90 +1,101 @@
 @import "../../../styles/settings.scss";
 
-.footer {
-  @include flex(column, center, center);
-  filter: drop-shadow(3px 3px 7px rgba(0, 0, 0, 0.4));
-}
+.root {
+  .footer {
+    @include flex(column, center, center);
+    filter: drop-shadow(3px 3px 7px rgba(0, 0, 0, 0.4));
+  }
 
-.footerRow {
-  @include flex(row, center, center);
+  .footerRow {
+    @include flex(row, center, center);
+    width: 55vw;
+  }
 
-  width: 55vw;
-}
+  .contactText {
+    @include flex(column, null, null);
+    padding: 15px;
+  }
 
-.contactText {
-  @include flex(column, null, null);
-  padding: 15px;
-}
+  .contactHead {
+    margin: 5px 0 5px 0;
+  }
 
-.contactHead {
-  margin: 5px 0 5px 0;
-}
+  .contactTitle {
+  }
 
-.contactTitle {
-}
+  .contactDetails {
+  }
 
-.contactDetails {
-}
+  .textFooter {
+    margin: 5px;
+  }
 
-.textFooter {
-  margin: 5px;
-}
+  .logo {
+    @include flex(row, null, null);
+  }
 
-.logo {
-  @include flex(row, null, null);
-}
+  .logoDetails {
+    margin: 0 10px 0 10px;
 
-.logoDetails {
-  margin: 0 10px 0 10px;
-
-  img {
-    width: 100px;
+    img {
+      width: 100px;
+    }
   }
 }
 
-/* ExtraExtraLarge Devices, UltraWide Desktops  */
+/* XXXL ExtraExtraLarge Devices, UltraWide Desktops  */
 @media (min-width: 1921px) {
   .root {
   }
 }
 
-/* ExtraLarge Devices, Desktops  */
-@media (min-width: 1200px) and (max-width: 1920px) {
-}
-/* Large Devices, Laptops, Large Tablets iPad Pro */
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
-}
-
-/* Medium Devices, Tablets iPad */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .footer {
-    @include flex(column, center, center);
-  }
-
-  .footerRow {
-    @include flex(row, center, space-between);
+/* XXL Extra Extra Large Devices, Desktops  */
+@media (min-width: 1400px) and (max-width: 1920px) {
+  .root {
   }
 }
 
-/* Small Devices, Small tablets Large Phones */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  .footer {
-    @include flex(column, center, center);
+/* XL Extra Extra Large Devices, Laptops  */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .root {
   }
+}
 
-  .footerRow {
-    @include flex(column, center, space-between);
+/* LG Large Devices, Tablets iPad Pro */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .root {
+  }
+}
+
+/* MD Medium Devices, Tablets iPad */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .root {
+  }
+}
+
+/* SM Small Devices, Small tablets Large Phones */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .root {
+    .footer {
+      @include flex(column, center, center);
+    }
+
+    .footerRow {
+      @include flex(column, center, space-between);
+    }
   }
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width: 0px) and (max-width: 479px) {
-  .footer {
-    @include flex(column, center, center);
-  }
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .root {
+    .footer {
+      @include flex(column, center, center);
+    }
 
-  .footerRow {
-    @include flex(column, center, space-between);
+    .footerRow {
+      @include flex(column, center, space-between);
+    }
   }
 }
 
@@ -96,6 +107,12 @@
 
 /* Media touchable */
 @media (pointer: coarse) {
+  .root {
+  }
+}
+
+/* ExtraExtraLarge Devices, UltraWide Desktops  */
+@media (min-width: 1921px) {
   .root {
   }
 }

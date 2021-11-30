@@ -31,39 +31,57 @@
   line-height: 1.5;
 }
 
-/* ExtraExtraLarge Devices, UltraWide Desktops  */
+/* XXXL ExtraExtraLarge Devices, UltraWide Desktops  */
 @media (min-width: 1921px) {
   .root {
   }
 }
 
-/* ExtraLarge Devices, Desktops  */
-@media (min-width: 1200px) and (max-width: 1920px) {
+/* XXL Extra Extra Large Devices, Desktops  */
+@media (min-width: 1400px) and (max-width: 1920px) {
   .root {
   }
 }
-/* Large Devices, Laptops, Large Tablets iPad Pro */
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
-}
 
-/* Medium Devices, Tablets iPad */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .aboutProgramTitle {
-    width: 40%;
+/* XL Extra Extra Large Devices, Laptops  */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .root {
   }
 }
 
-/* Small Devices, Small tablets Large Phones */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  .aboutProgramTitle {
-    width: 40%;
+/* LG Large Devices, Tablets iPad Pro */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .root {
+    .aboutProgramTitle {
+      width: 40%;
+    }
+  }
+}
+
+/* MD Medium Devices, Tablets iPad */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .root {
+    .aboutProgramTitle {
+      width: 40%;
+    }
+  }
+}
+
+/* SM Small Devices, Small tablets Large Phones */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .root {
+    .aboutProgramTitle {
+      width: 40%;
+    }
   }
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width: 0px) and (max-width: 479px) {
-  .aboutProgramTitle {
-    width: 50%;
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .root {
+    .aboutProgramTitle {
+      width: 50%;
+    }
   }
 }
 

@@ -29,108 +29,125 @@
   flex-wrap: wrap;
 }
 
-/* ExtraExtraLarge Devices, UltraWide Desktops  */
+/* XXXL ExtraExtraLarge Devices, UltraWide Desktops  */
 @media (min-width: 1921px) {
   .root {
   }
 }
 
-/* ExtraLarge Devices, Desktops  */
-@media (min-width: 1200px) and (max-width: 1920px) {
-}
-/* Large Devices, Laptops, Large Tablets iPad Pro */
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
-  .title {
-    width: 50%;
-  }
-
-  .row {
-    width: 75%;
-    margin: 0 25px 0 25px;
-    @include flex(column, center, center);
-  }
-
-  .department {
-    width: 90%;
-  }
-
-  .departmentDetails {
-    width: 90%;
+/* XXL Extra Extra Large Devices, Desktops  */
+@media (min-width: 1400px) and (max-width: 1920px) {
+  .root {
   }
 }
 
-/* Medium Devices, Tablets iPad */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .title {
-    width: 50%;
-  }
-
-  .container {
-    @include flex(column, null, null);
-  }
-
-  .row {
-    width: 75%;
-    margin: 0 25px 0 25px;
-    @include flex(column, center, center);
-  }
-
-  .department {
-    width: 90%;
-  }
-
-  .departmentDetails {
-    width: 90%;
+/* XL Extra Extra Large Devices, Laptops  */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .root {
   }
 }
 
-/* Small Devices, Small tablets Large Phones */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  .title {
-    width: 70%;
-  }
+/* LG Large Devices, Tablets iPad Pro */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .root {
+    .title {
+      width: 50%;
+    }
 
-  .container {
-    @include flex(column, null, null);
-  }
+    .row {
+      width: 75%;
+      margin: 0 25px 0 25px;
+      @include flex(column, center, center);
+    }
 
-  .row {
-    width: 75%;
-    margin: 0 25px 0 25px;
-    @include flex(column, center, center);
-  }
+    .department {
+      width: 90%;
+    }
 
-  .department {
-    width: 90%;
+    .departmentDetails {
+      width: 90%;
+    }
   }
+}
 
-  .departmentDetails {
-    width: 90%;
+/* MD Medium Devices, Tablets iPad */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .root {
+    .title {
+      width: 50%;
+    }
+
+    .container {
+      @include flex(column, null, null);
+    }
+
+    .row {
+      width: 75%;
+      margin: 0 25px 0 25px;
+      @include flex(column, center, center);
+    }
+
+    .department {
+      width: 90%;
+    }
+
+    .departmentDetails {
+      width: 90%;
+    }
+  }
+}
+
+/* SM Small Devices, Small tablets Large Phones */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .root {
+    .title {
+      width: 70%;
+    }
+
+    .container {
+      @include flex(column, null, null);
+    }
+
+    .row {
+      width: 75%;
+      margin: 0 25px 0 25px;
+      @include flex(column, center, center);
+    }
+
+    .department {
+      width: 90%;
+    }
+
+    .departmentDetails {
+      width: 90%;
+    }
   }
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width: 0px) and (max-width: 479px) {
-  .title {
-    width: 70%;
-  }
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .root {
+    .title {
+      width: 70%;
+    }
 
-  .container {
-    @include flex(column, null, null);
-  }
+    .container {
+      @include flex(column, null, null);
+    }
 
-  .row {
-    width: 75%;
-    margin: 0 25px 0 25px;
-    @include flex(column, center, center);
-  }
+    .row {
+      width: 75%;
+      margin: 0 25px 0 25px;
+      @include flex(column, center, center);
+    }
 
-  .department {
-    width: 90%;
-  }
+    .department {
+      width: 90%;
+    }
 
-  .departmentDetails {
-    width: 90%;
+    .departmentDetails {
+      width: 90%;
+    }
   }
 }
 
