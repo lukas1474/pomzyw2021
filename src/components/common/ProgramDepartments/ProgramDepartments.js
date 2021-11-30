@@ -13,7 +13,7 @@ const ProgramDepartments = () => {
           return(
             <div className={styles.row} key={index}>
               <div className={styles.department}>
-                <h3 className={styles.departmentTitle}>{department.name}</h3>
+                <h5 className={styles.departmentTitle}>{department.name}</h5>
                 <p className={styles.departmentDetails}>{department.address}</p>
                 <p className={styles.departmentDetails}>{department.nrTel}</p>
                 <p className={styles.departmentDetails}>{department.mail}</p>

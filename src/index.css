@@ -1,6 +1,23 @@
 @font-face {
   font-family: "Calibri";
-  font-style: italic;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/l/font?kit=J7adnpV-BGlaFfdAhLQo6btP&skey=36a3d5758e0e2f58&v=v11) format("woff2");
+  src: url(https://fonts.gstatic.com/l/font?kit=J7adnpV-BGlaFfdAhLQo6btP&skey=36a3d5758e0e2f58&v=v11);
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  src: url(https://fonts.googleapis.com/css2?family=Oswald&display=swap);
+}
+
+@font-face {
+  font-family: "Lato";
+  font-weight: 300;
+  src: url(https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap);
+}
+
+@font-face {
+  font-family: "Oswald";
+  font-weight: 700;
+  src: url(https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap);
 }

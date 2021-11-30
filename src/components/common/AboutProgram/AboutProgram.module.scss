@@ -1,7 +1,6 @@
 @import "../../../styles/settings.scss";
 
 .aboutProgramTitle {
-  font-size: 25px;
   padding: 10px;
   margin: 0 25px 10px 25px;
   border-bottom: 3px solid $bottom-color-below-title;
@@ -9,7 +8,6 @@
 }
 
 .aboutProgram {
-  font-size: 15px;
   padding: 10px;
   text-indent: 50px;
   text-align: justify;
@@ -18,7 +16,7 @@
 }
 
 .aboutProgram1 {
-  font-size: 15px;
+  font-size: 1.5rem;
   padding: 10px;
   font-weight: bold;
   line-height: 1.5;
@@ -26,7 +24,7 @@
 }
 
 .aboutProgram2 {
-  font-size: 18px;
+  font-size: 1.75rem;
   padding: 10px;
   text-align: center;
   font-weight: bold;

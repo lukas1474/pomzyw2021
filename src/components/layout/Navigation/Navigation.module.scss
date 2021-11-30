@@ -10,10 +10,10 @@
   width: 100vw;
   z-index: 10;
   .burgerButton {
-    bottom: 5vh;
+    bottom: 2vh;
     outline: none;
     position: fixed;
-    right: 5vh;
+    right: 2vh;
     z-index: 100;
     span,
     span:before,
@@ -79,6 +79,10 @@
     z-index: 1;
     &__hidden {
       @extend .menu;
+    }
+    .navLink {
+      font-size: 1.5rem;
+      font-weight: 600;
     }
   }
 }

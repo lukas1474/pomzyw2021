@@ -116,6 +116,7 @@ const Navigation = () => {
                 <Col key={item.id} className="p-3 p-xl-0">
                   <NavHashLink
                     smooth
+                    className={styles.navLink}
                     to={`/${item.linkSrc}`}
                     scroll={(el) => scrollWidthOffset(el)}
                     onClick={() => setActiveRWD(false)}
@@ -134,6 +135,7 @@ const Navigation = () => {
                 <Col key={item.id} className="p-3 p-xl-0">
                   <NavHashLink
                     smooth
+                    className={styles.navLink}
                     to={`/${item.linkSrc}`}
                     scroll={(el) => scrollWidthOffset(el)}
                     onClick={() => setActiveRWD(false)}
