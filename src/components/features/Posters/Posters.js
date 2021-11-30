@@ -3,18 +3,17 @@ import styles from './Posters.module.scss';
 
 import CloseIcon from '@material-ui/icons/Close';
 
-import firstPoster from '../../../posters/pomzyw1.webp';
-import secondPoster from '../../../posters/pomzyw2.webp';
-
 const Posters = () => {
   let data = [
     {
       id:1,
-      imgSrc: firstPoster,
+      imgSrc: '/images/poster1.webp',
+      alt: `Plakat 1`,
     },
     {
       id:2,
-      imgSrc: secondPoster,
+      imgSrc: '/images/poster2.webp',
+      alt: `Plakat 2`,
     },
   ];
 
@@ -52,7 +51,7 @@ const Posters = () => {
             <img
               key={index}
               src={item.imgSrc}
-              alt='plakat'
+              alt={item.alt}
               className={styles.poster}
               onClick={() => getImg(item.imgSrc)}
             />
