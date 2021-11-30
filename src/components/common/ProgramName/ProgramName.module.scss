@@ -3,7 +3,6 @@
 .root {
   @include flex(column, center, start);
   color: $programName-color;
-  font-family: $text-font;
   padding: 25px 0 25px 0;
   text-shadow: $programName-shadow;
   width: 90%;
@@ -14,5 +13,76 @@
   }
   .podprogramName {
     font-size: 3rem;
+  }
+}
+
+/* ExtraLarge Devices, Desktops  */
+@media (min-width: 1200px) {
+  .root {
+    .programName {
+      font-size: 4rem;
+    }
+    .podprogramName {
+      font-size: 3rem;
+    }
+  }
+}
+/* Large Devices, Laptops, Large Tablets iPad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .root {
+    .programName {
+      font-size: 3rem;
+    }
+    .podprogramName {
+      font-size: 2rem;
+    }
+  }
+}
+
+/* Medium Devices, Tablets iPad */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .root {
+    .programName {
+      font-size: 3rem;
+    }
+    .podprogramName {
+      font-size: 2rem;
+    }
+  }
+}
+
+/* Small Devices, Small tablets Large Phones */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .root {
+    .programName {
+      font-size: 2.5rem;
+    }
+    .podprogramName {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .root {
+    .programName {
+      font-size: 2.5rem;
+    }
+    .podprogramName {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+/* Media pointer*/
+@media (hover: hover) and (pointer: fine) {
+  .root {
+  }
+}
+
+/* Media touchable */
+@media (pointer: coarse) {
+  .root {
   }
 }

@@ -1,9 +1,8 @@
-@import '../../../styles/settings.scss';
+@import "../../../styles/settings.scss";
 
 .aboutProgramTitle {
   font-size: 25px;
   padding: 10px;
-  font-family: $text-font;
   margin: 0 25px 10px 25px;
   border-bottom: 3px solid $bottom-color-below-title;
   width: 30%;
@@ -12,7 +11,6 @@
 .aboutProgram {
   font-size: 15px;
   padding: 10px;
-  font-family: $text-font;
   text-indent: 50px;
   text-align: justify;
   line-height: 1.5;
@@ -22,7 +20,6 @@
 .aboutProgram1 {
   font-size: 15px;
   padding: 10px;
-  font-family: $text-font;
   font-weight: bold;
   line-height: 1.5;
   margin: 0 25px 0 25px;
@@ -31,7 +28,6 @@
 .aboutProgram2 {
   font-size: 18px;
   padding: 10px;
-  font-family: $text-font;
   text-align: center;
   font-weight: bold;
   line-height: 1.5;
@@ -50,7 +46,6 @@
 }
 /* Large Devices, Laptops, Large Tablets iPad Pro */
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
-
 }
 
 /* Medium Devices, Tablets iPad */

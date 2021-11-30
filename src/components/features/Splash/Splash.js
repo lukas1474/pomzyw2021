@@ -1,12 +1,14 @@
 import React from 'react';
 import styles from './Splash.module.scss';
 import ProgramName from '../../common/ProgramName/ProgramName';
-// TODO - import przygotowany doi przeniesienia nazwy z main view do header
 
 
 const Splash = () => (
-  <div className={styles.root}>
-    <ProgramName />
+  <div className={styles.root} id="splash">
+    <img src="/images/splash4.webp" alt="splash" />
+    <div className={styles.programNameBox}>
+      <ProgramName />
+    </div>
     <div className={styles.bottomCurve}>
       <svg id="bottomCurve" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 150">
         <defs>

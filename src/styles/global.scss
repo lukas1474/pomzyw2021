@@ -1,6 +1,7 @@
 @import "./normalize.scss";
 @import "./settings.scss";
 @import "./mixins.scss";
+@import "./typography.scss";
 
 *,
 *::before,
@@ -19,7 +20,7 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   transition: $transition;
-  font-family: $text-font;
+  font-family: $font-text;
 }
 
 /* Media non-touch  */

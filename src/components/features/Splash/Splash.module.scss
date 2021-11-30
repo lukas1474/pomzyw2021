@@ -11,7 +11,13 @@
   top: 0;
   width: 100%;
   z-index: 1;
-
+  .programNameBox {
+    @include flex(column, center, center);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   .bottomCurve {
     @include flex(column, center, flex-end);
     bottom: 0;
