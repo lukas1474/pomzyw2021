@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import contact from '../../../data/contact.json';
 
 const Footer = () => (
-  <footer className={styles.footer} id="kontakt">
+  <footer className={styles.root} id="kontakt">
     <Container>
       <Row className={styles.footerRow}>
         <Col className={styles.logo}>
