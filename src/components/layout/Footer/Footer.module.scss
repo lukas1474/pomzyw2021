@@ -2,7 +2,6 @@
 
 .footer {
   @include flex(column, center, center);
-  font-family: $text-font;
   filter: drop-shadow(3px 3px 7px rgba(0, 0, 0, 0.4));
 }
 
@@ -18,21 +17,17 @@
 }
 
 .contactHead {
-  font-size: 20px;
   margin: 5px 0 5px 0;
 }
 
-.contactTitle{
-  font-size: 15px;
+.contactTitle {
 }
 
 .contactDetails {
-  font-size: 15px;
 }
 
 .textFooter {
   margin: 5px;
-  font-size: 25px;
 }
 
 .logo {
@@ -55,11 +50,9 @@
 
 /* ExtraLarge Devices, Desktops  */
 @media (min-width: 1200px) and (max-width: 1920px) {
-
 }
 /* Large Devices, Laptops, Large Tablets iPad Pro */
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
-
 }
 
 /* Medium Devices, Tablets iPad */

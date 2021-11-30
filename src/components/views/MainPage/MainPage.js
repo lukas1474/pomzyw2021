@@ -7,7 +7,7 @@ import ProgramDepartments from '../../common/ProgramDepartments/ProgramDepartmen
 import AboutUs from '../../common/AboutUs/AboutUs';
 
 const MainPage = () => (
-  <div className={styles.root}>
+  <div className={styles.root} id="mainPage">
     <section className={styles.MainViewSection} id="oNas">
       <AboutUs />
     </section>

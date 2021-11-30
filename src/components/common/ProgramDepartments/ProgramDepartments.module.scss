@@ -1,35 +1,30 @@
 @import "../../../styles/settings.scss";
 
 .title {
-  font-size: 25px;
   padding: 10px;
   margin: 0 25px 10px 25px;
-  font-family: $text-font;
   border-bottom: 3px solid $bottom-color-below-title;
   width: 30%;
 }
 
 .department {
   padding: 5px;
-  font-family: $text-font;
 }
 
-.row{
+.row {
   margin: 0 25px 0 25px;
   width: 30%;
 }
 
-.departmentTitle{
-  font-size: 15px;
+.departmentTitle {
   margin: 10px 0;
 }
 
 .departmentDetails {
-  font-size: 15px;
   margin: 5px;
 }
 
-.container{
+.container {
   @include flex(row, center, center);
   flex-wrap: wrap;
 }
@@ -42,7 +37,6 @@
 
 /* ExtraLarge Devices, Desktops  */
 @media (min-width: 1200px) and (max-width: 1920px) {
-
 }
 /* Large Devices, Laptops, Large Tablets iPad Pro */
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
@@ -71,7 +65,7 @@
     width: 50%;
   }
 
-  .container{
+  .container {
     @include flex(column, null, null);
   }
 
@@ -96,7 +90,7 @@
     width: 70%;
   }
 
-  .container{
+  .container {
     @include flex(column, null, null);
   }
 
@@ -121,7 +115,7 @@
     width: 70%;
   }
 
-  .container{
+  .container {
     @include flex(column, null, null);
   }
 

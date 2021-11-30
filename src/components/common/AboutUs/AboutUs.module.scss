@@ -1,9 +1,7 @@
 @import "../../../styles/settings.scss";
 
 .aboutUsTitle {
-  font-size: 25px;
   padding: 10px;
-  font-family: $text-font;
   margin: 0 25px 10px 25px;
   border-bottom: 3px solid $bottom-color-below-title;
   width: 30%;
@@ -13,10 +11,8 @@
   margin: 15px;
 }
 
-.aboutUsDesc  {
-  font-size: 15px;
+.aboutUsDesc {
   padding: 10px;
-  font-family: $text-font;
   text-indent: 50px;
   text-align: justify;
   line-height: 1.5;
@@ -44,7 +40,6 @@
 
 /* ExtraLarge Devices, Desktops  */
 @media (min-width: 1200px) and (max-width: 1920px) {
-
 }
 /* Large Devices, Laptops, Large Tablets iPad Pro */
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
@@ -52,15 +47,15 @@
     @include flex(column, center, center);
   }
 
-  .logo{
-    @include flex(row, center, center)
+  .logo {
+    @include flex(row, center, center);
   }
 
   .aboutUsRow {
-    @include flex(column, null, null)
+    @include flex(column, null, null);
   }
 
-  .aboutUsDesc  {
+  .aboutUsDesc {
     margin: 0 25px 0 25px;
   }
 }
@@ -71,15 +66,15 @@
     @include flex(column, center, center);
   }
 
-  .logo{
-    @include flex(row, center, center)
+  .logo {
+    @include flex(row, center, center);
   }
 
   .aboutUsRow {
-    @include flex(column, null, null)
+    @include flex(column, null, null);
   }
 
-  .aboutUsDesc  {
+  .aboutUsDesc {
     margin: 0 25px 0 25px;
   }
 
@@ -94,8 +89,8 @@
     @include flex(column, center, center);
   }
 
-  .aboutUsDesc  {
-    margin-right: 25px ;
+  .aboutUsDesc {
+    margin-right: 25px;
   }
 
   .aboutUsTitle {
@@ -109,8 +104,8 @@
     @include flex(column, center, center);
   }
 
-  .aboutUsDesc  {
-    margin-right: 25px ;
+  .aboutUsDesc {
+    margin-right: 25px;
   }
 
   .aboutUsTitle {

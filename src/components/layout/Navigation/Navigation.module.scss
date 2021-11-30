@@ -3,12 +3,26 @@
 .root {
   @include flex(column, center, space-around);
   height: 8rem;
+  max-width: 100vw;
   position: fixed;
   top: 0;
   transition: $transition;
-  width: 100%;
+  width: 100vw;
   z-index: 10;
-
+  .burgerButton {
+    bottom: 2vh;
+    outline: none;
+    position: fixed;
+    right: 2vh;
+    z-index: 100;
+    span,
+    span:before,
+    span:after {
+      outline-style: solid;
+      outline-width: 1px;
+      outline-color: $lightGray;
+    }
+  }
   .background {
     @include flex(column, center, flex-start);
     filter: drop-shadow(5px 5px 40px rgba(0, 0, 0, 0.4));
@@ -24,7 +38,6 @@
       width: 100%;
     }
   }
-
   .circle {
     @include flex(row, center, center);
     bottom: -4rem;
@@ -48,28 +61,29 @@
       transform: translate(-50%, -50%);
       z-index: 1;
       img {
-        width: 50%;
-        height: 50%;
+        width: 2.5rem;
+        height: 2.5rem;
         transition: $transition;
       }
     }
   }
 
   .menu {
-    @include flex(row, center, space-around);
+    @include flex(row, center, center);
     bottom: 50%;
     height: 5vh;
     margin: 0 1rem 0 1rem;
     position: absolute;
     transition: $transition;
-    width: 30%;
+    width: 100%;
     z-index: 1;
-  }
-  .menuL {
-    left: 15%;
-  }
-  .menuR {
-    right: 15%;
+    &__hidden {
+      @extend .menu;
+    }
+    .navLink {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
   }
 }
 
@@ -81,49 +95,39 @@
   }
 }
 
-/* ExtraExtraLarge Devices, UltraWide Desktops  */
-@media (min-width: 1921px) {
+@media only screen and (min-width: 1200px) {
   .root {
+    .menu {
+      flex-direction: row;
+    }
+    .burgerButton {
+      display: none;
+    }
   }
 }
 
-/* ExtraLarge Devices, Desktops  */
-@media (min-width: 1200px) and (max-width: 1920px) {
+@media only screen and (min-width: 0px) and (max-width: 1199px) {
   .root {
-  }
-}
-/* Large Devices, Laptops, Large Tablets iPad Pro */
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
-  .root {
-  }
-}
-
-/* Medium Devices, Tablets iPad */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .root {
-  }
-}
-
-/* Small Devices, Small tablets Large Phones */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  .root {
-  }
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width: 0px) and (max-width: 479px) {
-  .root {
-  }
-}
-
-/* Media pointer*/
-@media (hover: hover) and (pointer: fine) {
-  .root {
-  }
-}
-
-/* Media touchable */
-@media (pointer: coarse) {
-  .root {
+    .menu {
+      background: $menu-bg;
+      bottom: 0;
+      filter: drop-shadow(5px 5px 40px rgba(0, 0, 0, 0.4));
+      flex-direction: column;
+      height: 100%;
+      margin: 0;
+      position: fixed;
+      right: 0;
+      text-align: left;
+      transition: $transition;
+      visibility: visible;
+      width: 60vw;
+      &__hidden {
+        right: -60vw;
+        visibility: hidden;
+      }
+    }
+    .burgerButton {
+      display: flex;
+    }
   }
 }

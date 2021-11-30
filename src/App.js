@@ -1,11 +1,11 @@
 import React from 'react';
-import'./styles/global.scss';
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
 import { Redirect } from 'react-router';
 
 import MainLayout from './components/layout/MainLayout/MainLayout';
 import MainPage from './components/views/MainPage/MainPage';
-
+import './styles/bootstrap.scss';
+import'./styles/global.scss';
 function App() {
   return (
     <div>
@@ -14,7 +14,6 @@ function App() {
           <Switch>
             <Route exact path="/" component={MainPage} />
             <Redirect  from='/#/users' to={'/users'} />
-
           </Switch>
         </MainLayout>
       </BrowserRouter>
