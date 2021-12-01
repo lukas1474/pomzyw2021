@@ -7,7 +7,7 @@ import aboutUs from '../../../data/aboutUs.json';
 
 const AboutUs = () => {
   return (
-    <Container className={styles.root}>
+    <div className={styles.root}>
       <h2 className={styles.aboutUsTitle}>{aboutUs.title}</h2>
       <div className={styles.aboutUsContent}>
         <div className={styles.logo}>
@@ -20,7 +20,7 @@ const AboutUs = () => {
         <p dangerouslySetInnerHTML={{__html: aboutUs.description4}} className={styles.aboutUsDesc}/>
         <p dangerouslySetInnerHTML={{__html: aboutUs.description5}} className={styles.aboutUsDesc}/>
       </div>
-    </Container>
+    </div>
   );
 };
 

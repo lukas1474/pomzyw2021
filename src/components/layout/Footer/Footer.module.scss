@@ -1,14 +1,10 @@
 @import "../../../styles/settings.scss";
 
 .root {
-  .footer {
-    @include flex(column, center, center);
-    filter: drop-shadow(3px 3px 7px rgba(0, 0, 0, 0.4));
-  }
-
+  @include flex(column, center, center);
   .footerRow {
     @include flex(row, center, center);
-    width: 55vw;
+    width: 55%;
   }
 
   .contactText {
@@ -18,12 +14,6 @@
 
   .contactHead {
     margin: 5px 0 5px 0;
-  }
-
-  .contactTitle {
-  }
-
-  .contactDetails {
   }
 
   .textFooter {
@@ -36,10 +26,15 @@
 
   .logoDetails {
     margin: 0 10px 0 10px;
-
     img {
       width: 100px;
     }
+  }
+  .yearBox {
+    @include flex(row, center, center);
+    background: $year-bg;
+    color: $yearColor;
+    width: 100%;
   }
 }
 
@@ -52,34 +47,42 @@
 /* XXL Extra Extra Large Devices, Desktops  */
 @media (min-width: 1400px) and (max-width: 1920px) {
   .root {
+    @include flex(column, center, center);
   }
 }
 
 /* XL Extra Extra Large Devices, Laptops  */
 @media (min-width: 1200px) and (max-width: 1399px) {
   .root {
+    @include flex(column, center, center);
   }
 }
 
 /* LG Large Devices, Tablets iPad Pro */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .root {
+    @include flex(column, center, center);
+    .footerRow {
+      width: 80%;
+    }
   }
 }
 
 /* MD Medium Devices, Tablets iPad */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .root {
+    @include flex(column, center, center);
+    .footerRow {
+      @include flex(column, center, space-between);
+      width: 50%;
+    }
   }
 }
 
 /* SM Small Devices, Small tablets Large Phones */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .root {
-    .footer {
-      @include flex(column, center, center);
-    }
-
+    @include flex(column, center, center);
     .footerRow {
       @include flex(column, center, space-between);
     }
@@ -89,9 +92,7 @@
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   .root {
-    .footer {
-      @include flex(column, center, center);
-    }
+    @include flex(column, center, center);
 
     .footerRow {
       @include flex(column, center, space-between);

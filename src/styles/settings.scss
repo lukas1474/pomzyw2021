@@ -3,7 +3,7 @@
 /* DO NOT USE THOSE VARIABLES IN THE OTHER SCSS FILES! */
 $black: #000000;
 $blue: #0000ff;
-$darkblue: #00008b;
+$darkBlue: #00008b;
 $chocolate: #5c3f1a;
 $cookie: #e89e3b;
 $darkGray: #363636;
@@ -57,6 +57,10 @@ $menu-bg: $darkWhite;
 
 /*Posters*/
 $first-shadow-poster-color: $black;
-$second-shadow-poster-color: $darkblue;
+$second-shadow-poster-color: $darkBlue;
 
 $icon-color: $white;
+
+/*Footer*/
+$yearColor: $darkWhite;
+$year-bg: $gray;

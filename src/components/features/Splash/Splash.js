@@ -5,7 +5,6 @@ import ProgramName from '../../common/ProgramName/ProgramName';
 
 const Splash = () => (
   <div className={styles.root} id="splash">
-    <img src="/images/splash4.webp" alt="splash" />
     <div className={styles.programNameBox}>
       <ProgramName />
     </div>
