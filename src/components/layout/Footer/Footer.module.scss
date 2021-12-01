@@ -74,7 +74,7 @@
     @include flex(column, center, center);
     .footerRow {
       @include flex(column, center, space-between);
-      width: 80%;
+      width: 50%;
     }
   }
 }
@@ -85,7 +85,6 @@
     @include flex(column, center, center);
     .footerRow {
       @include flex(column, center, space-between);
-      width: 80%;
     }
   }
 }
