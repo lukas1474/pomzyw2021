@@ -81,7 +81,7 @@ const Navigation = () => {
 
   const mainPage = document.getElementById(`mainPage`);
   const splash = document.getElementById(`splash`);
-  console.log(`splash`, splash);
+
   useEffect(() => {
     if (mainPage) {
       if (activeRWD) {
