@@ -3,7 +3,6 @@
 .root {
   @include flex(column, center, center);
   background-attachment: fixed;
-  background-color: $splash-overlay;
   background-image: url("/images/splash4.webp");
   background-position: center;
   background-repeat: no-repeat;
