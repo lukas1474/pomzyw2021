@@ -23,6 +23,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
   .bottomCurve {
     @include flex(column, center, flex-end);
     bottom: -1px;
