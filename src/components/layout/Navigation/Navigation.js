@@ -81,16 +81,24 @@ const Navigation = () => {
 
   const mainPage = document.getElementById(`mainPage`);
   const splash = document.getElementById(`splash`);
+  const footer = document.getElementById(`kontakt`);
 
   useEffect(() => {
     if (mainPage) {
       if (activeRWD) {
-        mainPage.setAttribute(`style`, `filter: blur(4px)`);
+        for (let index = 0; index < mainPage.children.length; index++) {
+          mainPage.children[index].setAttribute(`style`, `filter: blur(4px)`);
+        }
         splash.setAttribute(`style`, `filter: blur(4px)`);
+        footer.setAttribute(`style`, `filter: blur(4px)`);
+
         document.body.style.overflow = `hidden`;
       } else {
-        mainPage.setAttribute(`style`, `filter: blur(0px)`);
+        for (let index = 0; index < mainPage.children.length; index++) {
+          mainPage.children[index].setAttribute(`style`, `filter: blur(0px)`);
+        }
         splash.setAttribute(`style`, `filter: blur(0px)`);
+        footer.setAttribute(`style`, `filter: blur(0px)`);
         document.body.style.overflowY = `unset`;
       }
     }
