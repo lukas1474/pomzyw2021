@@ -1,7 +1,7 @@
 @import "../../../styles/settings.scss";
 
 .root {
-  @include flex(column, center, start);
+  @include flex(column, center, flex-start);
   color: $programName-color;
   padding: 25px 0 25px 0;
   text-shadow: $programName-shadow;
