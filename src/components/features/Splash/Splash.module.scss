@@ -18,9 +18,9 @@
 
   .programNameBox {
     @include flex(column, center, center);
+    left: 50%;
     position: absolute;
     top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
   }
 
@@ -31,7 +31,14 @@
     width: 100%;
     svg {
       width: 100%;
+      fill: $splashCurve;
     }
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .root .bottomCurve svg {
+    fill: $splashCurve-darkTheme;
   }
 }
 

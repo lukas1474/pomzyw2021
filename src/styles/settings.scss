@@ -10,7 +10,7 @@ $darkGray: #363636;
 $darkWhite: #f0f0f0;
 $gray: #434343;
 $green: #008000;
-$lightBlack: #2a2a2a;
+$lightBlack: #262626;
 $lightGray: #b2b2b2;
 $lightGreen: #ddffdd;
 $lightGreyBlue: #7aa3cc;
@@ -43,6 +43,7 @@ $bottom-color-below-title: $gold;
 
 /*Links*/
 $linkColor: $black;
+$linkColor-darkTheme: $darkWhite;
 $linkColor-active: $lightGreyBlue;
 
 /*Header*/
@@ -51,9 +52,12 @@ $linkColor-active: $lightGreyBlue;
 $splash-overlay: rgba(0, 0, 0, 0.2);
 $programName-color: $darkWhite;
 $programName-shadow: 2px 2px 2px $black;
+$splashCurve: $darkWhite;
+$splashCurve-darkTheme: #262626;
 
 /*Menu*/
 $menu-bg: $darkWhite;
+$menu-bg-darkTheme: $lightBlack;
 
 /*Posters*/
 $first-shadow-poster-color: $black;
