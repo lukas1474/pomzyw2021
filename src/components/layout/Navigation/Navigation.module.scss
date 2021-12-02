@@ -131,3 +131,14 @@
     }
   }
 }
+
+@media (prefers-color-scheme: light) {
+  .root {
+    .menu {
+      background: $menu-bg-darkTheme;
+    }
+    a {
+      color: $linkColor-darkTheme;
+    }
+  }
+}
