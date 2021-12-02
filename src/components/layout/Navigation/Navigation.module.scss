@@ -82,7 +82,7 @@
     }
     .navLink {
       font-size: 1.15rem;
-      font-weight: 600;
+      font-weight: 500;
     }
   }
 }
@@ -128,17 +128,6 @@
     }
     .burgerButton {
       display: flex;
-    }
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  .root {
-    .menu {
-      background: $menu-bg-darkTheme;
-    }
-    a {
-      color: $linkColor-darkTheme;
     }
   }
 }

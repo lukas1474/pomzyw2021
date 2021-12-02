@@ -85,14 +85,13 @@ const Navigation = () => {
   useEffect(() => {
     if (mainPage) {
       if (activeRWD) {
-        //TODO zmienić szerokość w mainPage
-        // mainPage.setAttribute(`style`, `filter: blur(4px)`);
+        mainPage.setAttribute(`style`, `filter: blur(4px)`);
         splash.setAttribute(`style`, `filter: blur(4px)`);
         document.body.style.overflow = `hidden`;
       } else {
-        // mainPage.setAttribute(`style`, `filter: blur(0px)`);
+        mainPage.setAttribute(`style`, `filter: blur(0px)`);
         splash.setAttribute(`style`, `filter: blur(0px)`);
-        document.body.style.overflow = `unset`;
+        document.body.style.overflowY = `unset`;
       }
     }
   });
