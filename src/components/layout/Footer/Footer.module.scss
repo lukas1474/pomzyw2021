@@ -11,6 +11,9 @@
     @include flex(column, null, null);
     padding: 15px;
     line-height: 1;
+    a {
+      margin-bottom: 7px;
+    }
   }
 
   .contactHead {
@@ -21,10 +24,6 @@
     margin: 5px;
   }
 
-  .logo {
-    @include flex(row, null, null);
-  }
-
   .logoDetails {
     margin: 0 10px 0 10px;
     max-width: 100px;
@@ -32,6 +31,10 @@
       width: 100px;
     }
   }
+  .logo {
+    @include flex(row, null, null);
+  }
+
   .yearBox {
     @include flex(row, center, center);
     background: $year-bg;

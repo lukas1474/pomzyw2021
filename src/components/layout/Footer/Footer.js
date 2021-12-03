@@ -19,12 +19,13 @@ const Footer = () => (
       <Col className={styles.contactText}>
         <h3 className={styles.contactTitle}>{contact.title}</h3>
         <p className={styles.contactDetails}>{contact.address}</p>
-        <p className={styles.contactDetails}>{contact.tel}</p>
-        <p className={styles.contactDetails}>{contact.mail}</p>
+        <a className={styles.contactDetails} href={`tel:${contact.tel}`}>{contact.tel}</a>
+        <a className={styles.contactDetails} href={`mailto:${contact.mail}`}>{contact.mail}</a>
       </Col>
     </Row>
     <div className={styles.yearBox}>
-      <h6 className={styles.textFooter}>2021</h6>
+      <h6 className={styles.textFooter}>© 2021 Powered by </h6>
+      <a href="mailto:crucialfix@outlook.com">CrucialFix</a>
     </div>
   </footer>
 );
