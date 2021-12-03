@@ -79,30 +79,32 @@ const Navigation = () => {
     window.scrollTo({ top: yCoordinate + yOffset, behavior: `smooth` });
   };
 
-  const mainPage = document.getElementById(`mainPage`);
-  const splash = document.getElementById(`splash`);
-  const footer = document.getElementById(`kontakt`);
+  //TODO dodać po naprawieniu błędu ze zbyt szerokim ekranem przy włączonym blur
 
-  useEffect(() => {
-    if (mainPage) {
-      if (activeRWD) {
-        for (let index = 0; index < mainPage.children.length; index++) {
-          mainPage.children[index].setAttribute(`style`, `filter: blur(4px)`);
-        }
-        splash.setAttribute(`style`, `filter: blur(4px)`);
-        footer.setAttribute(`style`, `filter: blur(4px)`);
+  // const mainPage = document.getElementById(`mainPage`);
+  // const splash = document.getElementById(`splash`);
+  // const footer = document.getElementById(`kontakt`);
 
-        document.body.style.overflow = `hidden`;
-      } else {
-        for (let index = 0; index < mainPage.children.length; index++) {
-          mainPage.children[index].setAttribute(`style`, `filter: blur(0px)`);
-        }
-        splash.setAttribute(`style`, `filter: blur(0px)`);
-        footer.setAttribute(`style`, `filter: blur(0px)`);
-        document.body.style.overflowY = `unset`;
-      }
-    }
-  });
+  // useEffect(() => {
+  //   if (mainPage) {
+  //     if (activeRWD) {
+  //       for (let index = 0; index < mainPage.children.length; index++) {
+  //         mainPage.children[index].setAttribute(`style`, `filter: blur(4px)`);
+  //       }
+  //       splash.setAttribute(`style`, `filter: blur(4px)`);
+  //       footer.setAttribute(`style`, `filter: blur(4px)`);
+
+  //       document.body.style.overflow = `hidden`;
+  //     } else {
+  //       for (let index = 0; index < mainPage.children.length; index++) {
+  //         mainPage.children[index].setAttribute(`style`, `filter: blur(0px)`);
+  //       }
+  //       splash.setAttribute(`style`, `filter: blur(0px)`);
+  //       footer.setAttribute(`style`, `filter: blur(0px)`);
+  //       document.body.style.overflowY = `unset`;
+  //     }
+  //   }
+  // });
 
   return (
     <nav className={scroll ? styles.root : styles.rootScroll} ref={menuRef}

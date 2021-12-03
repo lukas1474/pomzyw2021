@@ -37,51 +37,96 @@
   }
 }
 
-/* XXL Extra Extra Large Devices, Desktops  */
-@media (min-width: 1400px) and (max-width: 1920px) {
-  .root {
-  }
-}
-
-/* XL Extra Extra Large Devices, Laptops  */
-@media (min-width: 1200px) and (max-width: 1399px) {
-  .root {
-  }
-}
-
 /* LG Large Devices, Tablets iPad Pro */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 1200px) and (max-width: 1920px) {
   .root {
     .aboutProgramTitle {
       width: 40%;
     }
+  }
+}
+
+/* Large Devices, Laptops, Large Tablets iPad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .root {
+    .aboutProgramTitle {
+      width: 40%;
+    }
+  }
+
+  .aboutProgram{
+    margin: 0 15px 0 15px;
+  }
+
+  .aboutProgram1{
+    margin: 0 15px 0 15px;
+  }
+
+  .aboutProgram2{
+    margin: 0 15px 0 15px;
   }
 }
 
 /* MD Medium Devices, Tablets iPad */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .root {
     .aboutProgramTitle {
       width: 40%;
     }
+  }
+
+  .aboutProgram{
+    margin: 0 10px 0 10px;
+  }
+
+  .aboutProgram1{
+    margin: 0 10px 0 10px;
+  }
+
+  .aboutProgram2{
+    margin: 0 10px 0 10px;
   }
 }
 
 /* SM Small Devices, Small tablets Large Phones */
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
   .root {
     .aboutProgramTitle {
       width: 40%;
     }
   }
+
+  .aboutProgram{
+    margin: 0 5px 0 5px;
+  }
+
+  .aboutProgram1{
+    margin: 0 5px 0 5px;
+  }
+
+  .aboutProgram2{
+    margin: 0 5px 0 5px;
+  }
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width: 0px) and (max-width: 575px) {
+@media only screen and (min-width: 0px) and (max-width: 479px) {
   .root {
     .aboutProgramTitle {
-      width: 50%;
+      width: 55%;
     }
+  }
+
+  .aboutProgram{
+    margin: 0 3px 0 3px;
+  }
+
+  .aboutProgram1{
+    margin: 0 3px 0 3px;
+  }
+
+  .aboutProgram2{
+    margin: 0 3px 0 3px;
   }
 }
 

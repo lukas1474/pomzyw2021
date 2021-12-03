@@ -7,10 +7,6 @@
   width: 30%;
 }
 
-.colLogo {
-  margin: 15px;
-}
-
 .aboutUsDesc {
   padding: 10px;
   text-indent: 50px;
@@ -29,7 +25,7 @@
   display: flex;
   flex-direction: column;
   float: left;
-  margin: 0 10px 0 25px;
+  margin: 0 10px 0 10px;
 }
 
 /* ExtraExtraLarge Devices, UltraWide Desktops  */
@@ -56,7 +52,7 @@
   }
 
   .aboutUsDesc {
-    margin: 0 25px 0 25px;
+    margin: 0 15px 0 15px;
   }
 }
 
@@ -75,7 +71,7 @@
   }
 
   .aboutUsDesc {
-    margin: 0 25px 0 25px;
+    margin: 0 10px 0 10px;
   }
 
   .aboutUsTitle {
@@ -96,6 +92,10 @@
   .aboutUsTitle {
     width: 40%;
   }
+
+  .aboutUsDesc {
+    margin: 0 5px 0 5px;
+  }
 }
 
 /* Extra Small Devices, Phones */
@@ -110,6 +110,10 @@
 
   .aboutUsTitle {
     width: 50%;
+  }
+
+  .aboutUsDesc {
+    margin: 0 3px 0 3px;
   }
 }
 
