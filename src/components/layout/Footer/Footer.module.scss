@@ -10,6 +10,7 @@
   .contactText {
     @include flex(column, null, null);
     padding: 15px;
+    line-height: 1;
   }
 
   .contactHead {
@@ -26,6 +27,7 @@
 
   .logoDetails {
     margin: 0 10px 0 10px;
+    max-width: 100px;
     img {
       width: 100px;
     }
