@@ -23,12 +23,23 @@
   margin: 0 25px 0 25px;
 }
 
-.aboutProgram2 {
-  font-size: 1.75rem;
-  padding: 10px;
-  text-align: center;
+.contactBox {
+  font-size: 1.25rem;
   font-weight: bold;
   line-height: 1.5;
+  p {
+    font-size: 1.25rem;
+    margin: 0;
+    padding: 0;
+  }
+}
+.aboutProgram2 {
+  padding: 10px;
+  text-align: center;
+}
+
+.contactBox {
+  @include flex(column, center, center);
 }
 
 /* XXXL ExtraExtraLarge Devices, UltraWide Desktops  */
@@ -54,15 +65,15 @@
     }
   }
 
-  .aboutProgram{
+  .aboutProgram {
     margin: 0 15px 0 15px;
   }
 
-  .aboutProgram1{
+  .aboutProgram1 {
     margin: 0 15px 0 15px;
   }
 
-  .aboutProgram2{
+  .aboutProgram2 {
     margin: 0 15px 0 15px;
   }
 }
@@ -75,15 +86,15 @@
     }
   }
 
-  .aboutProgram{
+  .aboutProgram {
     margin: 0 10px 0 10px;
   }
 
-  .aboutProgram1{
+  .aboutProgram1 {
     margin: 0 10px 0 10px;
   }
 
-  .aboutProgram2{
+  .aboutProgram2 {
     margin: 0 10px 0 10px;
   }
 }
@@ -96,15 +107,15 @@
     }
   }
 
-  .aboutProgram{
+  .aboutProgram {
     margin: 0 5px 0 5px;
   }
 
-  .aboutProgram1{
+  .aboutProgram1 {
     margin: 0 5px 0 5px;
   }
 
-  .aboutProgram2{
+  .aboutProgram2 {
     margin: 0 5px 0 5px;
   }
 }
@@ -117,16 +128,23 @@
     }
   }
 
-  .aboutProgram{
+  .aboutProgram {
     margin: 0 3px 0 3px;
   }
 
-  .aboutProgram1{
+  .aboutProgram1 {
     margin: 0 3px 0 3px;
   }
 
-  .aboutProgram2{
+  .aboutProgram2 {
     margin: 0 3px 0 3px;
+  }
+  .contactBox {
+    font-size: 1.15rem;
+    line-height: 1;
+    p {
+      font-size: 1.15rem;
+    }
   }
 }
 

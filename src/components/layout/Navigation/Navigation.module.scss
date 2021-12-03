@@ -81,8 +81,19 @@
       @extend .menu;
     }
     .navLink {
+      color: $menu-link;
       font-size: 1.15rem;
       font-weight: 500;
+      text-transform: uppercase;
+      &:hover {
+        color: $menu-link-active;
+      }
+    }
+    @media (pointer: coarse) {
+      .navLink:active {
+        color: $linkColor-active;
+        transition: 0s;
+      }
     }
   }
 }
