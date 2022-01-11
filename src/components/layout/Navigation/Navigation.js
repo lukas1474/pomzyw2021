@@ -22,7 +22,7 @@ const Navigation = () => {
     {
       id: 3,
       linkSrc: `#oNas`,
-      linkName: `o nas`,
+      linkName: `Kościół Starokatolicki`,
       side: `R`,
     },
     {
