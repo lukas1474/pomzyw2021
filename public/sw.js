@@ -1,9 +1,7 @@
 const cacheName = `Pomoc Żywnościowa`;
 const filesToCache = [
   `/images/logo.svg`,
-  `/images/splash.webp`,
-  `/images/splash2.webp`,
-  `/images/splash3.webp`,
+  `/images/splash5.webp`,
   `/images/splash4.webp`,
   `/images/poster1.webp`,
   `/images/poster2.webp`,
