@@ -11,11 +11,12 @@ const AboutUs = () => {
           <img className={styles.descriptionLogo} src="/images/logo-starokatolicki__red.webp"alt="Logo Starokatolicki"/>
           <img className={styles.descriptionLogo} src="/images/logo-calatrava.webp" alt="Logo Program"/>
         </div>
-        <p dangerouslySetInnerHTML={{__html: aboutUs.description1}} className={styles.aboutUsDesc}/>
-        <p dangerouslySetInnerHTML={{__html: aboutUs.description2}} className={styles.aboutUsDesc}/>
-        <p dangerouslySetInnerHTML={{__html: aboutUs.description3}} className={styles.aboutUsDesc}/>
-        <p dangerouslySetInnerHTML={{__html: aboutUs.description4}} className={styles.aboutUsDesc}/>
-        <p dangerouslySetInnerHTML={{__html: aboutUs.description5}} className={styles.aboutUsDesc}/>
+        <p className={styles.aboutUsDesc}>{aboutUs.description1}</p>
+        <p className={styles.aboutUsDesc}>{aboutUs.description2}</p>
+        <p className={styles.aboutUsDesc}>{aboutUs.description3}</p>
+        <p className={styles.aboutUsTitleDesc}>{aboutUs.titleDescription}</p>
+        <p className={styles.aboutUsDesc}>{aboutUs.description4}</p>
+        <p className={styles.aboutUsDesc}>{aboutUs.description5}</p>
       </div>
     </div>
   );

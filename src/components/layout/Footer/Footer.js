@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../Footer/Footer.module.scss';
 
-import { Row, Col } from 'react-bootstrap';
+import {Row, Col} from 'react-bootstrap';
 
 import contact from '../../../data/contact.json';
 
@@ -17,8 +17,10 @@ const Footer = () => (
         </Col>
       </Col>
       <Col className={styles.contactText}>
-        <h3 className={styles.contactTitle}>{contact.title}</h3>
-        <p className={styles.contactDetails}>{contact.address}</p>
+        <h3 className={styles.contactTitle}>{contact.title1}</h3>
+        <h4 className={styles.contactTitle}>{contact.title2}</h4>
+        <p className={styles.contactDetails}>{contact.address1}</p>
+        <p className={styles.contactDetails}>{contact.address2}</p>
         <a className={styles.contactDetails} href={`tel:${contact.tel}`}>{contact.tel}</a>
         <a className={styles.contactDetails} href={`mailto:${contact.mail}`}>{contact.mail}</a>
       </Col>

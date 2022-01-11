@@ -9,20 +9,20 @@ const Navigation = () => {
   const data = [
     {
       id: 1,
-      linkSrc: `#oNas`,
-      linkName: `o nas`,
-      side: `L`,
-    },
-    {
-      id: 2,
       linkSrc: `#oProgramie`,
       linkName: `o programie`,
       side: `L`,
     },
     {
-      id: 3,
-      linkSrc: `#punktyPomocy`,
+      id: 2,
+      linkSrc: `#oProgramie`,
       linkName: `punkty pomocy`,
+      side: `L`,
+    },
+    {
+      id: 3,
+      linkSrc: `#oNas`,
+      linkName: `Kościół Starokatolicki`,
       side: `R`,
     },
     {
@@ -173,6 +173,3 @@ const Navigation = () => {
 };
 
 export default Navigation;
-
-
-

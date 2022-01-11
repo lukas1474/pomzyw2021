@@ -10,14 +10,14 @@ import AboutUs from '../../common/AboutUs/AboutUs';
 
 const MainPage = () => (
   <div className={styles.root} id="mainPage">
-    <section className={styles.MainViewSection} id="oNas">
-      <AboutUs />
-    </section>
     <section className={styles.MainViewSection} id="oProgramie">
       <AboutProgram />
     </section>
     <section className={styles.MainViewSection} id="plakaty">
       <Posters />
+    </section>
+    <section className={styles.MainViewSection} id="oNas">
+      <AboutUs />
     </section>
     {/* <section className={styles.MainViewSection}  id="punktyPomocy">
       <ProgramDepartments />
