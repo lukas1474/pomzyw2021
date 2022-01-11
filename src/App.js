@@ -2,10 +2,12 @@ import React from 'react';
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
 import { Redirect } from 'react-router';
 
-import MainLayout from './components/layout/MainLayout/MainLayout';
-import MainPage from './components/views/MainPage/MainPage';
 import './styles/bootstrap.scss';
 import'./styles/global.scss';
+
+import MainLayout from './components/layout/MainLayout/MainLayout';
+import MainPage from './components/views/MainPage/MainPage';
+
 function App() {
   return (
     <div>

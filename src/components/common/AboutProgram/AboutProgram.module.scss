@@ -1,8 +1,9 @@
 @import "../../../styles/settings.scss";
 
 .aboutProgramTitle {
+  @include flex(row, center, center);
   padding: 10px;
-  margin: 0 25px 10px 25px;
+  margin: 40px 25px 50px 25px;
   border-bottom: 3px solid $bottom-color-below-title;
   width: 30%;
 }
@@ -20,13 +21,14 @@
   padding: 10px;
   font-weight: bold;
   line-height: 1.5;
-  margin: 0 25px 0 25px;
+  margin: 15px 25px 15px 25px;
 }
 
 .contactBox {
   font-size: 1.25rem;
   font-weight: bold;
   line-height: 1.5;
+  margin: 15px 0 15px 0;
   p {
     font-size: 1.25rem;
     margin: 0;
@@ -70,7 +72,7 @@
   }
 
   .aboutProgram1 {
-    margin: 0 15px 0 15px;
+    margin: 15px;
   }
 
   .aboutProgram2 {
@@ -91,7 +93,7 @@
   }
 
   .aboutProgram1 {
-    margin: 0 10px 0 10px;
+    margin: 15px 10px 15px 10px;
   }
 
   .aboutProgram2 {
@@ -112,7 +114,7 @@
   }
 
   .aboutProgram1 {
-    margin: 0 5px 0 5px;
+    margin: 15px 5px 15px 5px;
   }
 
   .aboutProgram2 {
@@ -133,7 +135,7 @@
   }
 
   .aboutProgram1 {
-    margin: 0 3px 0 3px;
+    margin: 15px 3px 15px 3px;
   }
 
   .aboutProgram2 {

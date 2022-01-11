@@ -2,9 +2,14 @@
 
 .root {
   @include flex(column, center, center);
+
   .footerRow {
     @include flex(row, center, center);
-    width: 55%;
+    width: 75%;
+  }
+
+  .logo {
+    @include flex(row, center, center)
   }
 
   .contactText {
@@ -46,6 +51,11 @@
 /* XXXL ExtraExtraLarge Devices, UltraWide Desktops  */
 @media (min-width: 1921px) {
   .root {
+
+    .footerRow {
+      @include flex(row, center, center);
+      width: 100%;
+    }
   }
 }
 
@@ -53,6 +63,11 @@
 @media (min-width: 1400px) and (max-width: 1920px) {
   .root {
     @include flex(column, center, center);
+
+    .footerRow {
+      @include flex(row, center, center);
+      width: 55%;
+    }
   }
 }
 
@@ -60,6 +75,11 @@
 @media (min-width: 1200px) and (max-width: 1399px) {
   .root {
     @include flex(column, center, center);
+
+    .footerRow {
+      @include flex(row, center, center);
+      width: 80%;
+    }
   }
 }
 
@@ -67,6 +87,7 @@
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .root {
     @include flex(column, center, center);
+
     .footerRow {
       width: 80%;
     }
@@ -77,9 +98,10 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .root {
     @include flex(column, center, center);
+
     .footerRow {
       @include flex(column, center, space-between);
-      width: 50%;
+      width: 90%;
     }
   }
 }
@@ -88,8 +110,10 @@
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .root {
     @include flex(column, center, center);
+
     .footerRow {
       @include flex(column, center, space-between);
+      width: 90%;
     }
   }
 }
@@ -101,6 +125,7 @@
 
     .footerRow {
       @include flex(column, center, space-between);
+      width: 90%;
     }
   }
 }
