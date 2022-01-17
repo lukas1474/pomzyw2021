@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "listElement": "szynka drobiowa",
+    "quantity": "1,80 kg"
+  },
+  {
+    "id": 2,
+    "listElement": "groszek z marchewką",
+    "quantity": "3,20 kg"
+  },
+  {
+    "id": 3,
+    "listElement": "cukier biały",
+    "quantity": "4,00 kg"
+  },
+  {
+    "id": 4,
+    "listElement": "makaron jajeczny świderki",
+    "quantity": "4,50 kg"
+  },
+  {
+    "id": 5,
+    "listElement": "powidła śliwkowe",
+    "quantity": "1,50 kg"
+  },
+  {
+    "id": 6,
+    "listElement": "szynka wieprzowa mielona",
+    "quantity": "1,20 kg"
+  },
+  {
+    "id": 7,
+    "listElement": "kasza jęczmienna",
+    "quantity": "1,00 kg"
+  },
+  {
+    "id": 8,
+    "listElement": "koncentrat pomidorowy",
+    "quantity": "1,12 kg"
+  },
+  {
+    "id": 9,
+    "listElement": "mleko UHT",
+    "quantity": "5 l"
+  },
+  {
+    "id": 10,
+    "listElement": "filet z makreli w oleju",
+    "quantity": "0,85 kg"
+  }
+]

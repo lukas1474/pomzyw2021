@@ -5,7 +5,7 @@
   padding: 10px;
   margin: 40px 25px 50px 25px;
   border-bottom: 3px solid $bottom-color-below-title;
-  width: 50%;
+  max-width: 100%;
 }
 
 .aboutUsDesc {
@@ -48,6 +48,7 @@
 /* ExtraLarge Devices, Desktops  */
 @media (min-width: 1200px) and (max-width: 1920px) {
 }
+
 /* Large Devices, Laptops, Large Tablets iPad Pro */
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
   .aboutUsContent {
@@ -84,10 +85,6 @@
   .aboutUsDesc {
     margin: 0 10px 0 10px;
   }
-
-  .aboutUsTitle {
-    width: 40%;
-  }
 }
 
 /* Small Devices, Small tablets Large Phones */
@@ -98,10 +95,6 @@
 
   .aboutUsDesc {
     margin-right: 25px;
-  }
-
-  .aboutUsTitle {
-    width: 40%;
   }
 
   .aboutUsDesc {
@@ -119,23 +112,7 @@
     margin-right: 25px;
   }
 
-  .aboutUsTitle {
-    width: 50%;
-  }
-
   .aboutUsDesc {
     margin: 0 3px 0 3px;
-  }
-}
-
-/* Media pointer*/
-@media (hover: hover) and (pointer: fine) {
-  .root {
-  }
-}
-
-/* Media touchable */
-@media (pointer: coarse) {
-  .root {
   }
 }
