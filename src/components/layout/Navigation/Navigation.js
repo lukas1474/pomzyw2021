@@ -1,42 +1,16 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styles from './Navigation.module.scss';
+
 import { Col } from 'react-bootstrap';
 
 import { NavHashLink } from 'react-router-hash-link';
 import { HamburgerSqueeze } from 'react-animated-burgers';
 
-const Navigation = () => {
-  const data = [
-    {
-      id: 1,
-      linkSrc: `#oProgramie`,
-      linkName: `o programie`,
-      side: `L`,
-    },
-    {
-      id: 2,
-      linkSrc: `#oProgramie`,
-      linkName: `punkty pomocy`,
-      side: `L`,
-    },
-    {
-      id: 3,
-      linkSrc: `#oNas`,
-      linkName: `Kościół Starokatolicki`,
-      side: `R`,
-    },
-    {
-      id: 4,
-      linkSrc: `#kontakt`,
-      linkName: `kontakt`,
-      side: `R`,
-    },
-  ];
+import navigation from '../../../data/navigation.json';
 
+const Navigation = () => {
   const [scroll, setScroll] = useState(false);
   const [activeRWD, setActiveRWD] = useState(false);
-
-
 
   function scrollFunction() {
     if (window.innerWidth >= 1200) {
@@ -70,6 +44,7 @@ const Navigation = () => {
       };
     }, [ref]);
   };
+
   const menuRef = useRef(null);
   useOutsideMenu(menuRef);
 
@@ -119,7 +94,7 @@ const Navigation = () => {
       <div className={activeRWD ? styles.menu : styles.menu__hidden}>
         <Col className="col-12 col-xl-5">
           <div className="d-flex flex-column flex-xl-row">
-            {data
+            {navigation
               .filter((item) => item.side === `L`)
               .map((item) => (
                 <Col key={item.id} className="p-3 p-xl-0">
@@ -138,7 +113,7 @@ const Navigation = () => {
         </Col>
         <Col className="col-12 col-xl-5 offset-xl-2">
           <div className="d-flex flex-column flex-xl-row">
-            {data
+            {navigation
               .filter((item) => item.side === `R`)
               .map((item) => (
                 <Col key={item.id} className="p-3 p-xl-0">

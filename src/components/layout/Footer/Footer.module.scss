@@ -2,56 +2,58 @@
 
 .root {
   @include flex(column, center, center);
+}
 
-  .footerRow {
-    @include flex(row, center, center);
-    width: 75%;
-  }
+.footerRow {
+  @include flex(row, center, center);
+  width: 75%;
+}
 
-  .logo {
-    @include flex(row, center, center)
-  }
+.logo {
+  @include flex(row, center, center)
+}
 
-  .contactText {
-    @include flex(column, null, null);
-    padding: 15px;
-    line-height: 1;
-    a {
-      margin-bottom: 7px;
-    }
-  }
+.contactText {
+  @include flex(column, null, null);
+  padding: 15px;
+  line-height: 1;
 
-  .contactHead {
-    margin: 5px 0 5px 0;
+  a {
+    margin-bottom: 7px;
   }
+}
 
-  .textFooter {
-    margin: 5px;
-  }
+.contactHead {
+  margin: 5px 0 5px 0;
+}
 
-  .logoDetails {
-    margin: 0 10px 0 10px;
-    max-width: 100px;
-    img {
-      width: 100px;
-    }
-  }
-  .logo {
-    @include flex(row, null, null);
-  }
+.textFooter {
+  margin: 5px;
+}
 
-  .yearBox {
-    @include flex(row, center, center);
-    background: $year-bg;
-    color: $yearColor;
-    width: 100%;
+.logoDetails {
+  margin: 0 10px 0 10px;
+  max-width: 100px;
+
+  img {
+    width: 100px;
   }
+}
+
+.logo {
+  @include flex(row, null, null);
+}
+
+.yearBox {
+  @include flex(row, center, center);
+  background: $year-bg;
+  color: $yearColor;
+  width: 100%;
 }
 
 /* XXXL ExtraExtraLarge Devices, UltraWide Desktops  */
 @media (min-width: 1921px) {
   .root {
-
     .footerRow {
       @include flex(row, center, center);
       width: 100%;
@@ -127,23 +129,5 @@
       @include flex(column, center, space-between);
       width: 90%;
     }
-  }
-}
-
-/* Media pointer*/
-@media (hover: hover) and (pointer: fine) {
-  .root {
-  }
-}
-
-/* Media touchable */
-@media (pointer: coarse) {
-  .root {
-  }
-}
-
-/* ExtraExtraLarge Devices, UltraWide Desktops  */
-@media (min-width: 1921px) {
-  .root {
   }
 }

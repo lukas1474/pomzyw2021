@@ -6,7 +6,6 @@ import CloseIcon from '@material-ui/icons/Close';
 import posters from '../../../data/posters.json';
 
 const Posters = () => {
-
   const [modal, setModal] = useState(false);
   const [srcImg, setSrcImg] = useState('');
 
@@ -26,23 +25,15 @@ const Posters = () => {
   return (
     <div className={styles.root}>
       <div className={modal ? styles.modalOpen : styles.modal}>
-        <img
-          src={srcImg}
-          alt='poster_modal'
-        />
-        <CloseIcon
-          className={styles.icon}
+        <img src={srcImg} alt='poster_modal'/>
+        <CloseIcon className={styles.icon}
           onClick={() => setModal(false)}
         />
       </div>
       <div className={styles.postersGallery}>
         {posters.map((item, index) => {
           return(
-            <img
-              key={index}
-              src={item.imgSrc}
-              alt={item.alt}
-              className={styles.poster}
+            <img key={index} src={item.imgSrc} alt={item.alt} className={styles.poster}
               onClick={() => getImg(item.imgSrc)}
             />
           );

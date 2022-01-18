@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../AboutProgram/AboutProgram.module.scss';
+
 import { Col, Row } from 'react-bootstrap';
 
 import aboutProgram from '../../../data/aboutProgram.json';
