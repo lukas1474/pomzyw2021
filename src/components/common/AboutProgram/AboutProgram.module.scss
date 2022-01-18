@@ -6,11 +6,23 @@
 
 .aboutProgramSubtitle {
   @include subsectionTitle;
-  @include flex(null, null, start);
+  @include flex(null, null, flex-start);
 }
 
 .aboutProgramDescription {
   @include sectionDefaultDescription;
+}
+
+.requirements {
+  color: $lightGreyBlue;
+  font-weight: bold;
+  border-bottom: 1px solid $lightGreyBlue;
+  cursor: grab;
+
+  &:hover {
+    color: $gold;
+    border-bottom: 1px solid $gold;
+  }
 }
 
 .contactBox {
@@ -33,21 +45,20 @@
 
 .foodListUl {
   list-style: none;
+  padding-left: 0;
+  margin: 0 25px 0 25px;
 
   .foodListRow {
-    @include flex(row, center, start);
     padding: 5px;
     color: $lightGreyBlue;
     font-weight: bold;
     cursor: grab;
 
     &:hover {
-      color: $cookie;
+      color: $gold;
     }
   }
 }
-
-
 
 /* ExtraExtraLarge Devices, UltraWide Desktops  */
 @media (min-width: 1921px) {

@@ -11,6 +11,13 @@ const AboutProgram = () => (
     <h2 className={styles.aboutProgramTitle}>{aboutProgram.title}</h2>
     <p className={styles.aboutProgramSubtitle}>{aboutProgram.subtitleWho}</p>
     <p className={styles.aboutProgramDescription}>{aboutProgram.descriptionWho}</p>
+    <p className={styles.aboutProgramDescription}>
+      {aboutProgram.requirements}
+      <span className={styles.requirements}>{aboutProgram.requirementsAlone}</span>
+      lub
+      <span className={styles.requirements}>{aboutProgram.requirementsFamily}</span>
+    </p>
+    <p className={styles.aboutProgramDescription}>{aboutProgram.requirementsContact}</p>
     <div className={styles.contactBox}>
       <Col className="d-flex align-items-center justify-content-center flex-column flex-md-row pb-3 pb-md-0">
         <p> {aboutProgram.subtitleTel}</p>
@@ -23,18 +30,16 @@ const AboutProgram = () => (
     </div>
     <p className={styles.aboutProgramSubtitle}>{aboutProgram.subtitleWhat}</p>
     <p className={styles.aboutProgramDescription}>{aboutProgram.descriptionWhat}</p>
-    <div>
-      <ul className={styles.foodListUl}>
-        {foodList.map((item) => (
-          <li key={item.id}>
-            <Row className={styles.foodListRow}>
-              <Col xs={7} sm={4} md={6} lg={4}>{item.listElement}</Col>
-              <Col xs={5} sm={3} md={3} lg={3}>{item.quantity}</Col>
-            </Row>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <ul className={styles.foodListUl}>
+      {foodList.map((item) => (
+        <li key={item.id}>
+          <Row className={styles.foodListRow}>
+            <Col xs={7} sm={4} md={6} lg={4}>{item.listElement}</Col>
+            <Col xs={5} sm={3} md={3} lg={3}>{item.quantity}</Col>
+          </Row>
+        </li>
+      ))}
+    </ul>
   </div>
 );
 
