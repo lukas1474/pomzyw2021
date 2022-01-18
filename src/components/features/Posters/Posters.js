@@ -3,19 +3,9 @@ import styles from './Posters.module.scss';
 
 import CloseIcon from '@material-ui/icons/Close';
 
+import posters from '../../../data/posters.json';
+
 const Posters = () => {
-  let data = [
-    {
-      id:1,
-      imgSrc: '/images/poster1.webp',
-      alt: `Plakat 1`,
-    },
-    {
-      id:2,
-      imgSrc: '/images/poster2.webp',
-      alt: `Plakat 2`,
-    },
-  ];
 
   const [modal, setModal] = useState(false);
   const [srcImg, setSrcImg] = useState('');
@@ -46,7 +36,7 @@ const Posters = () => {
         />
       </div>
       <div className={styles.postersGallery}>
-        {data.map((item, index) => {
+        {posters.map((item, index) => {
           return(
             <img
               key={index}

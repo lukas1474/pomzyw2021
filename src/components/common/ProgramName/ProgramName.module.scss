@@ -10,8 +10,6 @@
   .programName {
     text-transform: uppercase;
   }
-  .podprogramName {
-  }
 }
 
 /* ExtraLarge Devices, Desktops  */
@@ -20,17 +18,20 @@
     .programName {
       font-size: 4rem;
     }
+
     .podprogramName {
       font-size: 3rem;
     }
   }
 }
+
 /* Large Devices, Laptops, Large Tablets iPad Pro */
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
   .root {
     .programName {
       font-size: 4rem;
     }
+
     .podprogramName {
       font-size: 3rem;
     }
@@ -43,6 +44,7 @@
     .programName {
       font-size: 4rem;
     }
+
     .podprogramName {
       font-size: 3rem;
     }
@@ -55,6 +57,7 @@
     .programName {
       font-size: 3rem;
     }
+
     .podprogramName {
       font-size: 2rem;
     }
@@ -67,20 +70,9 @@
     .programName {
       font-size: 2.75rem;
     }
+
     .podprogramName {
       font-size: 2rem;
     }
-  }
-}
-
-/* Media pointer*/
-@media (hover: hover) and (pointer: fine) {
-  .root {
-  }
-}
-
-/* Media touchable */
-@media (pointer: coarse) {
-  .root {
   }
 }

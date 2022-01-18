@@ -24,28 +24,30 @@
     margin: 0;
     padding: 0;
   }
-}
 
-.aboutProgramContactDescription {
-  padding: 10px;
-  text-align: center;
+  .aboutProgramContactDescription {
+    padding: 10px;
+    text-align: center;
+  }
 }
 
 .foodListUl {
   list-style: none;
-}
 
-.foodListRow {
-  @include flex(row, center, start);
-  padding: 5px;
-  color: $lightGreyBlue;
-  font-weight: bold;
-  cursor: grab;
+  .foodListRow {
+    @include flex(row, center, start);
+    padding: 5px;
+    color: $lightGreyBlue;
+    font-weight: bold;
+    cursor: grab;
 
-  &:hover {
-    color: $cookie;
+    &:hover {
+      color: $cookie;
+    }
   }
 }
+
+
 
 /* ExtraExtraLarge Devices, UltraWide Desktops  */
 @media (min-width: 1921px) {
