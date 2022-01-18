@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../AboutProgram/AboutProgram.module.scss';
+
 import { Col, Row } from 'react-bootstrap';
 
 import aboutProgram from '../../../data/aboutProgram.json';
@@ -27,8 +28,8 @@ const AboutProgram = () => (
         {foodList.map((item) => (
           <li key={item.id}>
             <Row className={styles.foodListRow}>
-              <Col xs={7} sm={4} md={6} lg={4} className={styles.foodListLeftColumn}>{item.listElement}</Col>
-              <Col xs={5} sm={3} md={3} lg={3} className={styles.foodListRightColumn}>{item.quantity}</Col>
+              <Col xs={7} sm={4} md={6} lg={4}>{item.listElement}</Col>
+              <Col xs={5} sm={3} md={3} lg={3}>{item.quantity}</Col>
             </Row>
           </li>
         ))}

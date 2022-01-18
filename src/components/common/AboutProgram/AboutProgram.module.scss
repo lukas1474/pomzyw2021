@@ -1,27 +1,16 @@
 @import "../../../styles/settings.scss";
 
 .aboutProgramTitle {
-  @include flex(row, center, center);
-  padding: 10px;
-  margin: 40px 25px 50px 25px;
-  border-bottom: 3px solid $bottom-color-below-title;
-  max-width: 100%;
+  @include sectionTitle;
 }
 
 .aboutProgramSubtitle {
-  font-size: 1.3rem;
-  padding: 10px;
-  font-weight: bold;
-  line-height: 1.5;
-  margin: 15px 25px 15px 25px;
+  @include subsectionTitle;
+  @include flex(null, null, start);
 }
 
 .aboutProgramDescription {
-  padding: 10px;
-  text-indent: 50px;
-  text-align: justify;
-  line-height: 1.5;
-  margin: 0 25px 0 25px;
+  @include sectionDefaultDescription;
 }
 
 .contactBox {
@@ -35,39 +24,42 @@
     margin: 0;
     padding: 0;
   }
-}
 
-.aboutProgramContactDescription {
-  padding: 10px;
-  text-align: center;
+  .aboutProgramContactDescription {
+    padding: 10px;
+    text-align: center;
+  }
 }
 
 .foodListUl {
   list-style: none;
+
+  .foodListRow {
+    @include flex(row, center, start);
+    padding: 5px;
+    color: $lightGreyBlue;
+    font-weight: bold;
+    cursor: grab;
+
+    &:hover {
+      color: $cookie;
+    }
+  }
 }
 
-.foodListRow {
-  @include flex(row, center, start);
-  padding: 5px;
-  color: $lightGreyBlue;
-  font-weight: bold;
-  cursor: grab;
 
-  &:hover {
-    color: $cookie;
-  }
+
+/* ExtraExtraLarge Devices, UltraWide Desktops  */
+@media (min-width: 1921px) {
 }
 
 /* LG Large Devices, Tablets iPad Pro */
 @media (min-width: 1200px) and (max-width: 1920px) {
-  .root {
-  }
 }
 
 /* Large Devices, Laptops, Large Tablets iPad Pro */
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
   .root {
-
     .aboutProgramDescription {
       margin: 0 15px 0 15px;
     }
@@ -102,7 +94,6 @@
 /* SM Small Devices, Small tablets Large Phones */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .root {
-
     .aboutProgramDescription {
       margin: 0 5px 0 5px;
     }
@@ -120,7 +111,6 @@
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 0px) and (max-width: 479px) {
   .root {
-
     .aboutProgramDescription {
       margin: 0 3px 0 3px;
     }

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "linkSrc": "#oProgramie",
+    "linkName": "o programie",
+    "side": "L"
+  },
+  {
+    "id": 2,
+    "linkSrc": "#oProgramie",
+    "linkName": "punkty pomocy",
+    "side": "L"
+  },
+  {
+    "id": 3,
+    "linkSrc": "#oNas",
+    "linkName": "Kościół Starokatolicki",
+    "side": "R"
+  },
+  {
+    "id": 4,
+    "linkSrc": "#kontakt",
+    "linkName": "kontakt",
+    "side": "R"
+  }
+]

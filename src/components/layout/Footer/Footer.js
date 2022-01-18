@@ -3,7 +3,7 @@ import styles from '../Footer/Footer.module.scss';
 
 import {Row, Col} from 'react-bootstrap';
 
-import contact from '../../../data/contact.json';
+import footer from '../../../data/footer.json';
 
 const Footer = () => (
   <footer className={styles.root} id="kontakt">
@@ -17,12 +17,12 @@ const Footer = () => (
         </Col>
       </Col>
       <Col className={styles.contactText}>
-        <h3 className={styles.contactTitle}>{contact.title1}</h3>
-        <h4 className={styles.contactTitle}>{contact.title2}</h4>
-        <p className={styles.contactDetails}>{contact.address1}</p>
-        <p className={styles.contactDetails}>{contact.address2}</p>
-        <a className={styles.contactDetails} href={`tel:${contact.tel}`}>{contact.tel}</a>
-        <a className={styles.contactDetails} href={`mailto:${contact.mail}`}>{contact.mail}</a>
+        <h3 className={styles.contactTitle}>{footer.titleChurch}</h3>
+        <h4 className={styles.contactTitle}>{footer.titleTreasurer}</h4>
+        <p className={styles.contactDetails}>{footer.footerAddressSubtitle}</p>
+        <p className={styles.contactDetails}>{footer.footerAddress}</p>
+        <a className={styles.contactDetails} href={`tel:${footer.footerTel}`}>{footer.footerTel}</a>
+        <a className={styles.contactDetails} href={`mailto:${footer.footerMail}`}>{footer.footerMail}</a>
       </Col>
     </Row>
     <div className={styles.yearBox}>

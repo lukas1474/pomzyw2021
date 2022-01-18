@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "imgSrc": "/images/poster1.webp",
+    "alt": "Plakat 1"
+  },
+  {
+    "id": 2,
+    "imgSrc": "/images/poster2.webp",
+    "alt": "Plakat 2"
+  }
+]

@@ -1,48 +1,30 @@
 @import "../../../styles/settings.scss";
 
 .aboutUsTitle {
-  @include flex(row, center, center);
-  padding: 10px;
-  margin: 40px 25px 50px 25px;
-  border-bottom: 3px solid $bottom-color-below-title;
-  max-width: 100%;
+  @include sectionTitle;
 }
 
-.aboutUsDesc {
-  padding: 10px;
-  text-indent: 50px;
-  text-align: justify;
-  line-height: 1.5;
-  margin: 0 25px 0 25px;
+.aboutUsDescription {
+  @include sectionDefaultDescription;
 }
 
-.aboutUsTitleDesc {
-  display: flex;
-  justify-content: center;
-  font-size: 1.5rem;
-  padding: 10px;
-  font-weight: bold;
-  line-height: 1.5;
-  margin: 15px 25px 15px 25px;
+.aboutUsSubtitle {
+  @include subsectionTitle;
 }
 
-.descriptionLogo {
-  float: left;
-  width: 250px;
-}
-
-.logo {
+.aboutUsLogo {
   @include flex(column, null, null);
-  display: flex;
-  flex-direction: column;
   float: left;
   margin: 0 10px 0 10px;
+
+  .aboutUsLogoImage {
+    float: left;
+    width: 250px;
+  }
 }
 
 /* ExtraExtraLarge Devices, UltraWide Desktops  */
 @media (min-width: 1921px) {
-  .root {
-  }
 }
 
 /* ExtraLarge Devices, Desktops  */
@@ -55,15 +37,11 @@
     @include flex(column, center, center);
   }
 
-  .logo {
+  .aboutUsLogo {
     @include flex(row, center, center);
   }
 
-  .aboutUsRow {
-    @include flex(column, null, null);
-  }
-
-  .aboutUsDesc {
+  .aboutUsDescription {
     margin: 0 15px 0 15px;
   }
 }
@@ -74,15 +52,11 @@
     @include flex(column, center, center);
   }
 
-  .logo {
+  .aboutUsLogo {
     @include flex(row, center, center);
   }
 
-  .aboutUsRow {
-    @include flex(column, null, null);
-  }
-
-  .aboutUsDesc {
+  .aboutUsDescription {
     margin: 0 10px 0 10px;
   }
 }
@@ -93,11 +67,7 @@
     @include flex(column, center, center);
   }
 
-  .aboutUsDesc {
-    margin-right: 25px;
-  }
-
-  .aboutUsDesc {
+  .aboutUsDescription {
     margin: 0 5px 0 5px;
   }
 }
@@ -108,11 +78,7 @@
     @include flex(column, center, center);
   }
 
-  .aboutUsDesc {
-    margin-right: 25px;
-  }
-
-  .aboutUsDesc {
+  .aboutUsDescription {
     margin: 0 3px 0 3px;
   }
 }

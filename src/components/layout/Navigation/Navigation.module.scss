@@ -23,6 +23,7 @@
       outline-color: $lightGray;
     }
   }
+
   .background {
     @include flex(column, center, flex-start);
     filter: drop-shadow(5px 5px 40px rgba(0, 0, 0, 0.4));
@@ -30,6 +31,7 @@
     position: relative;
     top: 0;
     width: 100%;
+
     &::after {
       background: $menu-bg;
       clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
@@ -38,6 +40,7 @@
       width: 100%;
     }
   }
+
   .circle {
     @include flex(row, center, center);
     bottom: -4rem;
@@ -46,6 +49,7 @@
     position: absolute;
     transform: translate(-50%, -50%);
     width: 10rem;
+
     &::after {
       background: $menu-bg;
       border-radius: 50%;
@@ -53,6 +57,7 @@
       height: 100%;
       width: 100%;
     }
+
     .logo {
       @include flex(row, baseline, center);
       bottom: 0;
@@ -60,6 +65,7 @@
       position: absolute;
       transform: translate(-50%, -50%);
       z-index: 1;
+
       img {
         width: 2.5rem;
         height: 2.5rem;
@@ -77,18 +83,22 @@
     transition: $transition;
     width: 100%;
     z-index: 1;
+
     &__hidden {
       @extend .menu;
     }
+
     .navLink {
       color: $menu-link;
       font-size: 1.15rem;
       font-weight: 500;
       text-transform: uppercase;
+
       &:hover {
         color: $menu-link-active;
       }
     }
+
     @media (pointer: coarse) {
       .navLink:active {
         color: $linkColor-active;
@@ -101,6 +111,7 @@
 .rootScroll {
   @extend .root;
   top: -2rem;
+
   .menu {
     bottom: 35%;
   }
@@ -111,6 +122,7 @@
     .menu {
       flex-direction: row;
     }
+
     .burgerButton {
       display: none;
     }
@@ -132,11 +144,13 @@
       transition: $transition;
       visibility: visible;
       width: 60vw;
+
       &__hidden {
         right: -60vw;
         visibility: hidden;
       }
     }
+
     .burgerButton {
       display: flex;
     }
