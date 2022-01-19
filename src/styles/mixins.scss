@@ -7,19 +7,18 @@
 
 @mixin sectionTitle {
   @include flex(row, center, center);
-  padding: 10px;
-  margin: 40px 25px 50px 25px;
+  padding-bottom: 25px;
+  margin: 40px 25px 0 25px;
   border-bottom: 3px solid $bottom-color-below-title;
   max-width: 100%;
 }
 
 @mixin subsectionTitle {
   @include flex(null, null, center);
-  font-size: 1.5rem;
   padding: 10px;
   font-weight: bold;
   line-height: 1.5;
-  margin: 15px 25px 15px 25px;
+  margin: 40px 25px 15px 25px;
 }
 
 @mixin sectionDefaultDescription {

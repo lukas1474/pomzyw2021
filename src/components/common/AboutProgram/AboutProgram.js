@@ -9,7 +9,7 @@ import foodList from '../../../data/foodList.json';
 const AboutProgram = () => (
   <div className={styles.root}>
     <h2 className={styles.aboutProgramTitle}>{aboutProgram.title}</h2>
-    <p className={styles.aboutProgramSubtitle}>{aboutProgram.subtitleWho}</p>
+    <h4 className={styles.aboutProgramSubtitle}>{aboutProgram.subtitleWho}</h4>
     <p className={styles.aboutProgramDescription}>{aboutProgram.descriptionWho}</p>
     <p className={styles.aboutProgramDescription}>
       {aboutProgram.requirements}
@@ -28,7 +28,7 @@ const AboutProgram = () => (
         <a className={styles.aboutProgramContactDescription} href="mailto:kontakt@pomoczywnosciowa.pl">{aboutProgram.descriptionMail}</a>
       </Col>
     </div>
-    <p className={styles.aboutProgramSubtitle}>{aboutProgram.subtitleWhat}</p>
+    <h4 className={styles.aboutProgramSubtitle}>{aboutProgram.subtitleWhat}</h4>
     <p className={styles.aboutProgramDescription}>{aboutProgram.descriptionWhat}</p>
     <ul className={styles.foodListUl}>
       {foodList.map((item) => (

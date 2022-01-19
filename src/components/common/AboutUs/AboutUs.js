@@ -14,7 +14,7 @@ const AboutUs = () => (
       <p className={styles.aboutUsDescription}>{aboutUs.descriptionChurchRow1}</p>
       <p className={styles.aboutUsDescription}>{aboutUs.descriptionChurchRow2}</p>
       <p className={styles.aboutUsDescription}>{aboutUs.descriptionChurchRow3}</p>
-      <p className={styles.aboutUsSubtitle}>{aboutUs.subtitleChurch}</p>
+      <h4 className={styles.aboutUsSubtitle}>{aboutUs.subtitleChurch}</h4>
       <p className={styles.aboutUsDescription}>{aboutUs.descriptionChurchRow4}</p>
       <p className={styles.aboutUsDescription}>{aboutUs.descriptionChurchRow5}</p>
     </div>
