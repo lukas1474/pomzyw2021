@@ -1,32 +1,45 @@
 @import "../../../styles/settings.scss";
 
-.title {
-  padding: 10px;
-  margin: 0 25px 10px 25px;
-  border-bottom: 3px solid $bottom-color-below-title;
-  width: 30%;
+.departmentsTitle {
+  @include sectionTitle;
 }
 
 .department {
-  padding: 5px;
+  // padding: 5px;
+  margin-top: 25px;
+  // text-indent: 50px;
+  line-height: 1.5;
+  text-align: justify;
+  // border-bottom: springgreen 1px solid;
+
+  // border: aqua 1px solid;
 }
 
 .row {
+  display: flex;
+  // flex-direction: column;
+  justify-content: center;
+  // align-items: center;
+  // display: flex;
+  flex-direction: row;
+  // justify-content: space-around;
+  // align-items: flex-start;
   margin: 0 25px 0 25px;
-  width: 30%;
+  // width: 30%;
 }
 
-.departmentTitle {
-  margin: 10px 0;
+.departmentsSubtitle {
+  font-weight: bold
 }
 
 .departmentDetails {
-  margin: 5px;
+  // margin: 5px;
+  margin-bottom: 25px;
 }
 
 .container {
-  @include flex(row, center, center);
-  flex-wrap: wrap;
+  // @include flex(row, center, center);
+  // flex-wrap: wrap;
 }
 
 /* XXXL ExtraExtraLarge Devices, UltraWide Desktops  */
@@ -50,103 +63,120 @@
 /* LG Large Devices, Tablets iPad Pro */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .root {
-    .title {
-      width: 50%;
-    }
+    // .title {
+    //   width: 50%;
+    // }
 
-    .row {
-      width: 75%;
-      margin: 0 25px 0 25px;
-      @include flex(column, center, center);
-    }
+    // .row {
+    //   width: 75%;
+    //   margin: 0 25px 0 25px;
+    //   @include flex(column, center, center);
+    // }
 
-    .department {
-      width: 90%;
-    }
+    // .department {
+    //   width: 90%;
+    // }
 
-    .departmentDetails {
-      width: 90%;
-    }
+    // .departmentDetails {
+    //   width: 90%;
+    // }
   }
 }
 
 /* MD Medium Devices, Tablets iPad */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .root {
-    .title {
-      width: 50%;
-    }
+    // .title {
+    //   width: 50%;
+    // }
 
-    .container {
-      @include flex(column, null, null);
-    }
+    // .container {
+    //   @include flex(column, null, null);
+    // }
 
-    .row {
-      width: 75%;
-      margin: 0 25px 0 25px;
-      @include flex(column, center, center);
-    }
+    // .row {
+    //   width: 75%;
+    //   margin: 0 25px 0 25px;
+    //   @include flex(column, center, center);
+    // }
 
-    .department {
-      width: 90%;
-    }
+    // .department {
+    //   width: 90%;
+    // }
 
-    .departmentDetails {
-      width: 90%;
-    }
+    // .departmentDetails {
+    //   width: 90%;
+    // }
   }
 }
 
 /* SM Small Devices, Small tablets Large Phones */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .root {
-    .title {
-      width: 70%;
-    }
+    // .title {
+    //   width: 70%;
+    // }
 
-    .container {
-      @include flex(column, null, null);
-    }
+    // .container {
+    //   @include flex(column, null, null);
+    // }
 
-    .row {
-      width: 75%;
-      margin: 0 25px 0 25px;
-      @include flex(column, center, center);
-    }
+    // .row {
+    //   width: 75%;
+    //   margin: 0 25px 0 25px;
+    //   @include flex(column, center, center);
+    // }
 
-    .department {
-      width: 90%;
-    }
+    // .department {
+    //   width: 90%;
+    // }
 
-    .departmentDetails {
-      width: 90%;
-    }
+    // .departmentDetails {
+    //   width: 90%;
+    // }
   }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   .root {
-    .title {
-      width: 70%;
-    }
+    // .title {
+    //   width: 70%;
+    // }
 
-    .container {
-      @include flex(column, null, null);
-    }
+    // .container {
+    //   @include flex(column, null, null);
+    // }
 
-    .row {
-      width: 75%;
-      margin: 0 25px 0 25px;
-      @include flex(column, center, center);
-    }
+    // .row {
+    //   width: 75%;
+    //   margin: 0 25px 0 25px;
+    //   @include flex(column, center, center);
+    // }
+
+    // .department {
+    //   width: 90%;
+    // }
+
+    // .departmentDetails {
+    //   width: 90%;
+    // }
 
     .department {
-      width: 90%;
+      margin-top: 0;
+    }
+
+    .departmentsSubtitle {
+      font-size: 0.9rem;
     }
 
     .departmentDetails {
-      width: 90%;
+      margin-bottom: 30px;
+    }
+
+    .row {
+      font-size: 0.9rem;
+      margin: 0 3px 0 3px;
     }
   }
 }
