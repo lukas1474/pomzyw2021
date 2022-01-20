@@ -25,6 +25,19 @@
   }
 }
 
+.tableBox {
+  @include flex(null, null, center);
+  margin-top: 25px;
+
+  .foodListTable {
+    max-width: 40%;
+  }
+
+  .foodListColumnQuantity {
+    @include flex(null, null, center);
+  }
+}
+
 .contactBox {
   font-size: 1.23rem;
   font-weight: bold;
@@ -67,6 +80,10 @@
 
 /* LG Large Devices, Tablets iPad Pro */
 @media (min-width: 1200px) and (max-width: 1920px) {
+  .foodListRow {
+    align-items: center;
+    margin-left: 30%;
+  }
 }
 
 /* Large Devices, Laptops, Large Tablets iPad Pro */
@@ -85,8 +102,14 @@
     }
 
     .foodListRow {
+      display: flex;
+      justify-content: center;
       align-items: center;
       margin-left: 30%;
+    }
+
+    .foodListTable {
+      max-width: 50%;
     }
   }
 }
@@ -110,6 +133,11 @@
       align-items: center;
       margin-left: 24%;
     }
+
+    .foodListTable {
+      align-items: center;
+      max-width: 55%;
+    }
   }
 }
 
@@ -131,6 +159,12 @@
     .foodListRow {
       align-items: center;
       margin-left: 15%;
+    }
+
+    .foodListTable {
+      font-size: 0.9rem;
+      align-items: center;
+      max-width: 93%;
     }
   }
 }
@@ -162,6 +196,12 @@
     .foodListRow {
       align-items: center;
       margin-left: 8%;
+    }
+
+    .foodListTable {
+      font-size: 0.8rem;
+      align-items: center;
+      max-width: 90%;
     }
   }
 }
