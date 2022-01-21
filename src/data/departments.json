@@ -1,58 +1,58 @@
 [
   {
     "id": 1,
-    "name": "Oddział Śląski w Katowicach 1",
-    "address": "ul. Słoneczna 1, 01-100 Katowice",
-    "nrTel": "+48 123 456 789",
-    "mail": "odzialkatowice@program.pl"
+    "name": "Zachodniopomorski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+    "address": "ul. Słowackiego 12a, 78-300 Świdwin",
+    "nrTel": "",
+    "mail": ""
   },
   {
     "id": 2,
-    "name": "Oddział Wielkopolski w Poznaniu 2",
-    "address": "ul. Słoneczna 1, 01-100 Katowice",
-    "nrTel": "+48 123 456 789",
-    "mail": "odzialkatowice@program.pl"
+    "name": "Pomorski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+    "address": "Sobącz 10 A, 83-420",
+    "nrTel": "",
+    "mail": ""
   },
   {
     "id": 3,
-    "name": "Oddział Mazowiecki w Warszawa Praga Północ 3",
-    "address": "ul. Słoneczna 1, 01-100 Katowice",
-    "nrTel": "+48 123 456 789",
-    "mail": "odzialkatowice@program.pl"
+    "name": "Warmińsko - Mazurski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+    "address": "ul. Kopernika 5; 11-200 Bartoszyce",
+    "nrTel": "",
+    "mail": ""
   },
   {
     "id": 4,
-    "name": "Oddział Podkarpacki w Ustrzykach Dolnych 4",
-    "address": "ul. Słoneczna 1, 01-100 Katowice",
-    "nrTel": "+48 123 456 789",
-    "mail": "odzialkatowice@program.pl"
+    "name": "Podlaski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+    "address": "ul. Kowalskiego 8a /12 , 16-400 Suwałki",
+    "nrTel": "",
+    "mail": ""
   },
   {
     "id": 5,
-    "name": "Oddział Małopolski w Nowym Targu 5",
-    "address": "ul. Słoneczna 1, 01-100 Katowice",
-    "nrTel": "+48 123 456 789",
-    "mail": "odzialkatowice@program.pl"
+    "name": "Mazowiecki Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+    "address": "ul. Romanów 17, 05-610 Goszczyn",
+    "nrTel": "",
+    "mail": ""
   },
   {
     "id": 6,
-    "name": "Oddział Zachodniopomorski w Świdwinie 6",
-    "address": "ul. Słoneczna 1, 01-100 Katowice",
-    "nrTel": "+48 123 456 789",
-    "mail": "odzialkatowice@program.pl"
+    "name": "Łódzki Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+    "address": "ul. Częstochowska 64 m.150; 93-121 Łódź",
+    "nrTel": "",
+    "mail": ""
   },
   {
     "id": 7,
-    "name": "Oddział Dolnośląski w Ząbkowicach Śląskich 7",
-    "address": "ul. Słoneczna 1, 01-100 Katowice",
-    "nrTel": "+48 123 456 789",
-    "mail": "odzialkatowice@program.pl"
+    "name": "Śląski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+    "address": "ul. Portowa 16; 44-100 Gliwice",
+    "nrTel": "",
+    "mail": ""
   },
   {
     "id": 8,
-    "name": "Oddział Pomorski w Gdańsku 8",
-    "address": "ul. Słoneczna 1, 01-100 Katowice",
-    "nrTel": "+48 123 456 789",
-    "mail": "odzialkatowice@program.pl"
+    "name": "Świętokrzyski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+    "address": "ul. Ostrowiecka 42 , 27-400 Miłków",
+    "nrTel": "",
+    "mail": ""
   }
 ]
