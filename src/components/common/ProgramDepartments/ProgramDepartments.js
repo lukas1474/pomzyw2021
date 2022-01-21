@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './ProgramDepartments.module.scss';
 
-import { Container, Row, Col } from 'react-bootstrap';
 import departments from '../../../data/departments.json';
 
 const ProgramDepartments = () => {
@@ -11,14 +10,14 @@ const ProgramDepartments = () => {
       <div className={`container ${styles.container}`}>
         {departments.map((department, index) => {
           return(
-            <div className={`row ${styles.row}`} key={index}>
-              <div className={`col-12 col-sm-12 col-lg-5 ${styles.department}`}>
+            <ul className={`row ${styles.row}`} key={index}>
+              <li className={`col-12 col-sm-12 col-md-7 col-lg-6 col-xl-5 ${styles.departmentName}`}>
                 <p className={styles.departmentsSubtitle}>{department.name}</p>
-              </div>
-              <div className={`col-12 col-sm-12 col-lg-4 ${styles.department}`}>
+              </li>
+              <li className={`col-12 col-sm-12 col-md-5 col-lg-4 col-xl-4 ${styles.departmentAddress}`}>
                 <p className={styles.departmentDetails}>{department.address}</p>
-              </div>
-            </div>
+              </li>
+            </ul>
           );
         })}
       </div>
