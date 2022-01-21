@@ -1,0 +1,89 @@
+@import "../../../styles/settings.scss";
+
+.contactTitle {
+  @include sectionTitle;
+}
+
+.contactSubtitle {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.contactContent {
+  @include flex(null, center, center);
+}
+
+.contactLogo {
+  @include flex(column, null, null);
+  float: left;
+  margin: 0 10px 0 10px;
+
+  .contactLogoImage {
+    float: left;
+    width: 250px;
+  }
+}
+
+/* ExtraExtraLarge Devices, UltraWide Desktops  */
+@media (min-width: 1921px) {
+}
+
+/* LG Large Devices, Tablets iPad Pro */
+@media (min-width: 1200px) and (max-width: 1920px) {
+}
+
+/* Large Devices, Laptops, Large Tablets iPad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .root {
+    .contactContent {
+      margin: 0 15px 0 15px;
+    }
+  }
+}
+
+/* MD Medium Devices, Tablets iPad */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .root {
+    .contactText, .contactLogo{
+      margin: 0 20px 0 20px;
+    }
+
+    .contactContent {
+      margin: 0 10px 0 10px;
+    }
+  }
+}
+
+/* SM Small Devices, Small tablets Large Phones */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .root {
+    .contactText, .contactLogo{
+      margin-bottom: 20px;
+    }
+
+    .contactLogo {
+      @include flex(null, center, center);
+    }
+
+    .contactContent {
+      margin: 0 5px 0 5px;
+    }
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .root {
+    .contactText, .contactLogo{
+      margin-bottom: 20px;
+    }
+
+    .contactLogo {
+      @include flex(null, center, center);
+    }
+
+    .contactContent {
+      margin: 0 3px 0 3px;
+    }
+  }
+}
