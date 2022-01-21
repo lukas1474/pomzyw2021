@@ -1,27 +1,26 @@
 import React from 'react';
 import styles from './ProgramDepartments.module.scss';
 
-import { Container } from 'react-bootstrap';
 import departments from '../../../data/departments.json';
 
 const ProgramDepartments = () => {
   return (
     <div className={styles.root}>
-      <h2 className={styles.title}>Gdzie szukać pomocy?</h2>
-      <Container className={styles.container}>
+      <h2 className={styles.departmentsTitle}>Gdzie szukać pomocy?</h2>
+      <div className={`container ${styles.container}`}>
         {departments.map((department, index) => {
           return(
-            <div className={styles.row} key={index}>
-              <div className={styles.department}>
-                <h5 className={styles.departmentTitle}>{department.name}</h5>
+            <ul className={`row ${styles.row}`} key={index}>
+              <li className={`col-12 col-sm-12 col-md-7 col-lg-6 col-xl-5 ${styles.departmentName}`}>
+                <p className={styles.departmentsSubtitle}>{department.name}</p>
+              </li>
+              <li className={`col-12 col-sm-12 col-md-5 col-lg-4 col-xl-4 ${styles.departmentAddress}`}>
                 <p className={styles.departmentDetails}>{department.address}</p>
-                <p className={styles.departmentDetails}>{department.nrTel}</p>
-                <p className={styles.departmentDetails}>{department.mail}</p>
-              </div>
-            </div>
+              </li>
+            </ul>
           );
         })}
-      </Container>
+      </div>
     </div>
   );
 };
