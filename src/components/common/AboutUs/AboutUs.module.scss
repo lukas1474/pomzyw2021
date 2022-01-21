@@ -10,6 +10,7 @@
 
 .aboutUsSubtitle {
   @include subsectionTitle;
+  margin: 0 25px 0 25px;
 }
 
 .aboutUsLogo {
@@ -33,14 +34,6 @@
 
 /* Large Devices, Laptops, Large Tablets iPad Pro */
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
-  .aboutUsContent {
-    @include flex(column, center, center);
-  }
-
-  .aboutUsLogo {
-    @include flex(row, center, center);
-  }
-
   .aboutUsDescription {
     margin: 0 15px 0 15px;
   }
@@ -48,14 +41,6 @@
 
 /* Medium Devices, Tablets iPad */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .aboutUsContent {
-    @include flex(column, center, center);
-  }
-
-  .aboutUsLogo {
-    @include flex(row, center, center);
-  }
-
   .aboutUsDescription {
     margin: 0 10px 0 10px;
   }
@@ -63,10 +48,6 @@
 
 /* Small Devices, Small tablets Large Phones */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  .aboutUsContent {
-    @include flex(column, center, center);
-  }
-
   .aboutUsDescription {
     margin: 0 5px 0 5px;
   }

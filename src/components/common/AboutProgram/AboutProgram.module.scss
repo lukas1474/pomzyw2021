@@ -14,9 +14,9 @@
 }
 
 .requirements {
-  color: $lightGreyBlue;
+  color: black;
   font-weight: bold;
-  border-bottom: 1px solid $lightGreyBlue;
+  border-bottom: 1px solid black;
   cursor: grab;
 
   &:hover {
@@ -25,11 +25,24 @@
   }
 }
 
+.tableBox {
+  @include flex(null, null, center);
+  margin-top: 25px;
+
+  .foodListTable {
+    max-width: 40%;
+  }
+
+  .foodListColumnQuantity {
+    @include flex(null, null, center);
+  }
+}
+
 .contactBox {
   font-size: 1.23rem;
   font-weight: bold;
   line-height: 1.5;
-  margin: 15px 0 15px 0;
+  margin: 15px 0 0 0;
 
   p {
     font-size: 1.23rem;
@@ -38,7 +51,7 @@
   }
 
   .aboutProgramContactDescription {
-    padding: 10px;
+    padding: 5px;
     text-align: center;
   }
 }
@@ -46,17 +59,25 @@
 .foodListUl {
   list-style: none;
   padding-left: 0;
-  margin: 0 25px 0 25px;
 
   .foodListRow {
     padding: 5px;
-    color: $lightGreyBlue;
+    color: black;
     font-weight: bold;
     cursor: grab;
+    margin-left: 33%;
 
     &:hover {
       color: $gold;
     }
+  }
+}
+.carousel {
+  .carouselItem {
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: clamp(250px, 33%, 500px);
+    background: $aboutProgramCarousel-bg;
   }
 }
 
@@ -66,6 +87,10 @@
 
 /* LG Large Devices, Tablets iPad Pro */
 @media (min-width: 1200px) and (max-width: 1920px) {
+  .foodListRow {
+    align-items: center;
+    margin-left: 30%;
+  }
 }
 
 /* Large Devices, Laptops, Large Tablets iPad Pro */
@@ -81,6 +106,17 @@
 
     .aboutProgramContactDescription {
       margin: 0 15px 0 15px;
+    }
+
+    .foodListRow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 30%;
+    }
+
+    .foodListTable {
+      max-width: 50%;
     }
   }
 }
@@ -99,6 +135,16 @@
     .aboutProgramContactDescription {
       margin: 0 10px 0 10px;
     }
+
+    .foodListRow {
+      align-items: center;
+      margin-left: 24%;
+    }
+
+    .foodListTable {
+      align-items: center;
+      max-width: 55%;
+    }
   }
 }
 
@@ -116,6 +162,17 @@
     .aboutProgramContactDescription {
       margin: 0 5px 0 5px;
     }
+
+    .foodListRow {
+      align-items: center;
+      margin-left: 15%;
+    }
+
+    .foodListTable {
+      font-size: 0.9rem;
+      align-items: center;
+      max-width: 93%;
+    }
   }
 }
 
@@ -127,7 +184,7 @@
     }
 
     .aboutProgramSubtitle {
-      margin: 15px 3px 15px 3px;
+      margin: 15px 3px 0 3px;
     }
 
     .aboutProgramContactDescription {
@@ -141,6 +198,17 @@
       p {
         font-size: 1.15rem;
       }
+    }
+
+    .foodListRow {
+      align-items: center;
+      margin-left: 8%;
+    }
+
+    .foodListTable {
+      font-size: 0.8rem;
+      align-items: center;
+      max-width: 90%;
     }
   }
 }
