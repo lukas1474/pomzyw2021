@@ -6,6 +6,8 @@ import { Col, Carousel } from 'react-bootstrap';
 import aboutProgram from '../../../data/aboutProgram.json';
 import foodList from '../../../data/foodList.json';
 
+import Posters from '../../features/Posters/Posters';
+
 const AboutProgram = () => (
   <div className={styles.root}>
     <h2 className={styles.aboutProgramTitle}>{aboutProgram.title}</h2>
@@ -59,6 +61,7 @@ const AboutProgram = () => (
         </Carousel.Item>
       ))}
     </Carousel>
+    <Posters />
   </div>
 );
 
