@@ -18,5 +18,25 @@
   "descriptionTel": "+48 696 645 486",
 
   "subtitleMail": "E-Mail:",
-  "descriptionMail": "kontakt@pomoczywnosciowa.pl"
+  "descriptionMail": "kontakt@pomoczywnosciowa.pl",
+  "programPartners": [
+   {
+     "id": "partner1",
+     "title": "Ministerstwo Rodziny i Polityki Społecznej",
+     "src": "/images/ministerstwo.webp",
+     "alt": "Ministerstwo Rodziny i Polityki Społecznej alt"
+   },
+   {
+    "id": "partner2",
+    "title": "Krajowy Ośrodek Wsparcia Rolnictwa",
+    "src": "/images/kowr.webp",
+    "alt": "Krajowy Ośrodek Wsparcia Rolnictwa alt"
+  },
+  {
+    "id": "partner3",
+    "title": "Europejski Fundusz Pomocy Najbardziej Potrzebującym",
+    "src": "/images/unia.webp",
+    "alt": "Europejski Fundusz Pomocy Najbardziej Potrzebującym alt"
+  }
+  ]
 }

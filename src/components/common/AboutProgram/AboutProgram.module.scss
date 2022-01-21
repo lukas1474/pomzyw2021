@@ -57,7 +57,6 @@
 }
 
 .foodListUl {
-
   list-style: none;
   padding-left: 0;
 
@@ -71,6 +70,14 @@
     &:hover {
       color: $gold;
     }
+  }
+}
+.carousel {
+  .carouselItem {
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: clamp(250px, 33%, 500px);
+    background: $aboutProgramCarousel-bg;
   }
 }
 
