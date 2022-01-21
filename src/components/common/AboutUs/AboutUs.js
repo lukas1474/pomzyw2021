@@ -9,14 +9,9 @@ const AboutUs = () => (
     <div className={styles.aboutUsContent}>
       <div className={styles.aboutUsLogo}>
         <img className={styles.aboutUsLogoImage} src="/images/logo-starokatolicki__red.webp"alt="Logo Starokatolicki"/>
-        {/* <img className={styles.aboutUsLogoImage} src="/images/logo-calatrava.webp" alt="Logo Program"/> */}
       </div>
       <p className={styles.aboutUsDescription}>{aboutUs.descriptionChurchRow1}</p>
       <p className={styles.aboutUsDescription}>{aboutUs.descriptionChurchRow2}</p>
-      {/* <p className={styles.aboutUsDescription}>{aboutUs.descriptionChurchRow3}</p> */}
-      {/* <p className={styles.aboutUsSubtitle}>{aboutUs.subtitleChurch}</p> */}
-      {/* <p className={styles.aboutUsDescription}>{aboutUs.descriptionChurchRow4}</p> */}
-      {/* <p className={styles.aboutUsDescription}>{aboutUs.descriptionChurchRow5}</p> */}
     </div>
   </div>
 );
