@@ -11,6 +11,7 @@
 
 .contactContent {
   @include flex(null, center, center);
+  margin-top: 40px;
 }
 
 .contactLogo {
