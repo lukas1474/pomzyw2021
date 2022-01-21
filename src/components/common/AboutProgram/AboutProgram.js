@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../AboutProgram/AboutProgram.module.scss';
 
-import { Col } from 'react-bootstrap';
+import { Col, Carousel } from 'react-bootstrap';
 
 import aboutProgram from '../../../data/aboutProgram.json';
 import foodList from '../../../data/foodList.json';
@@ -31,7 +31,7 @@ const AboutProgram = () => (
     <h4 className={styles.aboutProgramSubtitle}>{aboutProgram.subtitleWhat}</h4>
     <p className={styles.aboutProgramDescription}>{aboutProgram.descriptionWhat}</p>
     <div className={styles.tableBox}>
-      <table className={`table table-bordered ${styles.foodListTable}`}>
+      <table className={`table table-borderless ${styles.foodListTable}`}>
         <thead className="thead-light">
           <tr>
             <th scope="col">Produkt</th>
@@ -48,6 +48,17 @@ const AboutProgram = () => (
         ))}
       </table>
     </div>
+    <Carousel controls={false} interval={3000} fade={true} className={styles.carousel} pause={false} indicators={false}>
+      {aboutProgram.programPartners.map((item) => (
+        <Carousel.Item key={item.id} className={styles.carouselItem}>
+          <img
+            className="d-block w-100"
+            src={item.src}
+            alt={item.src}
+          />
+        </Carousel.Item>
+      ))}
+    </Carousel>
   </div>
 );
 
