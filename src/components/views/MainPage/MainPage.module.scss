@@ -61,15 +61,3 @@
     width: 90%;
   }
 }
-
-/* Media pointer*/
-@media (hover: hover) and (pointer: fine) {
-  .root {
-  }
-}
-
-/* Media touchable */
-@media (pointer: coarse) {
-  .root {
-  }
-}

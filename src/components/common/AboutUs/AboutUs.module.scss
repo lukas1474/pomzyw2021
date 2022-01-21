@@ -4,23 +4,22 @@
   @include sectionTitle;
 }
 
-.aboutUsDescription {
-  @include sectionDefaultDescription;
-}
+.aboutUsContent {
+  margin-top: 40px;
 
-.aboutUsSubtitle {
-  @include subsectionTitle;
-  margin: 0 25px 0 25px;
-}
-
-.aboutUsLogo {
-  @include flex(column, null, null);
-  float: left;
-  margin: 0 10px 0 10px;
-
-  .aboutUsLogoImage {
+  .aboutUsLogo {
+    @include flex(column, null, null);
     float: left;
-    width: 250px;
+    margin: 0 10px 0 10px;
+
+    .aboutUsLogoImage {
+      float: left;
+      width: 250px;
+    }
+  }
+
+  .aboutUsDescription {
+    @include sectionDefaultDescription;
   }
 }
 
