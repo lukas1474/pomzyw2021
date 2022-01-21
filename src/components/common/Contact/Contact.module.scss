@@ -10,9 +10,7 @@
 }
 
 .contactContent {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex(null, center, center);
 }
 
 .contactLogo {
