@@ -4,14 +4,18 @@
   @include sectionTitle;
 }
 
+.container {
+  margin-top: 25px;
+}
+
 .departmentName, .departmentAddress {
   margin-top: 25px;
   line-height: 1.5;
 }
 
 .departmentName {
-  text-align: justify;
-  list-style: square;
+  margin-top: 1rem;
+  list-style: none;
 }
 
 .departmentAddress {
@@ -20,18 +24,18 @@
 }
 
 .row {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
+  @include flex(row, null, center);
   margin: 0 25px 0 25px;
+  padding-left: 0;
 }
 
 .departmentsSubtitle {
-  font-weight: bold
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 .departmentDetails {
-  margin-bottom: 25px;
+  margin-left: 5%;
 }
 
 /* ExtraExtraLarge Devices, UltraWide Desktops  */
@@ -61,6 +65,10 @@
 /* SM Small Devices, Small tablets Large Phones */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .root {
+    .container {
+      margin-top: 25px;
+    }
+
     .departmentName, .departmentAddress {
       margin-top: 0;
     }
@@ -74,6 +82,10 @@
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 0px) and (max-width: 479px) {
   .root {
+    .container {
+      margin-top: 25px;
+    }
+
     .departmentName, .departmentAddress {
       margin-top: 0;
     }

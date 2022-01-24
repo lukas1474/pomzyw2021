@@ -31,6 +31,7 @@
 
   .foodListTable {
     max-width: 40%;
+    font-family: $font-text;
   }
 
   .foodListColumnQuantity {
@@ -169,7 +170,6 @@
     }
 
     .foodListTable {
-      font-size: 0.9rem;
       align-items: center;
       max-width: 93%;
     }
@@ -206,7 +206,6 @@
     }
 
     .foodListTable {
-      font-size: 0.8rem;
       align-items: center;
       max-width: 90%;
     }

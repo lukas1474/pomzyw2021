@@ -17,10 +17,10 @@
       width: 250px;
     }
   }
+}
 
-  .aboutUsDescription {
-    @include sectionDefaultDescription;
-  }
+.aboutUsDescription {
+  @include sectionDefaultDescription;
 }
 
 /* ExtraExtraLarge Devices, UltraWide Desktops  */
