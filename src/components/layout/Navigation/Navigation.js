@@ -1,12 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styles from './Navigation.module.scss';
-
 import { Col } from 'react-bootstrap';
 import { gsap } from 'gsap';
-
 import { NavHashLink } from 'react-router-hash-link';
 import { HamburgerSqueeze } from 'react-animated-burgers';
-
 import navigation from '../../../data/navigation.json';
 
 const Navigation = () => {
@@ -129,7 +126,6 @@ const Navigation = () => {
       );
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-
   useEffect(() => {
     const menuLinksL = menuLinksRefL.current.children;
     const menuLinksR = menuLinksRefR.current.children;
@@ -149,6 +145,7 @@ const Navigation = () => {
         );
     }
   }, [activeRWD]); // eslint-disable-line react-hooks/exhaustive-deps
+
   return (
     <nav className={scroll ? styles.root : styles.rootScroll} ref={menuRef}
     >
