@@ -1,5 +1,4 @@
 @import "../../../styles/settings.scss";
-
 .aboutProgramTitle {
   @include sectionTitle;
 }
@@ -73,12 +72,16 @@
     }
   }
 }
-.carousel {
-  .carouselItem {
-    left: 50%;
-    transform: translate(-50%, 0);
-    width: clamp(250px, 33%, 500px);
-    background: $aboutProgramCarousel-bg;
+.partnersContainer {
+  @include flex(row, center, space-around);
+  width: 100%;
+  margin-left: 0;
+  .partnersBox {
+    @include flex(row, center, center);
+    height: 10rem;
+    img {
+      object-fit: scale-down;
+    }
   }
 }
 
