@@ -31,6 +31,7 @@
     position: relative;
     top: 0;
     width: 100%;
+    transform: translateY(-100%);
 
     &::after {
       background: $menu-bg;
@@ -49,7 +50,6 @@
     position: absolute;
     transform: translate(-50%, -50%);
     width: 10rem;
-
     &::after {
       background: $menu-bg;
       border-radius: 50%;

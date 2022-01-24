@@ -1,22 +1,45 @@
-import React from 'react';
+import React, {useEffect, useRef} from 'react';
 import styles from '../AboutProgram/AboutProgram.module.scss';
 
 import { Col, Carousel } from 'react-bootstrap';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import aboutProgram from '../../../data/aboutProgram.json';
 import foodList from '../../../data/foodList.json';
 
 import Posters from '../../features/Posters/Posters';
 
-const AboutProgram = () => (
-  <div className={styles.root}>
-    <h2 className={styles.aboutProgramTitle}>{aboutProgram.title}</h2>
-    <h4 className={styles.aboutProgramSubtitle}>{aboutProgram.subtitleWho}</h4>
-    <p className={styles.aboutProgramDescription}>{aboutProgram.descriptionWho}</p>
-    <p className={styles.aboutProgramDescription}>
-      {aboutProgram.requirements}
-      <span className={styles.requirements}>{aboutProgram.requirementsAlone}</span>
-      lub
+const AboutProgram = () => {
+  const aboutProgramRef = useRef(null);
+  useEffect(() => {
+    const aboutProgramItem = aboutProgramRef.current.children;
+    gsap.set([aboutProgramItem], { autoAlpha: 0, y: 50 });
+    ScrollTrigger.batch(aboutProgramItem, {
+      start: `top bottom -=200px`,
+      onEnter: (batch) =>
+        gsap.to(batch, {
+          autoAlpha: 1,
+          delay: 0.5,
+          overwrite: true,
+          stagger: { each: 0.15 },
+          y: 0,
+        }),
+    });
+    ScrollTrigger.addEventListener(`refreshInit`, () =>
+      gsap.set(aboutProgramItem, { y: 0 })
+    );
+  }, []);
+  return (
+    <div className={styles.root}>
+      <h2 className={styles.aboutProgramTitle}>{aboutProgram.title}</h2>
+      <div ref={aboutProgramRef}>
+        <h4 className={styles.aboutProgramSubtitle}>{aboutProgram.subtitleWho}</h4>
+        <p className={styles.aboutProgramDescription}>{aboutProgram.descriptionWho}</p>
+        <p className={styles.aboutProgramDescription}>
+          {aboutProgram.requirements}
+          <span className={styles.requirements}>{aboutProgram.requirementsAlone}</span>
+          lub
       <span className={styles.requirements}>{aboutProgram.requirementsFamily}</span>
     </p>
     <p className={styles.aboutProgramDescription}>{aboutProgram.requirementsContact}</p>
@@ -43,20 +66,24 @@ const AboutProgram = () => (
           </tbody >
         ))}
       </table>
+        </div>
+        <Carousel controls={false} interval={3000} fade={true} className={styles.carousel} pause={false} indicators={false}>
+          {aboutProgram.programPartners.map((item) => (
+            <Carousel.Item key={item.id} className={styles.carouselItem}>
+              <img
+                className="d-block w-100"
+                src={item.src}
+                alt={item.src}
+              />
+            </Carousel.Item>
+          ))}
+        </Carousel>
+      </div>
+      <div>
+        <Posters />
+      </div>
     </div>
-    <Carousel controls={false} interval={3000} fade={true} className={styles.carousel} pause={false} indicators={false}>
-      {aboutProgram.programPartners.map((item) => (
-        <Carousel.Item key={item.id} className={styles.carouselItem}>
-          <img
-            className="d-block w-100"
-            src={item.src}
-            alt={item.src}
-          />
-        </Carousel.Item>
-      ))}
-    </Carousel>
-    <Posters />
-  </div>
-);
+  );
+};
 
 export default AboutProgram;
