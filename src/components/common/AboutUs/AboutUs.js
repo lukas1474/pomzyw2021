@@ -7,16 +7,17 @@ import aboutUs from '../../../data/aboutUs.json';
 const AboutUs = () => {
   const aboutUsRef = useRef(null);
   useEffect(() => {
-    const posterItem = aboutUsRef.current;
+    const posterItem = aboutUsRef.current.children;
     gsap.set([posterItem], { autoAlpha: 0, y: 50 });
     ScrollTrigger.batch(posterItem, {
       start: `top bottom -=200px`,
       onEnter: (batch) =>
         gsap.to(batch, {
-          delay: 0.5,
           autoAlpha: 1,
-          y: 0,
+          delay: 0.5,
           overwrite: true,
+          stagger: { each: 0.15 },
+          y: 0,
         }),
     });
     ScrollTrigger.addEventListener(`refreshInit`, () =>
