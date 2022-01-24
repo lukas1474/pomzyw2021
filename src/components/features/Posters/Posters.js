@@ -1,7 +1,9 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import styles from './Posters.module.scss';
 
 import CloseIcon from '@material-ui/icons/Close';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import posters from '../../../data/posters.json';
 
@@ -22,6 +24,26 @@ const Posters = () => {
     }
   }, [modal]);
 
+
+  const posterRef = useRef(null);
+  useEffect(() => {
+    const posterItem = posterRef.current.children;
+    gsap.set([posterItem], { autoAlpha: 0, x: -100 });
+    ScrollTrigger.batch(posterItem, {
+      start: `top bottom`,
+      onEnter: (batch) =>
+        gsap.to(batch, {
+          autoAlpha: 1,
+          x: 0,
+          stagger: { each: 0.15 },
+          overwrite: true,
+        }),
+    });
+    ScrollTrigger.addEventListener(`refreshInit`, () =>
+      gsap.set(posterItem, { x: 0 })
+    );
+  }, []);
+
   return (
     <div className={styles.root}>
       <div className={modal ? styles.modalOpen : styles.modal}>
@@ -30,7 +52,7 @@ const Posters = () => {
           onClick={() => setModal(false)}
         />
       </div>
-      <div className={styles.postersGallery}>
+      <div className={styles.postersGallery} ref={posterRef}>
         {posters.map((item, index) => {
           return(
             <img key={index} src={item.imgSrc} alt={item.alt} className={styles.poster}
