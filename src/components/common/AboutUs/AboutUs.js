@@ -10,7 +10,7 @@ const AboutUs = () => {
     const posterItem = aboutUsRef.current.children;
     gsap.set([posterItem], { autoAlpha: 0, y: 50 });
     ScrollTrigger.batch(posterItem, {
-      start: `top bottom`,
+      start: `top bottom -=200px`,
       onEnter: (batch) =>
         gsap.to(batch, {
           delay: 0.5,
