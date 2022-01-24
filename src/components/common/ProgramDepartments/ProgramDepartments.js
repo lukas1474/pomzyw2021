@@ -9,6 +9,7 @@ const ProgramDepartments = () => {
   const departmentRef = useRef(null);
   useEffect(() => {
     const departmentsItem = departmentRef.current.children;
+    console.log(`departmentsItem`, departmentsItem);
     gsap.set([departmentsItem], { autoAlpha: 0, y: 100 });
     ScrollTrigger.batch(departmentsItem, {
       start: `top bottom`,
@@ -29,7 +30,7 @@ const ProgramDepartments = () => {
       <h2 className={styles.departmentsTitle}>Gdzie szukać pomocy?</h2>
       <div className={`container ${styles.container}`}>
         {console.log(mainCoordinator)}
-        <ul className={`row ${styles.row}`}>
+        <ul className={`row ${styles.row}`} ref={departmentRef}>
           <div className={`col-12 col-md-8 ${styles.departmentName}`}>
             <p className={styles.departmentsSubtitle}>{mainCoordinator.title}</p>
             <p className={styles.departmentDetails}>{mainCoordinator.subTitle}</p>
