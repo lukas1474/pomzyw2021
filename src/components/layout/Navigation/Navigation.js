@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import styles from './Navigation.module.scss';
 
 import { Col } from 'react-bootstrap';
+import { gsap } from 'gsap';
 
 import { NavHashLink } from 'react-router-hash-link';
 import { HamburgerSqueeze } from 'react-animated-burgers';
@@ -81,6 +82,73 @@ const Navigation = () => {
   //   }
   // });
 
+  const menuLinksRefL = useRef(null);
+  const menuLinksRefR = useRef(null);
+  const logoRef = useRef(null);
+
+  const timeline = gsap.timeline({
+    duration: 0.3,
+    defaults: {
+      ease: `Power3.easeOut`,
+    },
+  });
+  useEffect(() => {
+    const menuBackground = menuRef.current.children[1];
+    const menuLogo = logoRef.current;
+    const menuLinksL = menuLinksRefL.current.children;
+    const menuLinksR = menuLinksRefR.current.children;
+    gsap.set([menuBackground, menuLogo, menuLinksL, menuLinksR], { autoAlpha: 0});
+
+    timeline
+      .fromTo(
+        menuBackground,
+        { autoAlpha: 0, y: -100 },
+        {
+          autoAlpha: 1,
+          y: 0,
+        }
+      ).fromTo(
+        menuLogo,
+        { autoAlpha: 0, y: -100 },
+        {
+          autoAlpha: 1,
+          y: 0,
+        },
+        '-=0.3'
+      )
+      .fromTo(
+        menuLinksL,
+        { y: -100 },
+        { autoAlpha: 1, y: 0, stagger: 0.1 },
+        `<0.5`,
+      ).fromTo(
+        menuLinksR,
+        { y: 0 },
+        { autoAlpha: 1, y: 0, stagger: 0.1 },
+        '-=0.2'
+      );
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+
+  useEffect(() => {
+    const menuLinksL = menuLinksRefL.current.children;
+    const menuLinksR = menuLinksRefR.current.children;
+    if(activeRWD){
+      gsap.set([menuLinksL, menuLinksR], { autoAlpha: 0, x: 100});
+      timeline
+        .fromTo(
+          menuLinksL,
+          { x: 100 },
+          { autoAlpha: 1, x: 0, stagger: 0.1 },
+          `<0.3`,
+        ).fromTo(
+          menuLinksR,
+          { x: 100 },
+          { autoAlpha: 1, x: 0, stagger: 0.1 },
+          '-=0.2'
+        );
+    }
+  }, [activeRWD]); // eslint-disable-line react-hooks/exhaustive-deps
   return (
     <nav className={scroll ? styles.root : styles.rootScroll} ref={menuRef}
     >
@@ -93,7 +161,7 @@ const Navigation = () => {
       <div className={styles.background} />
       <div className={activeRWD ? styles.menu : styles.menu__hidden}>
         <Col className="col-12 col-xl-5">
-          <div className="d-flex flex-column flex-xl-row">
+          <div className="d-flex flex-column flex-xl-row" ref={menuLinksRefL}>
             {navigation
               .filter((item) => item.side === `L`)
               .map((item) => (
@@ -112,7 +180,7 @@ const Navigation = () => {
           </div>
         </Col>
         <Col className="col-12 col-xl-5 offset-xl-2">
-          <div className="d-flex flex-column flex-xl-row">
+          <div className="d-flex flex-column flex-xl-row" ref={menuLinksRefR}>
             {navigation
               .filter((item) => item.side === `R`)
               .map((item) => (
@@ -131,7 +199,7 @@ const Navigation = () => {
           </div>
         </Col>
       </div>
-      <div className={styles.circle}>
+      <div className={styles.circle} ref={logoRef}>
         <div className={styles.logo}>
           <NavHashLink
             smooth
