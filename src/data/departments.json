@@ -1,58 +1,75 @@
-[
-  {
+{
+  "mainCoordinator": {
     "id": 1,
-    "name": "Zachodniopomorski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
-    "address": "ul. Słowackiego 12a, 78-300 Świdwin",
-    "nrTel": "",
-    "mail": ""
+    "title": "KOORDYNATOR KRAJOWY PROGRAMU POMOCY ŻYWNOŚCIOWEJ",
+    "subTitle": "Skarbnik Generalny Kościoła Starokatolickiego w Rzeczypospolitej Polskiej",
+    "name": "o. Jacek Roman Bogacz"
   },
-  {
-    "id": 2,
-    "name": "Pomorski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
-    "address": "Sobącz 10 A, 83-420",
-    "nrTel": "",
-    "mail": ""
-  },
-  {
-    "id": 3,
-    "name": "Warmińsko - Mazurski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
-    "address": "ul. Kopernika 5; 11-200 Bartoszyce",
-    "nrTel": "",
-    "mail": ""
-  },
-  {
-    "id": 4,
-    "name": "Podlaski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
-    "address": "ul. Kowalskiego 8a /12 , 16-400 Suwałki",
-    "nrTel": "",
-    "mail": ""
-  },
-  {
-    "id": 5,
-    "name": "Mazowiecki Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
-    "address": "ul. Romanów 17, 05-610 Goszczyn",
-    "nrTel": "",
-    "mail": ""
-  },
-  {
-    "id": 6,
-    "name": "Łódzki Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
-    "address": "ul. Częstochowska 64 m.150; 93-121 Łódź",
-    "nrTel": "",
-    "mail": ""
-  },
-  {
-    "id": 7,
-    "name": "Śląski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
-    "address": "ul. Portowa 16; 44-100 Gliwice",
-    "nrTel": "",
-    "mail": ""
-  },
-  {
-    "id": 8,
-    "name": "Świętokrzyski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
-    "address": "ul. Ostrowiecka 42 , 27-400 Miłków",
-    "nrTel": "",
-    "mail": ""
-  }
-]
+
+  "department": [
+    {
+      "id": 1,
+      "name": "Zachodniopomorski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "address": "ul. Słowackiego 12a, 78-300 Świdwin",
+      "coordinator": "KOORDYNATOR WOJEWÓDZKI: s. Joanna Narewska",
+      "nrTel": "",
+      "mail": ""
+    },
+    {
+      "id": 2,
+      "name": "Pomorski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "address": "Sobącz 10 A, 83-420",
+      "coordinator": "KOORDYNATOR WOJEWÓDZKI: br. Grzegorz Osipowicz",
+      "nrTel": "",
+      "mail": ""
+    },
+    {
+      "id": 3,
+      "name": "Warmińsko - Mazurski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "address": "ul. Kopernika 5; 11-200 Bartoszyce",
+      "coordinator": "KOORDYNATOR WOJEWÓDZKI: br. Tomasz Huta",
+      "nrTel": "",
+      "mail": ""
+    },
+    {
+      "id": 4,
+      "name": "Podlaski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "address": "ul. Kowalskiego 8a /12 , 16-400 Suwałki",
+      "coordinator": "KOORDYNATOR WOJEWÓDZKI: br. Marian Pietkiewicz",
+      "nrTel": "",
+      "mail": ""
+    },
+    {
+      "id": 5,
+      "name": "Mazowiecki Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "address": "ul. Romanów 17, 05-610 Goszczyn",
+      "coordinator": "KOORDYNATORZY WOJEWÓDZCY: br. Roman Wasilewski, br. Krzysztof Kępka, br. Jan Boczkowski",
+      "nrTel": "",
+      "mail": ""
+    },
+    {
+      "id": 6,
+      "name": "Łódzki Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "address": "ul. Częstochowska 64 m.150; 93-121 Łódź",
+      "coordinator": "KOORDYNATORZY WOJEWÓDZCY: s. Izabela Mertin, br. Maciej Mertin",
+      "nrTel": "",
+      "mail": ""
+    },
+    {
+      "id": 7,
+      "name": "Śląski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "address": "ul. Portowa 16; 44-100 Gliwice",
+      "coordinator": "KOORDYNATOR WOJEWÓDZKI: br. Łukasz Matysek",
+      "nrTel": "",
+      "mail": ""
+    },
+    {
+      "id": 8,
+      "name": "Świętokrzyski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "address": "ul. Ostrowiecka 42 , 27-400 Miłków",
+      "coordinator": "KOORDYNATOR WOJEWÓDZKI: br. Norbert Kaczmarek",
+      "nrTel": "",
+      "mail": ""
+    }
+  ]
+}

@@ -34,12 +34,6 @@ const AboutProgram = () => (
     <p className={styles.aboutProgramDescription}>{aboutProgram.descriptionWhat}</p>
     <div className={styles.tableBox}>
       <table className={`table table-borderless ${styles.foodListTable}`}>
-        <thead className="thead-light">
-          <tr>
-            <th scope="col">Produkt</th>
-            <th className={styles.foodListColumnQuantity} scope="col">Ilość</th>
-          </tr>
-        </thead>
         {foodList.map((item) => (
           <tbody key={item.id}>
             <tr>
