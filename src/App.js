@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
-
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import './styles/bootstrap.scss';
 import'./styles/global.scss';
 
@@ -9,6 +10,7 @@ import MainPage from './components/views/MainPage/MainPage';
 import NotFound from './components/views/NotFound/NotFound';
 
 function App() {
+  gsap.registerPlugin(ScrollTrigger);
   return (
     <div>
       <BrowserRouter>
