@@ -20,23 +20,29 @@
   "subtitleMail": "E-Mail:",
   "descriptionMail": "kontakt@pomoczywnosciowa.pl",
   "programPartners": [
+    {
+      "id": "partner1",
+      "title": "Europejski Fundusz Pomocy Najbardziej Potrzebującym",
+      "src": "/images/unia.webp",
+      "alt": "Europejski Fundusz Pomocy Najbardziej Potrzebującym alt"
+    },
    {
-     "id": "partner1",
+     "id": "partner2",
      "title": "Ministerstwo Rodziny i Polityki Społecznej",
      "src": "/images/ministerstwo.webp",
      "alt": "Ministerstwo Rodziny i Polityki Społecznej alt"
    },
    {
-    "id": "partner2",
+    "id": "partner3",
     "title": "Krajowy Ośrodek Wsparcia Rolnictwa",
     "src": "/images/kowr.webp",
     "alt": "Krajowy Ośrodek Wsparcia Rolnictwa alt"
   },
   {
-    "id": "partner3",
-    "title": "Europejski Fundusz Pomocy Najbardziej Potrzebującym",
-    "src": "/images/unia.webp",
-    "alt": "Europejski Fundusz Pomocy Najbardziej Potrzebującym alt"
+    "id": "partner4",
+    "title": "Kościół Starokatolicki Zakon Rycerski Kalatrawy",
+    "src": "/images/kalatrawa.webp",
+    "alt": "Kościół Starokatolicki Zakon Rycerski Kalatrawy"
   }
   ]
 }

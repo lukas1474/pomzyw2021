@@ -18,10 +18,10 @@
   @include flex(column, null, null);
   float: left;
   margin: 0 10px 0 10px;
-
   .contactLogoImage {
     float: left;
-    width: 250px;
+    height: 15rem;
+    margin: 1rem;
   }
 }
 
@@ -45,7 +45,8 @@
 /* MD Medium Devices, Tablets iPad */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .root {
-    .contactText, .contactLogo{
+    .contactText,
+    .contactLogo {
       margin: 0 20px 0 20px;
     }
 
@@ -58,7 +59,8 @@
 /* SM Small Devices, Small tablets Large Phones */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .root {
-    .contactText, .contactLogo{
+    .contactText,
+    .contactLogo {
       margin-bottom: 20px;
     }
 
@@ -75,7 +77,8 @@
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 0px) and (max-width: 479px) {
   .root {
-    .contactText, .contactLogo{
+    .contactText,
+    .contactLogo {
       margin-bottom: 20px;
     }
 

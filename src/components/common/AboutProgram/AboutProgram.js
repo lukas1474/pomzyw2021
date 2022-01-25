@@ -1,13 +1,13 @@
 import React, {useEffect, useRef} from 'react';
 import styles from '../AboutProgram/AboutProgram.module.scss';
 
-import { Col, Carousel } from 'react-bootstrap';
+import { Col, Carousel, Row } from 'react-bootstrap';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import aboutProgram from '../../../data/aboutProgram.json';
 import foodList from '../../../data/foodList.json';
-
+import Partnerzy from '../../../images/partnerzy.svg';
 import Posters from '../../features/Posters/Posters';
 
 const AboutProgram = () => {
@@ -32,6 +32,31 @@ const AboutProgram = () => {
   }, []);
   return (
     <div className={styles.root}>
+      {
+        window.innerWidth <= 1200 ?
+          (
+            <Carousel controls={false} interval={3000} fade={true} className={styles.partnersContainer} pause={false} indicators={false}>
+              {aboutProgram.programPartners.map((item) => (
+                <Carousel.Item key={item.id} className={styles.partnersBox}>
+                  <img
+                    className="d-block w-100"
+                    src={item.src}
+                    alt={item.src}
+                  />
+                </Carousel.Item>
+              ))}
+            </Carousel>
+          ) :
+          (
+            <Row className={styles.partnersContainer}>
+              <img
+                className="d-block w-100"
+                src={Partnerzy}
+                alt="Partnerzy"
+              />
+            </Row>
+          )
+      }
       <h2 className={styles.aboutProgramTitle}>{aboutProgram.title}</h2>
       <div ref={aboutProgramRef}>
         <h4 className={styles.aboutProgramSubtitle}>{aboutProgram.subtitleWho}</h4>
@@ -39,7 +64,7 @@ const AboutProgram = () => {
         <p className={styles.aboutProgramDescription}>
           {aboutProgram.requirements}
           <span className={styles.requirements}>{aboutProgram.requirementsAlone}</span>
-          lub
+      lub
           <span className={styles.requirements}>{aboutProgram.requirementsFamily}</span>
         </p>
         <p className={styles.aboutProgramDescription}>{aboutProgram.requirementsContact}</p>
@@ -67,21 +92,8 @@ const AboutProgram = () => {
             ))}
           </table>
         </div>
-        <Carousel controls={false} interval={3000} fade={true} className={styles.carousel} pause={false} indicators={false}>
-          {aboutProgram.programPartners.map((item) => (
-            <Carousel.Item key={item.id} className={styles.carouselItem}>
-              <img
-                className="d-block w-100"
-                src={item.src}
-                alt={item.src}
-              />
-            </Carousel.Item>
-          ))}
-        </Carousel>
       </div>
-      <div>
-        <Posters />
-      </div>
+      <Posters />
     </div>
   );
 };

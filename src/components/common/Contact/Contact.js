@@ -27,11 +27,11 @@ const Contact = () => {
     );
   }, []);
   return (
-    <div className={styles.root} id="kontakt">
+    <div className={styles.root} id="kontakt" ref={contactRef}>
       <h2 className={styles.contactTitle}>{contact.title}</h2>
-      <Row className={styles.contactContent} ref={contactRef}>
+      <Row className={styles.contactContent}>
         <Col xs={12} sm={12} md={4} lg={4} className={styles.contactLogo}>
-          <img className={styles.contactLogoImage} src="/images/logo-calatrava.webp" alt="Logo Program"/>
+          <img className={styles.contactLogoImage} src="/images/kalatrawa.svg" alt="Logo Zakonu"/>
         </Col>
         <Col xs={12} sm={12} md={6} lg={5} className={styles.contactText}>
           <p className={styles.contactSubtitle}>{contact.titleChurch}</p>
