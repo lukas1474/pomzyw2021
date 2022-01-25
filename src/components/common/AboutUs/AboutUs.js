@@ -1,6 +1,7 @@
 import React, {useEffect, useRef} from 'react';
 import styles from './AboutUs.module.scss';
 import { gsap } from 'gsap';
+
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import aboutUs from '../../../data/aboutUs.json';
@@ -33,6 +34,7 @@ const AboutUs = () => {
         </div>
         <p className={styles.aboutUsDescription}>{aboutUs.descriptionChurchRow1}</p>
         <p className={styles.aboutUsDescription}>{aboutUs.descriptionChurchRow2}</p>
+        <span className={styles.aboutUsDescription}>Historia Kościoła Starokatolickiego <a href="https://www.starokatolicki.eu/historia-kosciola-starokatolickiego/" className={styles.aboutUsDescription}>kliknij tutaj</a></span>
       </div>
     </div>
   );};

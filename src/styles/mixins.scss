@@ -7,24 +7,23 @@
 
 @mixin sectionTitle {
   @include flex(row, center, center);
-  padding-bottom: 25px;
-  margin: 40px 25px 0 25px;
   border-bottom: 3px solid $bottom-color-below-title;
+  margin: 40px 25px 0 25px;
   max-width: 100%;
+  padding-bottom: 25px;
 }
 
 @mixin subsectionTitle {
   @include flex(null, null, center);
-  padding: 10px;
   font-weight: bold;
   line-height: 1.5;
   margin: 40px 25px 15px 25px;
+  padding: 10px;
 }
 
 @mixin sectionDefaultDescription {
-  padding: 10px;
-  text-indent: 25px;
-  text-align: justify;
   line-height: 1.5;
   margin: 0 25px 0 25px;
+  padding: 10px;
+  text-indent: 25px;
 }

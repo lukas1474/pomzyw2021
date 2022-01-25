@@ -41,6 +41,8 @@ const Contact = () => {
           <a className={styles.contactDetails} href={`tel:${contact.contactTel}`}>{contact.contactTel}</a>
           <br/>
           <a className={styles.contactDetails} href={`mailto:${contact.contactMail}`}>{contact.contactMail}</a>
+          <br/>
+          <a href="https://www.starokatolicki.eu/" className={styles.textFooter}>www.starokatolicki.eu</a>
         </Col>
       </Row>
     </div>
