@@ -1,4 +1,16 @@
 @import "../../../styles/settings.scss";
+
+.partnersContainer {
+  width: 100%;
+  margin-left: 0;
+  .partnersBox {
+    img {
+      height: 10rem;
+      object-fit: scale-down;
+    }
+  }
+}
+
 .aboutProgramTitle {
   @include sectionTitle;
 }
@@ -69,18 +81,6 @@
 
     &:hover {
       color: $gold;
-    }
-  }
-}
-.partnersContainer {
-  @include flex(row, center, space-around);
-  width: 100%;
-  margin-left: 0;
-  .partnersBox {
-    @include flex(row, center, center);
-    height: 10rem;
-    img {
-      object-fit: scale-down;
     }
   }
 }

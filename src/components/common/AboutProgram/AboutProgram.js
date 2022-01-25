@@ -8,6 +8,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import aboutProgram from '../../../data/aboutProgram.json';
 import foodList from '../../../data/foodList.json';
 import Partnerzy from '../../../images/partnerzy.svg';
+<<<<<<< HEAD
 import Posters from '../../features/Posters/Posters';
 
 const AboutProgram = () => {
@@ -63,6 +64,44 @@ const AboutProgram = () => {
       <p className={styles.aboutProgramDescription}>
         {aboutProgram.requirements}
         <span className={styles.requirements}>{aboutProgram.requirementsAlone}</span>
+=======
+
+import Posters from '../../features/Posters/Posters';
+
+const AboutProgram = () => (
+  <div className={styles.root}>
+    {
+      window.innerWidth <= 1200 ?
+        (
+          <Carousel controls={false} interval={3000} fade={true} className={styles.partnersContainer} pause={false} indicators={false}>
+            {aboutProgram.programPartners.map((item) => (
+              <Carousel.Item key={item.id} className={styles.partnersBox}>
+                <img
+                  className="d-block w-100"
+                  src={item.src}
+                  alt={item.src}
+                />
+              </Carousel.Item>
+            ))}
+          </Carousel>
+        ) :
+        (
+          <Row className={styles.partnersContainer}>
+            <img
+              className="d-block w-100"
+              src={Partnerzy}
+              alt="Partnerzy"
+            />
+          </Row>
+        )
+    }
+    <h2 className={styles.aboutProgramTitle}>{aboutProgram.title}</h2>
+    <h4 className={styles.aboutProgramSubtitle}>{aboutProgram.subtitleWho}</h4>
+    <p className={styles.aboutProgramDescription}>{aboutProgram.descriptionWho}</p>
+    <p className={styles.aboutProgramDescription}>
+      {aboutProgram.requirements}
+      <span className={styles.requirements}>{aboutProgram.requirementsAlone}</span>
+>>>>>>> 62a1260 (Change partners banner to one svg image)
       lub
         <span className={styles.requirements}>{aboutProgram.requirementsFamily}</span>
       </p>
