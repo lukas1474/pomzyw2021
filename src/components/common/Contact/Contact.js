@@ -27,7 +27,7 @@ const Contact = () => {
     );
   }, []);
   return (
-    <div className={styles.root} id="kontakt">
+    <div className={styles.root} id="kontakt" ref={contactRef}>
       <h2 className={styles.contactTitle}>{contact.title}</h2>
       <Row className={styles.contactContent}>
         <Col xs={12} sm={12} md={4} lg={4} className={styles.contactLogo}>
