@@ -6,7 +6,6 @@
 
 .aboutUsContent {
   margin-top: 40px;
-
   .aboutUsLogo {
     @include flex(column, null, null);
     float: left;
@@ -19,8 +18,23 @@
   }
 }
 
+.linkBox {
+  @include flex(row, center, center);
+  width: 100%;
+  span,
+  a {
+    margin: 0;
+    padding: 0;
+    text-indent: 25px;
+  }
+}
+
 .aboutUsDescription {
   @include sectionDefaultDescription;
+  a {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 /* ExtraExtraLarge Devices, UltraWide Desktops  */
@@ -43,12 +57,19 @@
   .aboutUsDescription {
     margin: 0 10px 0 10px;
   }
+  .linkBox {
+    @include flex(column, center, center);
+  }
 }
 
 /* Small Devices, Small tablets Large Phones */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .aboutUsDescription {
     margin: 0 5px 0 5px;
+  }
+  .linkBox {
+    @include flex(column, center, center);
+    padding: 0 5px 0 5px;
   }
 }
 
@@ -60,5 +81,11 @@
 
   .aboutUsDescription {
     margin: 0 3px 0 3px;
+  }
+  .linkBox {
+    @include flex(column, center, center);
+    span {
+      margin: 0 10px 0 10px;
+    }
   }
 }
