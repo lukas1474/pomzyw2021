@@ -55,7 +55,7 @@ const Posters = () => {
       <div className={styles.postersGallery} ref={posterRef}>
         {posters.map((item, index) => {
           return(
-            <img key={index} src={item.imgSrc} alt={item.alt} className={styles.poster}
+            <img key={index} src={item.miniImg} alt={item.alt} className={styles.poster}
               onClick={() => getImg(item.imgSrc)}
             />
           );
