@@ -31,7 +31,7 @@ const AboutProgram = () => {
     );
   }, []);
   return (
-    <div className={styles.root}>
+    <div className={styles.root} ref={aboutProgramRef}>
       {
         window.innerWidth <= 1200 ?
           (
@@ -58,7 +58,7 @@ const AboutProgram = () => {
           )
       }
       <h2 className={styles.aboutProgramTitle}>{aboutProgram.title}</h2>
-      <div ref={aboutProgramRef}>
+      <div>
         <h4 className={styles.aboutProgramSubtitle}>{aboutProgram.subtitleWho}</h4>
         <p className={styles.aboutProgramDescription}>{aboutProgram.descriptionWho}</p>
         <p className={styles.aboutProgramDescription}>

@@ -34,6 +34,7 @@ const Posters = () => {
         gsap.to(batch, {
           autoAlpha: 1,
           x: 0,
+          delay: 0.5,
           stagger: { each: 0.15 },
           overwrite: true,
         }),
