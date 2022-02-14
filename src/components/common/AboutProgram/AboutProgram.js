@@ -1,4 +1,4 @@
-import React, {useEffect, useRef} from 'react';
+import React, {useEffect, useRef, useContext} from 'react';
 import styles from '../AboutProgram/AboutProgram.module.scss';
 
 import { Col, Carousel, Row } from 'react-bootstrap';
@@ -9,11 +9,20 @@ import aboutProgram from '../../../data/aboutProgram.json';
 import foodList from '../../../data/foodList.json';
 import Partnerzy from '../../../images/partnerzy.svg';
 import Posters from '../../features/Posters/Posters';
+import { DataContext } from '../../../App';
 
 const AboutProgram = () => {
+  // const dataFIlter = useContext(DataContext).filter(item => item.id === 'aboutProgram');
+  const data = useContext(DataContext);
+  const aboutProgramData = data.aboutProgramData;
   const aboutProgramRef = useRef(null);
+
+
+  console.log('z bazy danych', aboutProgramData);
+
   useEffect(() => {
     const aboutProgramItem = aboutProgramRef.current.children;
+
     gsap.set([aboutProgramItem], { autoAlpha: 0, y: 50 });
     ScrollTrigger.batch(aboutProgramItem, {
       start: `top bottom -=200px`,
@@ -26,10 +35,12 @@ const AboutProgram = () => {
           y: 0,
         }),
     });
+
     ScrollTrigger.addEventListener(`refreshInit`, () =>
       gsap.set(aboutProgramItem, { y: 0 })
     );
   }, []);
+
   return (
     <div className={styles.root}>
       {
@@ -59,6 +70,7 @@ const AboutProgram = () => {
       }
       <h2 className={styles.aboutProgramTitle}>{aboutProgram.title}</h2>
       <div ref={aboutProgramRef}>
+        {/* <h1>{dataFIlter[0].requirementsFamily}</h1> */}
         <h4 className={styles.aboutProgramSubtitle}>{aboutProgram.subtitleWho}</h4>
         <p className={styles.aboutProgramDescription}>{aboutProgram.descriptionWho}</p>
         <p className={styles.aboutProgramDescription}>
