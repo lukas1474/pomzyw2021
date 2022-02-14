@@ -1,7 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react';
 import styles from './Posters.module.scss';
 
-import CloseIcon from '@material-ui/icons/Close';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -48,9 +47,9 @@ const Posters = () => {
     <div className={styles.root}>
       <div className={modal ? styles.modalOpen : styles.modal}>
         <img src={srcImg} alt='poster_modal'/>
-        <CloseIcon className={styles.icon}
-          onClick={() => setModal(false)}
-        />
+        <span className={styles.icon} onClick={() => setModal(false)}>
+          X
+        </span>
       </div>
       <div className={styles.postersGallery} ref={posterRef}>
         {posters.map((item, index) => {
