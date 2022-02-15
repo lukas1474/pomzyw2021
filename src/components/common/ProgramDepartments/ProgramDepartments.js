@@ -16,6 +16,7 @@ const ProgramDepartments = () => {
         gsap.to(batch, {
           autoAlpha: 1,
           y: 0,
+          delay: 0.3,
           stagger: { each: 0.15 },
           overwrite: true,
         }),
