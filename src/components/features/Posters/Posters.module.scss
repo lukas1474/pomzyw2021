@@ -7,16 +7,25 @@
 }
 
 .postersGallery {
-  width: 50%;
   @include flex(row, center, center);
+  width: 50%;
+  z-index: 1;
 
   .poster {
     width: 50%;
   }
 }
 
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
 .postersGallery .poster {
   cursor: pointer;
+
   margin: 12px 12px;
   box-shadow: 0px 0px 1px $first-shadow-poster-color, 0 0 5px $second-shadow-poster-color,
     0 0 2px $first-shadow-poster-color;
@@ -64,8 +73,9 @@
   position: fixed;
   top: 20px;
   right: 50px;
-
-  padding: 2px;
+  width: 30px;
+  height: 30px;
+  padding: 2px 0 0 10px;
   background-color: rgba(0, 0, 0, 0.4);
   color: $icon-color;
   cursor: pointer;

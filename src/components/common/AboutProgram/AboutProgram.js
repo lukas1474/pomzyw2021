@@ -17,13 +17,14 @@ const AboutProgram = () => {
   const aboutProgramData = data.aboutProgramData;
   const aboutProgramRef = useRef(null);
 
-
   console.log('z bazy danych', aboutProgramData);
 
+  const aboutProgramPartnersRef = useRef(null);
   useEffect(() => {
     const aboutProgramItem = aboutProgramRef.current.children;
+    const aboutProgramPartnersItem = aboutProgramPartnersRef.current;
+    gsap.set([aboutProgramItem, aboutProgramPartnersItem], { autoAlpha: 0, y: 50 });
 
-    gsap.set([aboutProgramItem], { autoAlpha: 0, y: 50 });
     ScrollTrigger.batch(aboutProgramItem, {
       start: `top bottom -=200px`,
       onEnter: (batch) =>
@@ -35,7 +36,26 @@ const AboutProgram = () => {
           y: 0,
         }),
     });
-
+    
+    const timeline = gsap.timeline({
+      defaults: {
+        ease: `Power3.easeOut`,
+        delay: 0.5,
+      },
+      scrollTrigger: {
+        trigger: aboutProgramPartnersItem,
+        start: `top bottom -=200px`,
+        end: 'bottom top',
+      },
+    });
+    timeline
+      .to(
+        aboutProgramPartnersItem,
+        {
+          y: 0,
+          autoAlpha: 1,
+        }
+      );
     ScrollTrigger.addEventListener(`refreshInit`, () =>
       gsap.set(aboutProgramItem, { y: 0 })
     );
@@ -43,31 +63,33 @@ const AboutProgram = () => {
 
   return (
     <div className={styles.root}>
-      {
-        window.innerWidth <= 1200 ?
-          (
-            <Carousel controls={false} interval={3000} fade={true} className={styles.partnersContainer} pause={false} indicators={false}>
-              {aboutProgram.programPartners.map((item) => (
-                <Carousel.Item key={item.id} className={styles.partnersBox}>
-                  <img
-                    className="d-block w-100"
-                    src={item.src}
-                    alt={item.src}
-                  />
-                </Carousel.Item>
-              ))}
-            </Carousel>
-          ) :
-          (
-            <Row className={styles.partnersContainer}>
-              <img
-                className="d-block w-100"
-                src={Partnerzy}
-                alt="Partnerzy"
-              />
-            </Row>
-          )
-      }
+      <div ref={aboutProgramPartnersRef}>
+        {
+          window.innerWidth <= 1200 ?
+            (
+              <Carousel controls={false} interval={3000} fade={true} className={styles.partnersContainer} pause={false} indicators={false}>
+                {aboutProgram.programPartners.map((item) => (
+                  <Carousel.Item key={item.id} className={styles.partnersBox}>
+                    <img
+                      className="d-block w-100"
+                      src={item.src}
+                      alt={item.src}
+                    />
+                  </Carousel.Item>
+                ))}
+              </Carousel>
+            ) :
+            (
+              <Row className={styles.partnersContainer}>
+                <img
+                  className="d-block w-100"
+                  src={Partnerzy}
+                  alt="Partnerzy"
+                />
+              </Row>
+            )
+        }
+      </div>
       <h2 className={styles.aboutProgramTitle}>{aboutProgram.title}</h2>
       <div ref={aboutProgramRef}>
         {/* <h1>{dataFIlter[0].requirementsFamily}</h1> */}
