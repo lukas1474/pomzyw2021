@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import styles from './Loader.module.scss';
 import { Default } from 'react-spinners-css';
 
 const Loader = () => {
