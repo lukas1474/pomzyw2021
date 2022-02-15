@@ -16,7 +16,6 @@ const AboutProgram = () => {
   useEffect(() => {
     const aboutProgramItem = aboutProgramRef.current.children;
     const aboutProgramPartnersItem = aboutProgramPartnersRef.current;
-    console.log(`aboutProgramPartnersItem`, aboutProgramPartnersItem);
     gsap.set([aboutProgramItem, aboutProgramPartnersItem], { autoAlpha: 0, y: 50 });
     ScrollTrigger.batch(aboutProgramItem, {
       start: `top bottom -=200px`,
