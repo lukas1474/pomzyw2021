@@ -1,16 +1,19 @@
 import React, {useEffect, useRef} from 'react';
 import styles from '../Contact/Contact.module.scss';
+
 import { Col, Row } from 'react-bootstrap';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import contact from '../../../data/contact.json';
 
+import contact from '../../../data/contact.json';
 
 const Contact = () => {
   const contactRef = useRef(null);
+
   useEffect(() => {
     const posterItem = contactRef.current.children;
     gsap.set([posterItem], { autoAlpha: 0, y: 50 });
+
     ScrollTrigger.batch(posterItem, {
       start: `top bottom -=200px`,
       onEnter: (batch) =>
@@ -22,10 +25,13 @@ const Contact = () => {
           y: 0,
         }),
     });
+
     ScrollTrigger.addEventListener(`refreshInit`, () =>
       gsap.set(posterItem, { y: 0 })
     );
+
   }, []);
+
   return (
     <div className={styles.root} id="kontakt" ref={contactRef}>
       <h2 className={styles.contactTitle}>{contact.title}</h2>
@@ -46,6 +52,7 @@ const Contact = () => {
         </Col>
       </Row>
     </div>
-  );};
+  );
+};
 
 export default Contact;

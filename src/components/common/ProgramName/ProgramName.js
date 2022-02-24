@@ -3,9 +3,7 @@ import styles from '../ProgramName/ProgramName.module.scss';
 
 import programName from '../../../data/programName.json';
 
-
 const ProgramName = () => {
-
 
   return(
     <div className={styles.root}>
