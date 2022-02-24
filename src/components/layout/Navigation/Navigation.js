@@ -1,9 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styles from './Navigation.module.scss';
+
 import { Col } from 'react-bootstrap';
 import { gsap } from 'gsap';
 import { NavHashLink } from 'react-router-hash-link';
 import { HamburgerSqueeze } from 'react-animated-burgers';
+
 import navigation from '../../../data/navigation.json';
 
 const Navigation = () => {

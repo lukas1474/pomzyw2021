@@ -1,12 +1,14 @@
 import React, {useEffect, useRef } from 'react';
 import styles from './Splash.module.scss';
+
 import { gsap } from 'gsap';
+
 import ProgramName from '../../common/ProgramName/ProgramName';
 import Starokatolicki from '../../../images/logo-starokatolicki__white.svg';
 
-
 const Splash = () => {
   const programNameRef = useRef(null);
+
   useEffect(() => {
     const programNameItem = programNameRef.current.children;
     const timeline = gsap.timeline({
@@ -29,6 +31,7 @@ const Splash = () => {
         }
       );
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
   return(
     <div className={styles.root} id="splash">
       <div className={styles.programNameBox} ref={programNameRef}>
@@ -41,6 +44,7 @@ const Splash = () => {
         </svg>
       </div>
     </div>
-  );};
+  );
+};
 
 export default Splash;

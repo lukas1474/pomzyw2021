@@ -1,15 +1,19 @@
 import React, {useEffect, useRef } from 'react';
 import styles from './ProgramDepartments.module.scss';
+
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
 import departments from '../../../data/departments.json';
 import {mainCoordinator} from '../../../data/departments.json';
 
 const ProgramDepartments = () => {
   const departmentRef = useRef(null);
+
   useEffect(() => {
     const departmentsItem = departmentRef.current.children;
     gsap.set([departmentsItem], { autoAlpha: 0, y: 100 });
+
     ScrollTrigger.batch(departmentsItem, {
       start: `top bottom`,
       onEnter: (batch) =>
@@ -21,10 +25,13 @@ const ProgramDepartments = () => {
           overwrite: true,
         }),
     });
+
     ScrollTrigger.addEventListener(`refreshInit`, () =>
       gsap.set(departmentsItem, { y: 0 })
     );
+
   }, []);
+
   return (
     <div className={styles.root}>
       <h2 className={styles.departmentsTitle}>Gdzie szukać pomocy?</h2>
