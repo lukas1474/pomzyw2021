@@ -37,11 +37,15 @@ const ProgramDepartments = () => {
       <h2 className={styles.departmentsTitle}>Gdzie szukać pomocy?</h2>
       <div className={`container ${styles.container}`}>
         <ul className={`row ${styles.row}`} ref={departmentRef}>
-          <div className={`col-12 col-md-8 ${styles.departmentName}`}>
-            <p className={styles.departmentsSubtitle}>{mainCoordinator.title}</p>
-            <p className={styles.departmentDetails}>{mainCoordinator.subTitle}</p>
-            <p className={styles.departmentDetails}>{mainCoordinator.name}</p>
-          </div>
+          {departments.mainCoordinator.map((mainCoordinator, index) => {
+            return(
+              <div className={`col-12 col-md-8 ${styles.departmentName}`} key={index}>
+                <p className={styles.departmentsSubtitle}>{mainCoordinator.title}</p>
+                <p className={styles.departmentDetails}>{mainCoordinator.subTitle}</p>
+                <p className={styles.departmentDetails}>{mainCoordinator.name}</p>
+              </div>
+            );
+          })}
           {departments.department.map((department, index) => {
             return(
               <li className={`col-12 col-md-8 ${styles.departmentName}`} key={index}>
