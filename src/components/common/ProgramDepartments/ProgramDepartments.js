@@ -5,7 +5,6 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import departments from '../../../data/departments.json';
-import {mainCoordinator} from '../../../data/departments.json';
 
 const ProgramDepartments = () => {
   const departmentRef = useRef(null);
