@@ -13,12 +13,18 @@
   },
   {
     "id": 3,
+    "linkSrc": "ogloszenia",
+    "linkName": "Ogłoszenia",
+    "side": "L"
+  },
+  {
+    "id": 4,
     "linkSrc": "#oNas",
     "linkName": "Kim jesteśmy?",
     "side": "R"
   },
   {
-    "id": 4,
+    "id": 5,
     "linkSrc": "#kontakt",
     "linkName": "kontakt",
     "side": "R"
