@@ -36,13 +36,32 @@ const Announcements = () => {
       <div className={styles.section}>
         <h2 className={styles.announcementsTitle}>Ogłoszenia</h2>
         <div className={`container ${styles.container}`}>
+          <h4 className={styles.announcementsSubtitle}>{announcements.eventsTitle}</h4>
           <ul className={`row ${styles.row}`} ref={departmentRef}>
-            {announcements.map((announcements, index) => {
+            {announcements.events.map((announcements, index) => {
               return(
                 <div className={`col-12 col-md-8 ${styles.departmentName}`} key={index}>
-                  <p className={styles.announcementsSubtitle}>{announcements.date}</p>
                   <p className={styles.announcementsSubtitle}>{announcements.title}</p>
+                  <p className={styles.announcementsDetails}>{announcements.date}</p>
                   <p className={styles.announcementsDetails}>{announcements.subtitle}</p>
+                </div>
+              );
+            })}
+          </ul>
+        </div>
+        <div className={`container ${styles.container}`}>
+          <h4 className={styles.announcementsSubtitle}>{announcements.giveOutFoodTitle}</h4>
+          <ul className={`row ${styles.row}`} ref={departmentRef}>
+            {announcements.giveOutFoodEvents.map((announcements, index) => {
+              return(
+                <div className={`col-12 col-md-8 ${styles.departmentName}`} key={index}>
+                  <p className={styles.announcementsSubtitle}>{announcements.where}</p>
+                  <p className={styles.announcementsDetails}>{announcements.january}</p>
+                  <p className={styles.announcementsDetails}>{announcements.januaryDates}</p>
+                  <p className={styles.announcementsDetails}>{announcements.february}</p>
+                  <p className={styles.announcementsDetails}>{announcements.februaryDates}</p>
+                  <p className={styles.announcementsDetails}>{announcements.march}</p>
+                  <p className={styles.announcementsDetails}>{announcements.marchDates}</p>
                 </div>
               );
             })}

@@ -1,14 +1,104 @@
-[
-  {
-    "id": 1,
-    "date": "22.03.2022",
-    "title": "Działanie towarzyszące: gmina Sławoborze, powiat świdwiński - godz. 10:00",
-    "subtitle": "Indywidualne/ w formie ulotek/ telefoniczne działania aktywizujące w zakresie dietetyki i ekonomii."
-  },
-  {
-    "id": 2,
-    "date": "22.03.2022",
-    "title": "Działanie towarzyszące: gmina Rąbino, powiat świdwiński - godz. 12:00",
-    "subtitle": "Indywidualne/ w formie ulotek/ telefoniczne działania aktywizujące w zakresie dietetyki i ekonomii."
-  }
-]
+{
+  "eventsTitle": "Wydarzenia",
+  "giveOutFoodTitle": "Terminy wydawania żywności w województwie Zachodniopomorskim",
+
+  "events": [
+    {
+      "id": 1,
+      "date": "22.03.2022 - godz. 10:00",
+      "title": "Działanie towarzyszące: gmina Sławoborze, powiat świdwiński",
+      "subtitle": "Indywidualne/ w formie ulotek/ telefoniczne działania aktywizujące w zakresie dietetyki i ekonomii."
+    },
+    {
+      "id": 2,
+      "date": "22.03.2022 - godz. 12:00",
+      "title": "Działanie towarzyszące: gmina Rąbino, powiat świdwiński",
+      "subtitle": "Indywidualne/ w formie ulotek/ telefoniczne działania aktywizujące w zakresie dietetyki i ekonomii."
+    },
+    {
+      "id": 3,
+      "date": "23.03.2022 - godz. 10:00",
+      "title": "Działanie towarzyszące: Rąbino OSP, gmina Rąbino, powiat świdwiński",
+      "subtitle": "Indywidualne/ w formie ulotek/ telefoniczne  działania aktywizujące w zakresie kulinariów i dietetyki."
+    },
+    {
+      "id": 4,
+      "date": "25.03.2022 - godz. 14:00",
+      "title": "Działanie towarzyszące: gmina Barwice, powiat szczeciński",
+      "subtitle": "Indywidualne/ w formie ulotek/ telefoniczne działania aktywizujące w zakresie ekonomii - Efektywne gospodarowanie pieniędzmi."
+    },
+    {
+      "id": 5,
+      "date": "25.03.2022 - godz. 17:00",
+      "title": "Działanie towarzyszące: gmina Rąbino, powiat świdwiński",
+      "subtitle": "Indywidualne/ w formie ulotek/ telefoniczne działania aktywizujące w zakresie ekonomii - Efektywne gospodarowanie pieniędzmi."
+    },
+    {
+      "id": 6,
+      "date": "29.03.2022 - godz. 16:00",
+      "title": "Działanie towarzyszące: Szkoła Podstawowa Nr 3 im. Bolesława Krzywoustego w Białogardzie",
+      "subtitle": "Działania towarzyszące kulinarne"
+    }
+  ],
+
+  "giveOutFoodEvents": [
+    {
+      "id": 1,
+      "where": "Magazyn Kościoła Starokatolickiego w Barwicach, ul. Zwycięzców 26, 78-460 Barwice",
+      "february": "Luty:",
+      "februaryDates": "1.02, 8.02, 15.02, 22.02, 23.02 w godzinach: od 11:00 do 12:00",
+      "march": "Marzec:",
+      "marchDates": "8.03, 15.03, 22.03, 29.03 w godzinach od 10:00 do 11:00"
+    },
+    {
+      "id": 2,
+      "where": "Białogard, ul. Piłsudskiego 27",
+      "january": "Styczeń:",
+      "januaryDates": "28.01 w godzinach od 13.00 do 16.00",
+      "february": "Luty:",
+      "februaryDates": "3.02, 16.02, 26.02 w godzinach: od 14:00 do 16:00",
+      "march": "Marzec:",
+      "marchDates": "11.03, 16.03 w godzinach od 14:00 do 16:00"
+    },
+    {
+      "id": 3,
+      "where": "Rąbino (Pałac)",
+      "february": "Luty:",
+      "februaryDates": "15.02 od godziny 12.00"
+    },
+    {
+      "id": 4,
+      "where": "Czaplinek (budynek MOPS)",
+      "february": "Luty:",
+      "februaryDates": "15.02",
+      "march": "Marzec:",
+      "marchDates": "24.03 od godziny 10.00"
+    },
+    {
+      "id": 5,
+      "where": "Szczecin, ul. Pszenna 29",
+      "february": "Luty:",
+      "februaryDates": "17.02 w godzinach: od 15.00 do 16.00",
+      "march": "Marzec:",
+      "marchDates": "3.03 w godzinach: od 15.00 do 16.00"
+    },
+    {
+      "id": 6,
+      "where": "Sławoborze (Straż Pożarna)",
+      "march": "Marzec:",
+      "marchDates": "4.03 w godzinach: od 12.00 do 15.00"
+    },
+    {
+      "id": 7,
+      "where": "Rymań (Dom Kultury)",
+      "march": "Marzec:",
+      "marchDates": "4.03 w godzinach: od 15.00 do 18.00 oraz 23.03 od godziny 12.00"
+    },
+    {
+      "id": 8,
+      "where": "Mielno (budynek MOPS)",
+      "march": "Marzec:",
+      "marchDates": "20.03 od godziny 11.00"
+    }
+  ]
+}
