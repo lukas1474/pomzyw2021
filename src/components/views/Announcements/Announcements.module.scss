@@ -23,6 +23,11 @@
   @include sectionTitle;
 }
 
+.announcementsSubtitle {
+  @include subsectionTitle;
+  @include flex(null, null, flex-start);
+}
+
 .container {
   margin-top: 25px;
 }
@@ -45,7 +50,7 @@
 }
 
 .announcementsDetails {
-  margin-left: 5%;
+  margin-left: 6%;
 }
 
 /* ExtraExtraLarge Devices, UltraWide Desktops  */
@@ -67,6 +72,10 @@
   .root {
     width: 80%;
 
+    .announcementsSubtitle {
+      margin: 15px;
+    }
+
     .row {
       margin: 0 15px 0 15px;
     }
@@ -77,6 +86,10 @@
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .root {
     width: 95%;
+
+    .announcementsSubtitle {
+      margin: 15px 10px 15px 10px;
+    }
 
     .row {
       margin: 0 10px 0 10px;
@@ -91,6 +104,10 @@
 
     .container {
       margin-top: 25px;
+    }
+
+    .announcementsSubtitle {
+      margin: 15px 5px 15px 5px;
     }
 
     .announcementsName {
@@ -112,12 +129,14 @@
       margin-top: 25px;
     }
 
+
     .announcementsName {
       margin-top: 0;
     }
 
     .announcementsSubtitle {
       font-size: 0.85rem;
+      margin: 5px 3px 0 3px;
     }
 
     .announcementsDetails {
