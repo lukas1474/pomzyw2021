@@ -23,7 +23,7 @@
   @include sectionTitle;
 }
 
-.announcementsSubtitle {
+.announcementsSubtitle, .announcementSubtitle {
   @include subsectionTitle;
   @include flex(null, null, flex-start);
 }
@@ -44,12 +44,7 @@
   padding-left: 0;
 }
 
-.announcementsSubtitle {
-  font-weight: bold;
-  margin-top: 10px;
-}
-
-.announcementsDetails {
+.announcementDetails {
   margin-left: 6%;
 }
 
@@ -72,7 +67,7 @@
   .root {
     width: 80%;
 
-    .announcementsSubtitle {
+    .announcementsSubtitle, .announcementSubtitle {
       margin: 15px;
     }
 
@@ -87,7 +82,7 @@
   .root {
     width: 95%;
 
-    .announcementsSubtitle {
+    .announcementsSubtitle, .announcementSubtitle {
       margin: 15px 10px 15px 10px;
     }
 
@@ -106,7 +101,7 @@
       margin-top: 25px;
     }
 
-    .announcementsSubtitle {
+    .announcementsSubtitle, .announcementSubtitle {
       margin: 15px 5px 15px 5px;
     }
 
@@ -134,12 +129,12 @@
       margin-top: 0;
     }
 
-    .announcementsSubtitle {
-      font-size: 0.85rem;
+    .announcementsSubtitle, .announcementSubtitle {
+      // font-size: 0.85rem;
       margin: 5px 3px 0 3px;
     }
 
-    .announcementsDetails {
+    .announcementDetails {
       font-size: 0.85rem;
     }
 

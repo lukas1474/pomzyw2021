@@ -8,6 +8,7 @@ import announcements from '../../../data/announcements.json';
 
 const Announcements = () => {
   const departmentRef = useRef(null);
+  const announcementsRef = useRef(null);
 
   useEffect(() => {
     const posterItem = departmentRef.current.children;
@@ -29,21 +30,23 @@ const Announcements = () => {
       gsap.set(posterItem, { y: 0 })
     );
 
+    announcementsRef.current.scrollIntoView();
+
   }, []);
 
   return (
-    <div className={styles.root} id="ogloszenia">
+    <div className={styles.root} id="ogloszenia" ref={announcementsRef}>
       <div className={styles.section}>
         <h2 className={styles.announcementsTitle}>Ogłoszenia</h2>
         <div className={`container ${styles.container}`}>
           <h4 className={styles.announcementsSubtitle}>{announcements.eventsTitle}</h4>
           <ul className={`row ${styles.row}`} ref={departmentRef}>
-            {announcements.events.map((announcements, index) => {
+            {announcements.events.map((announcement, index) => {
               return(
                 <div className={`col-12 col-md-8 ${styles.departmentName}`} key={index}>
-                  <p className={styles.announcementsSubtitle}>{announcements.title}</p>
-                  <p className={styles.announcementsDetails}>{announcements.date}</p>
-                  <p className={styles.announcementsDetails}>{announcements.subtitle}</p>
+                  <p className={styles.announcementSubtitle}>{announcement.title}</p>
+                  <p className={styles.announcementDetails}>{announcement.date}</p>
+                  <p className={styles.announcementDetails}>{announcement.subtitle}</p>
                 </div>
               );
             })}
@@ -52,16 +55,16 @@ const Announcements = () => {
         <div className={`container ${styles.container}`}>
           <h4 className={styles.announcementsSubtitle}>{announcements.giveOutFoodTitle}</h4>
           <ul className={`row ${styles.row}`} ref={departmentRef}>
-            {announcements.giveOutFoodEvents.map((announcements, index) => {
+            {announcements.giveOutFoodEvents.map((announcement, index) => {
               return(
                 <div className={`col-12 col-md-8 ${styles.departmentName}`} key={index}>
-                  <p className={styles.announcementsSubtitle}>{announcements.where}</p>
-                  <p className={styles.announcementsDetails}>{announcements.january}</p>
-                  <p className={styles.announcementsDetails}>{announcements.januaryDates}</p>
-                  <p className={styles.announcementsDetails}>{announcements.february}</p>
-                  <p className={styles.announcementsDetails}>{announcements.februaryDates}</p>
-                  <p className={styles.announcementsDetails}>{announcements.march}</p>
-                  <p className={styles.announcementsDetails}>{announcements.marchDates}</p>
+                  <p className={styles.announcementSubtitle}>{announcement.where}</p>
+                  <p className={styles.announcementDetails}>{announcement.january}</p>
+                  <p className={styles.announcementDetails}>{announcement.januaryDates}</p>
+                  <p className={styles.announcementDetails}>{announcement.february}</p>
+                  <p className={styles.announcementDetails}>{announcement.februaryDates}</p>
+                  <p className={styles.announcementDetails}>{announcement.march}</p>
+                  <p className={styles.announcementDetails}>{announcement.marchDates}</p>
                 </div>
               );
             })}
