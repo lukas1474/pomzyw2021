@@ -9,6 +9,7 @@ import MainLayout from './components/layout/MainLayout/MainLayout';
 import MainPage from './components/views/MainPage/MainPage';
 import Announcements from './components/views/Announcements/Announcements';
 import NotFound from './components/views/NotFound/NotFound';
+import ScrollToTop from './components/utils/ScrollToTop';
 
 function App() {
   gsap.registerPlugin(ScrollTrigger);
@@ -17,6 +18,7 @@ function App() {
     <div>
       <Router>
         <MainLayout>
+          <ScrollToTop />
           <Switch>
             <Route exact path="/" component={MainPage} />
             <Route exact path="/ogloszenia" component={Announcements} />

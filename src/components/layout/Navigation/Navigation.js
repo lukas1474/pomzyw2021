@@ -48,7 +48,7 @@ const Navigation = () => {
   const menuRef = useRef(null);
   useOutsideMenu(menuRef);
 
-  const scrollWidthOffset = (el) => {
+  const scrollWithOffset = (el) => {
     const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
     const yOffset = -100;
     window.scrollTo({ top: yCoordinate + yOffset, behavior: `smooth` });
@@ -169,7 +169,7 @@ const Navigation = () => {
                     smooth
                     className={styles.navLink}
                     to={`/${item.linkSrc}`}
-                    scroll={(el) => scrollWidthOffset(el)}
+                    scroll={(el) => scrollWithOffset(el)}
                     onClick={() => setActiveRWD(false)}
                   >
                     {item.linkName}
@@ -188,7 +188,7 @@ const Navigation = () => {
                     smooth
                     className={styles.navLink}
                     to={`/${item.linkSrc}`}
-                    scroll={(el) => scrollWidthOffset(el)}
+                    scroll={(el) => scrollWithOffset(el)}
                     onClick={() => setActiveRWD(false)}
                   >
                     {item.linkName}
@@ -203,7 +203,7 @@ const Navigation = () => {
           <NavHashLink
             smooth
             to={`/#`}
-            scroll={(el) => scrollWidthOffset(el)}
+            scroll={(el) => scrollWithOffset(el)}
             className={styles.navLink}
           >
             <img src="/images/logo.svg" alt="Logo" />
