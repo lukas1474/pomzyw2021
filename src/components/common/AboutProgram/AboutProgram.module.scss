@@ -31,8 +31,8 @@
   cursor: grab;
 
   &:hover {
-    color: $gold;
-    border-bottom: 1px solid $gold;
+    color: $bottom-color-below-title;
+    border-bottom: 1px solid $bottom-color-below-title;
   }
 }
 
@@ -80,7 +80,7 @@
     margin-left: 33%;
 
     &:hover {
-      color: $gold;
+      color: $bottom-color-below-title;
     }
   }
 }

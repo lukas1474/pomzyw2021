@@ -23,7 +23,8 @@
   @include sectionTitle;
 }
 
-.announcementsSubtitle, .announcementSubtitle {
+.announcementsSubtitle,
+.announcementSubtitle {
   @include subsectionTitle;
   @include flex(null, null, flex-start);
 }
@@ -40,6 +41,7 @@
 
 .row {
   @include flex(row, null, center);
+  list-style: none;
   margin: 0 25px 0 25px;
   padding-left: 0;
 }
@@ -67,7 +69,8 @@
   .root {
     width: 80%;
 
-    .announcementsSubtitle, .announcementSubtitle {
+    .announcementsSubtitle,
+    .announcementSubtitle {
       margin: 15px;
     }
 
@@ -82,7 +85,8 @@
   .root {
     width: 95%;
 
-    .announcementsSubtitle, .announcementSubtitle {
+    .announcementsSubtitle,
+    .announcementSubtitle {
       margin: 15px 10px 15px 10px;
     }
 
@@ -101,7 +105,8 @@
       margin-top: 25px;
     }
 
-    .announcementsSubtitle, .announcementSubtitle {
+    .announcementsSubtitle,
+    .announcementSubtitle {
       margin: 15px 5px 15px 5px;
     }
 
@@ -124,13 +129,12 @@
       margin-top: 25px;
     }
 
-
     .announcementsName {
       margin-top: 0;
     }
 
-    .announcementsSubtitle, .announcementSubtitle {
-      // font-size: 0.85rem;
+    .announcementsSubtitle,
+    .announcementSubtitle {
       margin: 5px 3px 0 3px;
     }
 
