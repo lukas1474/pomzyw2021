@@ -1,5 +1,13 @@
 @import "../../../styles/settings.scss";
 
+.announcementTitle {
+  @include subsectionTitle;
+  @include flex(null, null, flex-start);
+}
+
+.announcementDetails {
+  margin-left: 6%;
+}
 
 /* ExtraExtraLarge Devices, UltraWide Desktops  */
 @media (min-width: 1921px) {
@@ -11,28 +19,31 @@
 
 /* Large Devices, Laptops, Large Tablets iPad Pro */
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .announcementTitle {
+    margin: 15px;
+  }
 }
 
 /* Medium Devices, Tablets iPad */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .announcementTitle {
+    margin: 15px 10px 15px 10px;
+  }
 }
 
 /* Small Devices, Small tablets Large Phones */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  .announcementTitle {
+    margin: 15px 5px 15px 5px;
+  }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 0px) and (max-width: 479px) {
-}
-
-/* Media pointer*/
-@media (hover: hover) and (pointer: fine) {
-  .root {
+  .announcementTitle {
+    margin: 5px 3px 0 3px;
   }
-}
-
-/* Media touchable */
-@media (pointer: coarse) {
-  .root {
+  .announcementDetails {
+    font-size: 0.85rem;
   }
 }
