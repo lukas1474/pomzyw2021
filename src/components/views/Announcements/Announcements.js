@@ -1,10 +1,11 @@
-import React, {useEffect, useRef} from 'react';
-import styles from '../Announcements/Announcements.module.scss';
+import React, { useEffect, useRef } from 'react';
+import styles from './Announcements.module.scss';
 
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-import announcements from '../../../data/announcements.json';
+import news from '../../../data/news.json';
+import foodDistribution from '../../../data/foodDistribution.json';
 
 import Announcement from '../../common/Announcement/Announcement';
 
@@ -32,39 +33,41 @@ const Announcements = () => {
       gsap.set(posterItem, { y: 0 })
     );
 
-    announcementsRef.current.scrollIntoView();
+    announcementsRef.current.scrollIntoView({ behavior: 'smooth' });
 
   }, []);
-
+  //TODO: Poprawić animacje
   return (
     <div className={styles.root} id="ogloszenia" ref={announcementsRef}>
       <div className={styles.section}>
         <h2 className={styles.announcementsTitle}>Ogłoszenia</h2>
         <div className={`container ${styles.container}`}>
-          <h4 className={styles.announcementsSubtitle}>{announcements.eventsTitle}</h4>
+          <h4 className={styles.announcementsSubtitle}>{news.title}</h4>
           <ul className={`row ${styles.row}`} ref={departmentRef}>
-            {announcements.events.slice(0).reverse().map((announcement, index) => (
-              <li key={index}>
-                <Announcement {...announcement} />
+            {news.events.slice(0).reverse().map((item, index) => (
+              <li key={index} className="col-12 col-md-8">
+                {/* //TODO: Paginacja
+                */}
+                <Announcement {...item} />
               </li>
             ))}
           </ul>
         </div>
         <div className={`container ${styles.container}`}>
-          <h4 className={styles.announcementsSubtitle}>{announcements.giveOutFoodTitle}</h4>
-          <ul className={`row ${styles.row}`} ref={departmentRef}>
-            {announcements.giveOutFoodEvents.map((announcement, index) => (
-              <div className={`col-12 col-md-8 ${styles.departmentName}`} key={index}>
-                <p className={styles.announcementSubtitle}>{announcement.where}</p>
-                <p className={styles.announcementDetails}>{announcement.january}</p>
-                <p className={styles.announcementDetails}>{announcement.januaryDates}</p>
-                <p className={styles.announcementDetails}>{announcement.february}</p>
-                <p className={styles.announcementDetails}>{announcement.februaryDates}</p>
-                <p className={styles.announcementDetails}>{announcement.march}</p>
-                <p className={styles.announcementDetails}>{announcement.marchDates}</p>
+          <h4 className={styles.announcementsSubtitle}>{foodDistribution.title}</h4>
+          <div className={`row ${styles.row}`} ref={departmentRef}>
+            {/* //TODO: Dropdown z filtrem*/}
+            {foodDistribution.voivodships.map((item, index) => (
+              <div key={index} >
+                <h5>{item.name}</h5>
+                {item.places.map((item, index) => (
+                  <li key={index} className="col-12 col-md-8">
+                    <Announcement {...item} />
+                  </li>
+                ))}
               </div>
             ))}
-          </ul>
+          </div>
         </div>
       </div>
     </div>

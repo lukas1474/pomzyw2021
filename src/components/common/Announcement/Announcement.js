@@ -3,13 +3,15 @@ import styles from './Announcement.module.scss';
 
 const Announcement = (announcement) => {
   return (
-    <div className={`col-12 col-md-8 ${styles.departmentName}`}>
-      <p className={styles.announcementTitle}>{announcement.type ? `${announcement.type}: ${announcement.title}` : announcement.title}</p>
-      <p className={styles.announcementDetails}>{announcement.date}</p>
+    <div className={styles.root}>
+      <h6 className={styles.announcementTitle}>{announcement.type ? `${announcement.type}: ${announcement.title}` : announcement.title}</h6>
       {
-        announcement.content.map((item, index) => (
-          <p key={index} className={styles.announcementDetails}>{item.text}</p>))
-      }
+        announcement.content.slice(0).reverse().map((item, index) => (
+          <div key={index} className={styles.announcementDetails}>
+            <p>{item.date}</p>
+            <p>{item.text}</p>
+          </div>
+        ))}
     </div>
   );
 };

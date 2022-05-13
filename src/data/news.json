@@ -1,17 +1,13 @@
 {
-  "eventsTitle": "Wydarzenia",
-  "giveOutFoodTitle": "Terminy wydawania żywności w województwie Zachodniopomorskim",
+  "title": "Wydarzenia",
   "events": [
     {
       "id": 1,
-      "date": "",
       "type": "Działanie towarzyszące",
       "title": "Gmina Sławoborze, powiat świdwiński",
       "content": [
         {
-          "text": "22.03.2022 - godz. 10:00"
-        },
-        {
+          "date": "22.03.2022 - godz. 10:00",
           "text": "Indywidualne/ w formie ulotek/ telefoniczne działania aktywizujące w zakresie dietetyki i ekonomii."
         }
       ]
@@ -22,9 +18,7 @@
       "title": "Gmina Rąbino, powiat świdwiński",
       "content": [
         {
-          "text": "22.03.2022 - godz. 12:00"
-        },
-        {
+          "date": "22.03.2022 - godz. 12:00",
           "text": "Indywidualne/ w formie ulotek/ telefoniczne działania aktywizujące w zakresie dietetyki i ekonomii."
         }
       ]
@@ -35,9 +29,7 @@
       "title": "Rąbino OSP, gmina Rąbino, powiat świdwiński",
       "content": [
         {
-          "text": "23.03.2022 - godz. 10:00"
-        },
-        {
+          "date": "23.03.2022 - godz. 10:00",
           "text": "Indywidualne/ w formie ulotek/ telefoniczne  działania aktywizujące w zakresie kulinariów i dietetyki."
         }
       ]
@@ -48,9 +40,7 @@
       "title": "Gmina Barwice, powiat szczeciński",
       "content": [
         {
-          "text": "25.03.2022 - godz. 14:00"
-        },
-        {
+          "date": "25.03.2022 - godz. 14:00",
           "text": "Indywidualne/ w formie ulotek/ telefoniczne działania aktywizujące w zakresie ekonomii - Efektywne gospodarowanie pieniędzmi."
         }
       ]
@@ -61,9 +51,7 @@
       "title": "Gmina Rąbino, powiat świdwiński",
       "content": [
         {
-          "text": "25.03.2022 - godz. 17:00"
-        },
-        {
+          "date": "25.03.2022 - godz. 17:00",
           "text": "Indywidualne/ w formie ulotek/ telefoniczne działania aktywizujące w zakresie ekonomii - Efektywne gospodarowanie pieniędzmi."
         }
       ]
@@ -74,9 +62,7 @@
       "title": "Szkoła Podstawowa Nr 3 im. Bolesława Krzywoustego w Białogardzie",
       "content": [
         {
-          "text": "29.03.2022 - godz. 16:00"
-        },
-        {
+          "date": "29.03.2022 - godz. 16:00",
           "text": "Działania towarzyszące kulinarne."
         }
       ]
