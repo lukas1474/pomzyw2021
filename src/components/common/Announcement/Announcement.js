@@ -8,7 +8,7 @@ const Announcement = (announcement) => {
       {
         announcement.content.slice(0).reverse().map((item, index) => (
           <div key={index} className={styles.announcementDetails}>
-            <p>{item.date}</p>
+            <p className={styles.announcementDate}>{item.date}</p>
             <p>{item.text}</p>
           </div>
         ))}

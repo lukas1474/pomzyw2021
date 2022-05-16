@@ -43,7 +43,7 @@ const Announcements = () => {
         <h2 className={styles.announcementsTitle}>Ogłoszenia</h2>
         <div className={`container ${styles.container}`}>
           <h4 className={styles.announcementsSubtitle}>{news.title}</h4>
-          <ul className={`row ${styles.row}`} ref={departmentRef}>
+          <ul className={`row ${styles.announcementsList}`} ref={departmentRef}>
             {news.events.slice(0).reverse().map((item, index) => (
               <li key={index} className="col-12 col-md-8">
                 {/* //TODO: Paginacja
@@ -58,13 +58,15 @@ const Announcements = () => {
           <div className={`row ${styles.row}`} ref={departmentRef}>
             {/* //TODO: Dropdown z filtrem*/}
             {foodDistribution.voivodships.map((item, index) => (
-              <div key={index} >
+              <div key={index} className={`container ${styles.container}`}>
                 <h5>{item.name}</h5>
-                {item.places.map((item, index) => (
-                  <li key={index} className="col-12 col-md-8">
-                    <Announcement {...item} />
-                  </li>
-                ))}
+                <ul className={`row ${styles.announcementsList}`} ref={departmentRef}>
+                  {item.places.map((item, index) => (
+                    <li key={index} className="col-12 col-md-8">
+                      <Announcement {...item} />
+                    </li>
+                  ))}
+                </ul>
               </div>
             ))}
           </div>

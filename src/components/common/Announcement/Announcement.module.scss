@@ -2,24 +2,15 @@
 
 .root {
   margin: 0.75rem 0 0.75rem 0;
-  &::after {
-    background-color: rgb(145, 144, 144);
-    content: "";
-    display: block;
-    height: 1px;
-    left: 50%;
-    margin-top: 0.25rem;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    width: 50px;
+  .announcementDetails {
+    margin-left: 5%;
+    .announcementTitle {
+      @include flex(null, null, flex-start);
+    }
+    .announcementDate {
+      text-decoration: underline;
+    }
   }
-}
-.announcementTitle {
-  @include flex(null, null, flex-start);
-}
-
-.announcementDetails {
-  margin-left: 5%;
 }
 
 /* ExtraExtraLarge Devices, UltraWide Desktops  */

@@ -66,6 +66,17 @@
           "text": "Działania towarzyszące kulinarne."
         }
       ]
+    },
+    {
+      "id": 7,
+      "type": "Działanie towarzyszące",
+      "title": "Rąbino ",
+      "content": [
+        {
+          "date": "16.05. 2022  - godz. 15:00 - 16:00",
+          "text": "Temat kulinaria dietetyka."
+        }
+      ]
     }
   ],
   "giveOutFoodEvents": [

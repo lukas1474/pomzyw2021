@@ -46,6 +46,28 @@
   padding-left: 0;
 }
 
+.announcementsList {
+  @extend .row;
+  li {
+    &::after {
+      background-color: rgb(145, 144, 144);
+      content: "";
+      display: block;
+      height: 1px;
+      left: 50%;
+      margin-top: 0.25rem;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      width: 50px;
+    }
+    &:last-child {
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
+
 .announcementDetails {
   margin-left: 6%;
 }
