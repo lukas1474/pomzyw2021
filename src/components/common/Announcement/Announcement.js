@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Announcement.module.scss';
-const Announcement = (announcement, index) => {
+const Announcement = (announcement) => {
   return (
     <div className={styles.root}>
       <h6 className={styles.announcementTitle}>{announcement.type ? `${announcement.type}: ${announcement.title}` : announcement.title}</h6>
