@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Announcement.module.scss';
-
 const Announcement = (announcement) => {
   return (
     <div className={styles.root}>

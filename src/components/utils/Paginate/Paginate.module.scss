@@ -1,0 +1,53 @@
+@import "../../../styles/settings.scss";
+
+.root {
+  @include flex(row, center, center);
+  .pagination {
+    @include flex(row, center, center);
+    a {
+      color: black;
+    }
+    .pagination > li > span {
+      background-color: blue;
+    }
+    .pageItem > span {
+      color: $gold;
+    }
+  }
+}
+
+/* ExtraExtraLarge Devices, UltraWide Desktops  */
+@media (min-width: 1921px) {
+}
+
+/* ExtraLarge Devices, Desktops  */
+@media (min-width: 1200px) and (max-width: 1920px) {
+}
+
+/* Large Devices, Laptops, Large Tablets iPad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+}
+
+/* Medium Devices, Tablets iPad */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Small Devices, Small tablets Large Phones */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+}
+
+/* Media pointer*/
+@media (hover: hover) and (pointer: fine) {
+  .root {
+  }
+}
+
+/* Media touchable */
+@media (pointer: coarse) {
+  .root {
+  }
+}
