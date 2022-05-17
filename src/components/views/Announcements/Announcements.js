@@ -10,7 +10,6 @@ import Paginate from '../../utils/Paginate/Paginate';
 import Announcement from '../../common/Announcement/Announcement';
 
 const Announcements = () => {
-  const departmentRef = useRef(null);
   const announcementsRef = useRef(null);
   const newsRef = useRef(null);
 
@@ -21,14 +20,14 @@ const Announcements = () => {
   const scrollWithOffset = (element) => {
     const yOffset = -100;
     const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
-    window.scrollTo({top: y, behavior: 'smooth'});
+    window.scrollTo({ top: y, behavior: 'smooth' });
   };
 
   useEffect(() => {
-    const posterItem = departmentRef.current.children;
-    gsap.set([posterItem], { autoAlpha: 0, y: 50 });
+    const announcements = announcementsRef.current.children[0].children;
+    gsap.set([announcements], { autoAlpha: 0, y: 50 });
 
-    ScrollTrigger.batch(posterItem, {
+    ScrollTrigger.batch([announcements], {
       start: `top bottom -=200px`,
       onEnter: (batch) =>
         gsap.to(batch, {
@@ -40,9 +39,11 @@ const Announcements = () => {
         }),
     });
 
+
     ScrollTrigger.addEventListener(`refreshInit`, () =>
-      gsap.set(posterItem, { y: 0 })
+      gsap.set([announcements], { y: 0 })
     );
+
 
     scrollWithOffset(announcementsRef.current);
 
@@ -56,31 +57,29 @@ const Announcements = () => {
     setCurrentPage(pageNumber);
     scrollWithOffset(newsRef.current);
   };
-
-  //TODO: Poprawić animacje
   return (
     <div className={styles.root} id="ogloszenia" ref={announcementsRef}>
       <div className={styles.section}>
         <h2 className={styles.announcementsTitle}>Ogłoszenia</h2>
         <div className={`container ${styles.container}`} ref={newsRef}>
           <h4 className={styles.announcementsSubtitle}>{news.title}</h4>
-          <ul className={`row ${styles.announcementsList}`} ref={departmentRef}>
+          <ul className={`row ${styles.announcementsList}`}>
             {currentPosts.map((item, index) => (
               <li key={index} className="col-12 col-md-8">
                 <Announcement {...item} />
               </li>
             ))}
           </ul>
-          <Paginate postsPerPage={postsPerPage} totalPosts={events.length} currentPage={currentPage} paginate={paginate}/>
+          <Paginate postsPerPage={postsPerPage} totalPosts={events.length} currentPage={currentPage} paginate={paginate} />
         </div>
         <div className={`container ${styles.container}`}>
           <h4 className={styles.announcementsSubtitle}>{foodDistribution.title}</h4>
-          <div className={`row ${styles.row}`} ref={departmentRef}>
+          <div className={`row ${styles.row}`}>
             {/* //TODO: Dropdown z filtrem*/}
             {foodDistribution.voivodships.map((item, index) => (
               <div key={index} className={`container ${styles.container}`}>
                 <h5>{item.name}</h5>
-                <ul className={`row ${styles.announcementsList}`} ref={departmentRef}>
+                <ul className={`row ${styles.announcementsList}`}>
                   {item.places.map((item, index) => (
                     <li key={index} className="col-12 col-md-8">
                       <Announcement {...item} />
