@@ -22,15 +22,15 @@ const Paginate = ( {postsPerPage, totalPosts, paginate, currentPage} ) =>{
   return (
     <div className={styles.root}>
       <Pagination className={styles.pagination}>
-        <Pagination.First onClick={() => paginate(1)}/>
-        <Pagination.Prev onClick={() => previousPage(currentPage)}/>
+        <Pagination.First onClick={() => paginate(1)} disabled={currentPage === 1}/>
+        <Pagination.Prev onClick={() => previousPage(currentPage)} disabled={currentPage === 1}/>
         {pageNumbers.map(number => (
-          <Pagination.Item key={number} active={number === currentPage} className="page-item" onClick={() => paginate(number)}>
+          <Pagination.Item className={styles.pageItem} key={number} disabled={number === currentPage} onClick={() => paginate(number)}>
             {number}
           </Pagination.Item>
         ))}
-        <Pagination.Next onClick={() => nextPage(currentPage)}/>
-        <Pagination.Last onClick={() => paginate(pageNumbers.length)}/>
+        <Pagination.Next onClick={() => nextPage(currentPage)} disabled={pageNumbers.length === currentPage}/>
+        <Pagination.Last onClick={() => paginate(pageNumbers.length)} disabled={pageNumbers.length === currentPage}/>
       </Pagination>
     </div>
   );

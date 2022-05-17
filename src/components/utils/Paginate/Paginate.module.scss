@@ -7,18 +7,12 @@
     a {
       color: black;
     }
-  }
-
-  .pagination > li > a:focus,
-  .pagination > li > a:hover,
-  .pagination > li > a:active,
-  .pagination > li > span:focus,
-  .pagination > li > span:hover,
-  .pagination > li > span:active {
-    z-index: 3;
-    color: #23527c;
-    background-color: $gold;
-    border-color: #ddd;
+    .pagination > li > span {
+      background-color: blue;
+    }
+    .pageItem > span {
+      color: $gold;
+    }
   }
 }
 
