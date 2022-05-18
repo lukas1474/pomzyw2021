@@ -66,13 +66,14 @@
 .announcementsList {
   @extend .row;
   li {
+    margin-bottom: 1rem;
     &::after {
       background-color: rgb(145, 144, 144);
       content: "";
       display: block;
       height: 1px;
       left: 50%;
-      margin-top: 0.25rem;
+      margin-top: 0.5rem;
       position: absolute;
       transform: translate(-50%, -50%);
       width: 50px;

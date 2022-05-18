@@ -1,5 +1,9 @@
 @import "../../../styles/settings.scss";
-
+.root {
+  .departmentsTitle {
+    @include sectionTitle;
+  }
+}
 .departmentsList {
   @include flex(row, null, center);
   margin: 0 25px 0 25px;
@@ -22,9 +26,6 @@
       &::after {
         display: none;
       }
-    }
-    .departmentsTitle {
-      @include sectionTitle;
     }
     .departmentAddress {
       margin-top: 25px;

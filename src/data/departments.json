@@ -10,14 +10,6 @@
       "mail": ""
     },
     {
-      "id": 10,
-      "title": "KOORDYNATOR KRAJOWY PROGRAMU POMOCY ŻYWNOŚCIOWEJ DS. ŻYWNOŚCI UNIJNEJ",
-      "subtitle": "",
-      "coordinator": "Monika Tkaczyk",
-      "tel": "",
-      "mail": ""
-    },
-    {
       "id": 2,
       "title": "Zachodniopomorski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
       "subtitle": "",
@@ -86,6 +78,14 @@
       "subtitle": "",
       "address": "ul. Ostrowiecka 42, 27-400 Miłków",
       "coordinator": "KOORDYNATOR WOJEWÓDZKI: br. Norbert Kaczmarek",
+      "tel": "",
+      "mail": ""
+    },
+    {
+      "id": 10,
+      "title": "KOORDYNATOR KRAJOWY PROGRAMU POMOCY ŻYWNOŚCIOWEJ DS. ŻYWNOŚCI UNIJNEJ",
+      "subtitle": "",
+      "coordinator": "Monika Tkaczyk",
       "tel": "",
       "mail": ""
     }
