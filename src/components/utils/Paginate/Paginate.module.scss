@@ -5,13 +5,13 @@
   .pagination {
     @include flex(row, center, center);
     a {
-      color: black;
-    }
-    .pagination > li > span {
-      background-color: blue;
+      color: $text-color;
+      &:focus {
+        box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+      }
     }
     .pageItem > span {
-      color: $gold;
+      color: $linkColor-active;
     }
   }
 }

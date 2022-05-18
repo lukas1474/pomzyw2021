@@ -2,7 +2,8 @@
   "title": "Terminy wydawania żywności w województwach",
   "voivodships": [
     {
-      "name": "Zachodniopomorskie",
+      "id": 16,
+      "name": "zachodniopomorskie",
       "places": [
         {
           "title": "Magazyn Kościoła Starokatolickiego w Barwicach, ul. Zwycięzców 26, 78-460 Barwice",
