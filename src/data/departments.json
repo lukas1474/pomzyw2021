@@ -1,82 +1,93 @@
 {
-  "mainCoordinator": [
-    {
-      "id": 1,
-      "title": "SEKRETARZ GENERALNY PROGRAMU POMOCY ŻYWNOŚCIOWEJ",
-      "subTitle": "Skarbnik Generalny Kościoła Starokatolickiego w Rzeczypospolitej Polskiej",
-      "name": "o. Jacek Roman Bogacz"
-    }
-  ],
-
   "department": [
     {
       "id": 1,
-      "name": "Zachodniopomorski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
-      "address": "ul. Słowackiego 12a, 78-300 Świdwin",
-      "coordinator": "KOORDYNATOR WOJEWÓDZKI: s. Joanna Narewska",
-      "nrTel": "",
+      "title": "SEKRETARZ GENERALNY PROGRAMU POMOCY ŻYWNOŚCIOWEJ",
+      "subtitle": "Skarbnik Generalny Kościoła Starokatolickiego w Rzeczypospolitej Polskiej",
+      "address": "",
+      "coordinator": "o. Jacek Roman Bogacz",
+      "tel": "",
+      "mail": ""
+    },
+    {
+      "id": 10,
+      "title": "KOORDYNATOR KRAJOWY PROGRAMU POMOCY ŻYWNOŚCIOWEJ DS. ŻYWNOŚCI UNIJNEJ",
+      "subtitle": "",
+      "coordinator": "Monika Tkaczyk",
+      "tel": "",
       "mail": ""
     },
     {
       "id": 2,
-      "name": "Pomorski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
-      "address": "Sobącz 10A, 83-420",
-      "coordinator": "KOORDYNATOR WOJEWÓDZKI: br. Grzegorz Osipowicz",
-      "nrTel": "",
+      "title": "Zachodniopomorski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "subtitle": "",
+      "address": "ul. Słowackiego 12a, 78-300 Świdwin",
+      "coordinator": "KOORDYNATOR WOJEWÓDZKI: s. Joanna Narewska",
+      "tel": "",
       "mail": ""
     },
     {
       "id": 3,
-      "name": "Warmińsko - Mazurski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
-      "address": "ul. Kopernika 5, 11-200 Bartoszyce",
-      "coordinator": "KOORDYNATOR WOJEWÓDZKI: br. Tomasz Huta",
-      "nrTel": "",
+      "title": "Pomorski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "subtitle": "",
+      "address": "Sobącz 10A, 83-420",
+      "coordinator": "KOORDYNATOR WOJEWÓDZKI: br. Grzegorz Osipowicz",
+      "tel": "",
       "mail": ""
     },
     {
       "id": 4,
-      "name": "Podlaski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
-      "address": "ul. Kowalskiego 8A/12, 16-400 Suwałki",
-      "coordinator": "KOORDYNATOR WOJEWÓDZKI: br. Marian Pietkiewicz",
-      "nrTel": "",
+      "title": "Warmińsko - Mazurski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "subtitle": "",
+      "address": "ul. Kopernika 5, 11-200 Bartoszyce",
+      "coordinator": "KOORDYNATOR WOJEWÓDZKI: br. Tomasz Huta",
+      "tel": "",
       "mail": ""
     },
     {
       "id": 5,
-      "name": "Mazowiecki Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
-      "address": "ul. Romanów 17, 05-610 Goszczyn",
-      "coordinator": "KOORDYNATORZY WOJEWÓDZCY: br. Roman Wasilewski, br. Krzysztof Kępka, br. Jan Boczkowski",
-      "nrTel": "",
+      "title": "Podlaski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "subtitle": "",
+      "address": "ul. Kowalskiego 8A/12, 16-400 Suwałki",
+      "coordinator": "KOORDYNATOR WOJEWÓDZKI: br. Marian Pietkiewicz",
+      "tel": "",
       "mail": ""
     },
     {
       "id": 6,
-      "name": "Łódzki Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
-      "address": "ul. Częstochowska 64/150, 93-121 Łódź",
-      "coordinator": "KOORDYNATORZY WOJEWÓDZCY: s. Izabela Mertin, br. Maciej Mertin",
-      "nrTel": "",
+      "title": "Mazowiecki Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "subtitle": "",
+      "address": "ul. Romanów 17, 05-610 Goszczyn",
+      "coordinator": "KOORDYNATORZY WOJEWÓDZCY: br. Roman Wasilewski, br. Krzysztof Kępka, br. Jan Boczkowski",
+      "tel": "",
       "mail": ""
     },
     {
       "id": 7,
-      "name": "Śląski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
-      "address": "ul. Portowa 16, 44-100 Gliwice",
-      "coordinator": "KOORDYNATOR WOJEWÓDZKI: br. Łukasz Matysek",
-      "nrTel": "",
+      "title": "Łódzki Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "subtitle": "",
+      "address": "ul. Częstochowska 64/150, 93-121 Łódź",
+      "coordinator": "KOORDYNATORZY WOJEWÓDZCY: s. Izabela Mertin, br. Maciej Mertin",
+      "tel": "",
       "mail": ""
     },
     {
       "id": 8,
-      "name": "Świętokrzyski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
-      "address": "ul. Ostrowiecka 42, 27-400 Miłków",
-      "coordinator": "KOORDYNATOR WOJEWÓDZKI: br. Norbert Kaczmarek",
-      "nrTel": "",
+      "title": "Śląski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "subtitle": "",
+      "address": "ul. Portowa 16, 44-100 Gliwice",
+      "coordinator": "KOORDYNATOR WOJEWÓDZKI: br. Łukasz Matysek",
+      "tel": "",
       "mail": ""
     },
     {
       "id": 9,
-      "name": "KOORDYNATOR KRAJOWY PROGRAMU POMOCY ŻYWNOŚCIOWEJ DS. ŻYWNOŚCI UNIJNEJ",
-      "coordinator": "Monika Tkaczyk"
+      "title": "Świętokrzyski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "subtitle": "",
+      "address": "ul. Ostrowiecka 42, 27-400 Miłków",
+      "coordinator": "KOORDYNATOR WOJEWÓDZKI: br. Norbert Kaczmarek",
+      "tel": "",
+      "mail": ""
     }
   ]
 }
