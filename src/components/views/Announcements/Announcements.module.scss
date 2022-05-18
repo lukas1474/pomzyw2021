@@ -31,6 +31,23 @@
 
 .container {
   margin-top: 25px;
+  .dropdown > button,
+  .dropdown > button:active,
+  .dropdown > button:focus,
+  .dropdown > button:checked,
+  .dropdown.show > button,
+  .dropdown.show > button:active,
+  .dropdown.show > button:focus,
+  .dropdown.show > button:checked {
+    background-color: inherit;
+    color: $text-color;
+    border-color: #dee2e6;
+  }
+  .dropdownItem {
+    background-color: inherit;
+    color: $text-color;
+    border-color: #dee2e6;
+  }
 }
 
 .announcementsName {
