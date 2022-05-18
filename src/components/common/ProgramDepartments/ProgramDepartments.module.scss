@@ -1,41 +1,47 @@
 @import "../../../styles/settings.scss";
 
-.departmentsTitle {
-  @include sectionTitle;
+.departmentsList {
+  @include flex(row, null, center);
+  margin: 0 25px 0 25px;
+  padding-left: 0;
+  .departmentContainer {
+    margin-bottom: 1rem;
+    list-style: none;
+    &::after {
+      background-color: rgb(145, 144, 144);
+      content: "";
+      display: block;
+      height: 1px;
+      left: 50%;
+      margin-top: 0.5rem;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      width: 50px;
+    }
+    &:last-child {
+      &::after {
+        display: none;
+      }
+    }
+    .departmentsTitle {
+      @include sectionTitle;
+    }
+    .departmentAddress {
+      margin-top: 25px;
+      line-height: 1.5;
+    }
+    .departmentTitle {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .departmentDetails {
+      margin-left: 5%;
+    }
+  }
 }
 
 .container {
   margin-top: 25px;
-}
-
-.departmentName, .departmentAddress {
-  margin-top: 25px;
-  line-height: 1.5;
-}
-
-.departmentName {
-  margin-top: 1rem;
-  list-style: none;
-}
-
-.departmentAddress {
-  list-style: none;
-  margin-top: 25px;
-}
-
-.row {
-  @include flex(row, null, center);
-  margin: 0 25px 0 25px;
-  padding-left: 0;
-}
-
-.departmentsSubtitle {
-  font-weight: bold;
-  margin-top: 10px;
-}
-
-.departmentDetails {
-  margin-left: 5%;
 }
 
 /* ExtraExtraLarge Devices, UltraWide Desktops  */
@@ -48,18 +54,10 @@
 
 /* LG Large Devices, Tablets iPad Pro */
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
-  .row {
-    margin: 0 15px 0 15px;
-  }
 }
 
 /* MD Medium Devices, Tablets iPad */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .root {
-    .row {
-      margin: 0 10px 0 10px;
-    }
-  }
 }
 
 /* SM Small Devices, Small tablets Large Phones */
@@ -67,14 +65,6 @@
   .root {
     .container {
       margin-top: 25px;
-    }
-
-    .departmentName, .departmentAddress {
-      margin-top: 0;
-    }
-
-    .row {
-      margin: 0 5px 0 5px;
     }
   }
 }
@@ -86,20 +76,9 @@
       margin-top: 25px;
     }
 
-    .departmentName, .departmentAddress {
-      margin-top: 0;
-    }
-
-    .departmentsSubtitle {
-      font-size: 0.85rem;
-    }
-
+    .departmentTitle,
     .departmentDetails {
       font-size: 0.85rem;
-    }
-
-    .row {
-      margin: 0 3px 0 3px;
     }
   }
 }

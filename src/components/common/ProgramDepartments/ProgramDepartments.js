@@ -35,22 +35,14 @@ const ProgramDepartments = () => {
     <div className={styles.root}>
       <h2 className={styles.departmentsTitle}>Gdzie szukać pomocy?</h2>
       <div className={`container ${styles.container}`}>
-        <ul className={`row ${styles.row}`} ref={departmentRef}>
-          {departments.mainCoordinator.map((mainCoordinator, index) => {
-            return(
-              <div className={`col-12 col-md-8 ${styles.departmentName}`} key={index}>
-                <p className={styles.departmentsSubtitle}>{mainCoordinator.title}</p>
-                <p className={styles.departmentDetails}>{mainCoordinator.subTitle}</p>
-                <p className={styles.departmentDetails}>{mainCoordinator.name}</p>
-              </div>
-            );
-          })}
+        <ul className={`row ${styles.departmentsList}`} ref={departmentRef}>
           {departments.department.map((department, index) => {
             return(
-              <li className={`col-12 col-md-8 ${styles.departmentName}`} key={index}>
-                <p className={styles.departmentsSubtitle}>{department.name}</p>
+              <li className={`col-12 col-md-8 ${styles.departmentContainer}`} key={index}>
+                <p className={styles.departmentTitle}>{department.title}</p>
+                <p className={styles.departmentDetails}>{department.subtitle}</p>
                 <p className={styles.departmentDetails}>{department.coordinator}</p>
-                <p className={styles.departmentDetails}>{department.address}</p >
+                <p className={styles.departmentDetails}>{department.address}</p>
               </li>
             );
           })}
