@@ -13,16 +13,19 @@ import Announcement from '../../common/Announcement/Announcement';
 
 const Announcements = () => {
   const announcementsRef = useRef(null);
-  const newsRef = useRef(null);
   const foodDistributionRef = useRef(null);
+  const eventsRef = useRef(null);
 
-  const events = news.events.slice(0).reverse();
   const voivodships = foodDistribution.voivodships.sort((a, b) => a.name.localeCompare(b.name));
   const [currentVoivodship, setCurrentVoivodship] = useState(16);
   const filteredVoivodship= voivodships.filter((item) => item.id === currentVoivodship)[0];
 
+  const eventsInVoivodships = news.eventsInVoivodships.sort((a, b) => a.name.localeCompare(b.name));
+  const [currentEventsInVoivodships, setCurrentEventsInVoivodships] = useState(16);
+  const filteredEventsInVoivodships = eventsInVoivodships.filter((item) => item.id === currentEventsInVoivodships)[0];
+
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(5);
+  const [postsPerPage] = useState(6);
 
   const scrollWithOffset = (element) => {
     const yOffset = -100;
@@ -46,36 +49,33 @@ const Announcements = () => {
         }),
     });
 
-
     ScrollTrigger.addEventListener(`refreshInit`, () =>
       gsap.set([announcements], { y: 0 })
     );
 
-
     scrollWithOffset(announcementsRef.current);
-
   }, []);
 
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
-  const currentPosts = events.slice(indexOfFirstPost, indexOfLastPost);
+  const currentPosts = filteredEventsInVoivodships.events.slice(indexOfFirstPost, indexOfLastPost);
   const paginate = (pageNumber) => {
 
     setCurrentPage(pageNumber);
-    scrollWithOffset(newsRef.current);
-    const newsContainer = newsRef.current.children[1];
+    scrollWithOffset(eventsRef.current);
+    const newsContainer = eventsRef.current.children[1];
     const timeline = gsap.timeline({
       duration: 0.2,
       defaults: {
         ease: `Power3.easeOut`,
       },
     });
-    gsap.set(newsContainer, { autoAlpha: 0, y: 10});
+    gsap.set(newsContainer, {autoAlpha: 0, y: 10});
     timeline
       .fromTo(
         newsContainer,
-        { autoAlpha: 0, y: 10 },
-        {autoAlpha: 1, y: 0 }
+        {autoAlpha: 0, y: 10},
+        {autoAlpha: 1, y: 0}
       );
   };
 
@@ -89,22 +89,52 @@ const Announcements = () => {
         ease: `Power3.easeOut`,
       },
     });
-    gsap.set(foodDistributionContainer, { autoAlpha: 0, y: 10});
+    gsap.set(foodDistributionContainer, {autoAlpha: 0, y: 10});
     timeline
       .fromTo(
         foodDistributionContainer,
-        { autoAlpha: 0, y: 10 },
+        {autoAlpha: 0, y: 10},
         {autoAlpha: 1, y: 0 }
       );
   };
 
+  const setEventsInVoivodships = (id) => {
+    setCurrentEventsInVoivodships(id);
+    scrollWithOffset(eventsRef.current);
+    const eventsContainer = eventsRef.current.children[1].children[1];
+    const timeline = gsap.timeline({
+      duration: 0.2,
+      defaults: {
+        ease: `Power3.easeOut`,
+      },
+    });
+    gsap.set(eventsContainer, {autoAlpha: 0, y: 10});
+    timeline
+      .fromTo(
+        eventsContainer,
+        {autoAlpha: 0, y: 10},
+        {autoAlpha: 1, y: 0}
+      );
+  };
 
   return (
     <div className={styles.root} id="ogloszenia" ref={announcementsRef}>
       <div className={styles.section}>
         <h2 className={styles.announcementsTitle}>Ogłoszenia</h2>
-        <div className={`container ${styles.container}`} ref={newsRef}>
+        <div className={`container ${styles.container}`} ref={eventsRef}>
           <h4 className={styles.announcementsSubtitle}>{news.title}</h4>
+          <div className={`row ${styles.row}`}>
+            <Dropdown className={styles.dropdown}>
+              <Dropdown.Toggle className="btn-secondary">
+                {filteredEventsInVoivodships.name}
+              </Dropdown.Toggle>
+              <Dropdown.Menu>
+                {eventsInVoivodships.map((item, index) => (
+                  <Dropdown.Item className={styles.dropdownItem}  key={index} onClick={() => setEventsInVoivodships(item.id)}>{item.name}</Dropdown.Item>
+                ))}
+              </Dropdown.Menu>
+            </Dropdown>
+          </div>
           <ul className={`row ${styles.announcementsList}`}>
             {currentPosts.map((item, index) => (
               <li key={index} className="col-12 col-md-8">
@@ -112,7 +142,7 @@ const Announcements = () => {
               </li>
             ))}
           </ul>
-          <Paginate postsPerPage={postsPerPage} totalPosts={events.length} currentPage={currentPage} paginate={paginate} />
+          <Paginate postsPerPage={postsPerPage} totalPosts={filteredEventsInVoivodships.events.length} currentPage={currentPage} paginate={paginate} />
         </div>
         <div className={`container ${styles.container}`} ref={foodDistributionRef}>
           <h4 className={styles.announcementsSubtitle}>{foodDistribution.title}</h4>
@@ -123,7 +153,7 @@ const Announcements = () => {
               </Dropdown.Toggle>
               <Dropdown.Menu>
                 {voivodships.map((item, index) => (
-                  <Dropdown.Item className={styles.dropdownItem}  key={index} onClick={() => setVoivodship(item.id)}>{item.name}</Dropdown.Item>
+                  <Dropdown.Item className={styles.dropdownItem} key={index} onClick={() => setVoivodship(item.id)}>{item.name}</Dropdown.Item>
                 ))}
               </Dropdown.Menu>
             </Dropdown>
