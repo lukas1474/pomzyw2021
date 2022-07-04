@@ -1,84 +1,312 @@
 {
   "title": "Wydarzenia",
-  "events": [
+  "eventsInVoivodships": [
     {
-      "id": 1,
-      "type": "Działanie towarzyszące",
-      "title": "Gmina Sławoborze, powiat świdwiński",
-      "content": [
+      "id": 16,
+      "name": "zachodniopomorskie",
+      "events": [
         {
-          "date": "22.03.2022 - godz. 10:00",
-          "text": "Indywidualne/ w formie ulotek/ telefoniczne działania aktywizujące w zakresie dietetyki i ekonomii."
+          "id": 1,
+          "month": "Marzec",
+          "type": "Działanie towarzyszące",
+          "title": "Gmina Sławoborze, powiat świdwiński",
+          "content": [
+            {
+              "date": "22.03.2022 - godz. 10:00",
+              "text": "Indywidualne/ w formie ulotek/ telefoniczne działania aktywizujące w zakresie dietetyki i ekonomii."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "month": "Marzec",
+          "type": "Działanie towarzyszące",
+          "title": "Gmina Rąbino, powiat świdwiński",
+          "content": [
+            {
+              "date": "22.03.2022 - godz. 12:00",
+              "text": "Indywidualne/ w formie ulotek/ telefoniczne działania aktywizujące w zakresie dietetyki i ekonomii."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "month": "Marzec",
+          "type": "Działanie towarzyszące",
+          "title": "Rąbino OSP, gmina Rąbino, powiat świdwiński",
+          "content": [
+            {
+              "date": "23.03.2022 - godz. 10:00",
+              "text": "Indywidualne/ w formie ulotek/ telefoniczne  działania aktywizujące w zakresie kulinariów i dietetyki."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "month": "Marzec",
+          "type": "Działanie towarzyszące",
+          "title": "Gmina Barwice, powiat szczeciński",
+          "content": [
+            {
+              "date": "25.03.2022 - godz. 14:00",
+              "text": "Indywidualne/ w formie ulotek/ telefoniczne działania aktywizujące w zakresie ekonomii - Efektywne gospodarowanie pieniędzmi."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "month": "Marzec",
+          "type": "Działanie towarzyszące",
+          "title": "Gmina Rąbino, powiat świdwiński",
+          "content": [
+            {
+              "date": "25.03.2022 - godz. 17:00",
+              "text": "Indywidualne/ w formie ulotek/ telefoniczne działania aktywizujące w zakresie ekonomii - Efektywne gospodarowanie pieniędzmi."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "month": "Marzec",
+          "type": "Działanie towarzyszące",
+          "title": "Szkoła Podstawowa Nr 3 im. Bolesława Krzywoustego w Białogardzie",
+          "content": [
+            {
+              "date": "29.03.2022 - godz. 16:00",
+              "text": "Działania towarzyszące kulinarne."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "month": "Maj",
+          "type": "Działanie towarzyszące",
+          "title": "Rąbino, powiat świdwiński",
+          "content": [
+            {
+              "date": "16.05.2022  - godz. 15:00 - 16:00",
+              "text": "Temat kulinaria dietetyka."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "month": "Czerwiec",
+          "type": "Działanie towarzyszące",
+          "title": "Rąbino, powiat świdwiński",
+          "content": [
+            {
+              "date": "06.06.2022  - godz. 15:00",
+              "text": "Indywidualne działanie ulotkowe Rąbino - Działanie ekonomiczne: efektywne gospodarowanie pieniędzmi. Zasady zdrowego żywienia, przepisy kulinarne + dietetyka."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "month": "Czerwiec",
+          "type": "Działanie towarzyszące",
+          "title": "Koszalin, ul. Rodła 9",
+          "content": [
+            {
+              "date": "23.06.2022  - godz. 15:00 - 16:00",
+              "text": "Indywidualne działanie ulotkowe - Działanie ekonomiczne: efektywne gospodarowanie pieniędzmi. Zasady zdrowego żywienia, przepisy kulinarne + dietetyka."
+            },
+            {
+              "date": "23.06.2022  - godz. 16:00 - 17:00",
+              "text": "Indywidualne działanie ulotkowe - Działanie ekonomiczne: efektywne gospodarowanie pieniędzmi. Zasady zdrowego żywienia, przepisy kulinarne + dietetyka."
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "month": "Lipiec",
+          "type": "Działanie towarzyszące",
+          "title": "Mielno - budynek MOPS, powiat koszaliński",
+          "content": [
+            {
+              "date": "25.07.2022 - godz. 10:00 - 10:45",
+              "text": "Działanie ekonomiczne: efektywne gospodarowanie pieniędzmi. Zasady zdrowego żywienia + dietetyka."
+            },
+            {
+              "date": "25.07.2022 - godz. 11:00 - 11:45",
+              "text": "Działanie kulinarne - pożyteczne wykorzystanie produktów żywnościowych POPŻ w domowych posiłkach rodzinnych - kotleciki drobiowe oraz sałatka z makreli, groszku i makaronu."
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "month": "Lipiec",
+          "type": "Działanie towarzyszące",
+          "title": "Karlino - budynek Domu Kultury, powiat białogardzki",
+          "content": [
+            {
+              "date": "25.07.2022 - godz. 12:00 - 12:45",
+              "text": "Działanie ekonomiczne: efektywne gospodarowanie pieniędzmi. Zasady zdrowego żywienia + dietetyka."
+            },
+            {
+              "date": "25.07.2022 - godz. 13:00 - 13:45",
+              "text": "Działanie kulinarne - pożyteczne wykorzystanie produktów żywnościowych POPŻ w domowych posiłkach rodzinnych - kotleciki drobiowe oraz sałatka z makreli, groszku i makaronu."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "month": "Lipiec",
+          "type": "Działanie towarzyszące",
+          "title": "Rąbino - budynek OSP, powiat świdwiński",
+          "content": [
+            {
+              "date": "26.07.2022 - godz. 10:00 - 10:45",
+              "text": "Działanie ekonomiczne: efektywne gospodarowanie pieniędzmi. Zasady zdrowego żywienia + dietetyka."
+            },
+            {
+              "date": "26.07.2022 - godz. 11:00 - 11:45",
+              "text": "Działanie kulinarne - pożyteczne wykorzystanie produktów żywnościowych POPŻ w domowych posiłkach rodzinnych - kotleciki drobiowe oraz sałatka z makreli, groszku i makaronu."
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "month": "Lipiec",
+          "type": "Działanie towarzyszące",
+          "title": "Sławoborze - budynek OSP, powiat świdwiński",
+          "content": [
+            {
+              "date": "26.07.2022 - godz. 12:00 - 12:45",
+              "text": "Działanie ekonomiczne: efektywne gospodarowanie pieniędzmi. Zasady zdrowego żywienia + dietetyka."
+            },
+            {
+              "date": "26.07.2022 - godz. 13:00 - 13:45",
+              "text": "Działanie kulinarne - pożyteczne wykorzystanie produktów żywnościowych POPŻ w domowych posiłkach rodzinnych - kotleciki drobiowe oraz sałatka z makreli, groszku i makaronu."
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "month": "Lipiec",
+          "type": "Działanie towarzyszące",
+          "title": "Czaplinek - Rynek, budynek domu kultury",
+          "content": [
+            {
+              "date": "27.07.2022 - godz. 12:00 - 12:45",
+              "text": "Działanie ekonomiczne: efektywne gospodarowanie pieniędzmi. Zasady zdrowego żywienia + dietetyka."
+            },
+            {
+              "date": "27.07.2022 - godz. 13:00 - 13:45",
+              "text": "Działanie kulinarne - pożyteczne wykorzystanie produktów żywnościowych POPŻ w domowych posiłkach rodzinnych - kotleciki drobiowe oraz sałatka z makreli, groszku i makaronu."
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "month": "Lipiec",
+          "type": "Działanie towarzyszące",
+          "title": "Białogard",
+          "content": [
+            {
+              "date": "27.07.2022 - godz. 16:00 - 18:00",
+              "text": "Działania sportowe - rodzinny piknik strzelecki. Zdrowa i aktywna forma spędzania czasu na świeżym powietrzu."
+            }
+          ]
         }
       ]
     },
     {
-      "id": 2,
-      "type": "Działanie towarzyszące",
-      "title": "Gmina Rąbino, powiat świdwiński",
-      "content": [
+      "id": 11,
+      "name": "pomorskie",
+      "events": [
         {
-          "date": "22.03.2022 - godz. 12:00",
-          "text": "Indywidualne/ w formie ulotek/ telefoniczne działania aktywizujące w zakresie dietetyki i ekonomii."
+          "id": 1,
+          "month": "Lipiec",
+          "type": "Działanie towarzyszące",
+          "title": "Osieczna, powiat starogardzki",
+          "content": [
+            {
+              "date": "14.07.2022 - godz. 10:30",
+              "text": "Działania ekonomiczne - efektywne gospodarowanie zasobami finansowymi."
+            }
+          ]
         }
       ]
     },
     {
-      "id": 3,
-      "type": "Działanie towarzyszące",
-      "title": "Rąbino OSP, gmina Rąbino, powiat świdwiński",
-      "content": [
+      "id": 10,
+      "name": "podlaskie",
+      "events": [
         {
-          "date": "23.03.2022 - godz. 10:00",
-          "text": "Indywidualne/ w formie ulotek/ telefoniczne  działania aktywizujące w zakresie kulinariów i dietetyki."
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "type": "Działanie towarzyszące",
-      "title": "Gmina Barwice, powiat szczeciński",
-      "content": [
+          "id": 1,
+          "month": "Czerwiec",
+          "type": "Działanie towarzyszące",
+          "title": "OPR podlaskie",
+          "content": [
+            {
+              "date": "11.06.2022 - godz. 11:00",
+              "text": "Działanie kulinarne - pokaz wykorzystania produktów spożywczych dostępnych w magazynie z dodatkiem niezbędnych przypraw do stworzenia ciepłego, pełnowartościowego oraz smacznego posiłku + degustacja i uznanie."
+            }
+          ]
+        },
         {
-          "date": "25.03.2022 - godz. 14:00",
-          "text": "Indywidualne/ w formie ulotek/ telefoniczne działania aktywizujące w zakresie ekonomii - Efektywne gospodarowanie pieniędzmi."
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "type": "Działanie towarzyszące",
-      "title": "Gmina Rąbino, powiat świdwiński",
-      "content": [
-        {
-          "date": "25.03.2022 - godz. 17:00",
-          "text": "Indywidualne/ w formie ulotek/ telefoniczne działania aktywizujące w zakresie ekonomii - Efektywne gospodarowanie pieniędzmi."
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "type": "Działanie towarzyszące",
-      "title": "Szkoła Podstawowa Nr 3 im. Bolesława Krzywoustego w Białogardzie",
-      "content": [
-        {
-          "date": "29.03.2022 - godz. 16:00",
-          "text": "Działania towarzyszące kulinarne."
+          "id": 2,
+          "month": "Czerwiec",
+          "type": "Działanie towarzyszące",
+          "title": "OPR podlaskie",
+          "content": [
+            {
+              "date": "27.06.2022 - godz. 14:00",
+              "text": "Temat: profilaktyka zdrowia w aspekcie zdrowego odżywiania zgodnie z normami żywieniowymi."
+            }
+          ]
         }
       ]
     },
     {
       "id": 7,
-      "type": "Działanie towarzyszące",
-      "title": "Rąbino ",
-      "content": [
+      "name": "mazowieckie",
+      "events": [
         {
-          "date": "16.05. 2022  - godz. 15:00 - 16:00",
-          "text": "Temat kulinaria dietetyka."
+          "id": 1,
+          "month": "Czerwiec",
+          "type": "Działanie towarzyszące",
+          "title": "Wolanów budynek OSP, powiat radomski",
+          "content": [
+            {
+              "date": "13.06.2022 - godz. 12:00-12:45",
+              "text": "Działanie ekonomiczne: efektywne gospodarowanie pieniędzmi. Zasady zdrowego żywienia + dietetyka."
+            },
+            {
+              "date": "13.06.2022 - godz. 13:00-13:45",
+              "text": "Działanie kulinarne - pożyteczne wykorzystanie produktów żywnościowych POPŻ w domowych posiłkach rodzinnych - kotleciki drobiowe oraz sałatka z makreli, groszku i makaronu."
+            },
+            {
+              "date": "13.06.2022 - godz. 14:00-14:45",
+              "text": "Działanie ekonomiczne: efektywne gospodarowanie pieniędzmi. Zasady zdrowego żywienia + dietetyka."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "month": "Czerwiec",
+          "type": "Działanie towarzyszące",
+          "title": "Grójec - Plac Wolności 2",
+          "content": [
+            {
+              "date": "14.06.2022 - godz. 10:00-10:45",
+              "text": "Działanie ekonomiczne: efektywne gospodarowanie pieniędzmi. Zasady zdrowego żywienia + dietetyka."
+            },
+            {
+              "date": "14.06.2022 - godz. 11:00-11:45",
+              "text": "Działanie kulinarne - pożyteczne wykorzystanie produktów żywnościowych POPŻ w domowych posiłkach rodzinnych - kotleciki drobiowe oraz sałatka z makreli, groszku i makaronu."
+            },
+            {
+              "date": "14.06.2022 - godz. 12:00-12:45",
+              "text": "Działanie ekonomiczne: efektywne gospodarowanie pieniędzmi. Zasady zdrowego żywienia + dietetyka."
+            }
+          ]
         }
       ]
     }
   ],
+
   "giveOutFoodEvents": [
     {
       "id": 1,
