@@ -19,13 +19,12 @@ const Announcements = () => {
   const voivodships = foodDistribution.voivodships.sort((a, b) => a.name.localeCompare(b.name));
   const [currentVoivodship, setCurrentVoivodship] = useState(16);
   const filteredVoivodship= voivodships.filter((item) => item.id === currentVoivodship)[0];
-
   const eventsInVoivodships = news.eventsInVoivodships.sort((a, b) => a.name.localeCompare(b.name));
   const [currentEventsInVoivodships, setCurrentEventsInVoivodships] = useState(16);
   const filteredEventsInVoivodships = eventsInVoivodships.filter((item) => item.id === currentEventsInVoivodships)[0];
 
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(20);
+  const [postsPerPage] = useState(5);
 
   const scrollWithOffset = (element) => {
     const yOffset = -100;
@@ -58,7 +57,7 @@ const Announcements = () => {
 
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
-  const currentPosts = filteredEventsInVoivodships.events.slice(indexOfFirstPost, indexOfLastPost);
+  const currentPosts = filteredEventsInVoivodships.events.slice(0).reverse().slice(indexOfFirstPost, indexOfLastPost);
   const paginate = (pageNumber) => {
 
     setCurrentPage(pageNumber);
@@ -99,6 +98,7 @@ const Announcements = () => {
   };
 
   const setEventsInVoivodships = (id) => {
+    setCurrentPage(1);
     setCurrentEventsInVoivodships(id);
     scrollWithOffset(eventsRef.current);
     const eventsContainer = eventsRef.current.children[1].children[1];
