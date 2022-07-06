@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+import ReactGA from 'react-ga4';
 import './styles/bootstrap.scss';
 import'./styles/global.scss';
 
@@ -12,8 +14,14 @@ import NotFound from './components/views/NotFound/NotFound';
 import ScrollToTop from './components/utils/ScrollToTop';
 
 function App() {
-  gsap.registerPlugin(ScrollTrigger);
 
+  useEffect(() => {
+    const TRACKING_ID = process.env.REACT_APP_GOOGLE_ANALYTICS_API_KEY;
+    ReactGA.initialize(TRACKING_ID);
+    ReactGA.send({ hitType: 'pageview'});
+  }, []);
+
+  gsap.registerPlugin(ScrollTrigger);
   return (
     <div>
       <Router>
