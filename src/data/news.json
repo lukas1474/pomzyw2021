@@ -188,11 +188,11 @@
           "title": "Czaplinek - Rynek, budynek domu kultury",
           "content": [
             {
-              "date": "27.07.2022 - godz. 12:00 - 12:45",
+              "date": "27.07.2022 - godz. 10:00 - 10:45",
               "text": "Działanie ekonomiczne: efektywne gospodarowanie pieniędzmi. Zasady zdrowego żywienia + dietetyka."
             },
             {
-              "date": "27.07.2022 - godz. 13:00 - 13:45",
+              "date": "27.07.2022 - godz. 11:00 - 11:45",
               "text": "Działanie kulinarne - pożyteczne wykorzystanie produktów żywnościowych POPŻ w domowych posiłkach rodzinnych - kotleciki drobiowe oraz sałatka z makreli, groszku i makaronu."
             }
           ]
@@ -254,6 +254,30 @@
             {
               "date": "27.06.2022 - godz. 14:00",
               "text": "Temat: profilaktyka zdrowia w aspekcie zdrowego odżywiania zgodnie z normami żywieniowymi."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "month": "Lipiec",
+          "type": "Działanie towarzyszące",
+          "title": "Suwałki ul. Kościuszki 71 - siedziba ,,Centrum Trójki,,",
+          "content": [
+            {
+              "date": "18.07.2022",
+              "text": "Działania ekonomiczne i dietetyczne"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "month": "Lipiec",
+          "type": "Działanie towarzyszące",
+          "title": "Suwałki ul. Kościuszki 71 - siedziba ,,Centrum Trójki,,",
+          "content": [
+            {
+              "date": "25.07.2022",
+              "text": "Działania ekonomiczne i dietetyczne"
             }
           ]
         }
