@@ -226,6 +226,30 @@
               "text": "Działania ekonomiczne - efektywne gospodarowanie zasobami finansowymi."
             }
           ]
+        },
+        {
+          "id": 2,
+          "month": "Wrzesień",
+          "type": "Działanie towarzyszące",
+          "title": "Pszczółki, powiat gdański (sala gminna)",
+          "content": [
+            {
+              "date": "21.09.2022 - godz. 10:30",
+              "text": "Działania ekonomiczne"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "month": "Wrzesień",
+          "type": "Działanie towarzyszące",
+          "title": "Osieczna, powiat starogardzki (sala gminna)",
+          "content": [
+            {
+              "date": "29.09.2022 - godz. 10:30",
+              "text": "Działania ekonomiczne"
+            }
+          ]
         }
       ]
     },

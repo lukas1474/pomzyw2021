@@ -58,24 +58,20 @@
           ]
         },
         {
-          "title": "Szczecin, ul. Pszenna 29",
+          "title": "Koszalin, ul. Matejki 3",
           "content": [
             {
-              "date": "Luty",
-              "text": "17.02 w godzinach: od 15.00 do 16.00"
-            },
-            {
-              "date": "Marzec",
-              "text": "3.03 w godzinach: od 15.00 do 16.00"
+              "date": "Wrzesień",
+              "text": "09.09 od godziny 15:00 do 18:00"
             }
           ]
         },
         {
-          "title": "Sławoborze, (Ochotnicza Straż Pożarna)",
+          "title": "Mielno, ul. 6-go Marca 35 (budynek MOPS)",
           "content": [
             {
               "date": "Marzec",
-              "text": "4.03 w godzinach: od 12.00 do 15.00"
+              "text": "20.03 od godziny 11.00"
             }
           ]
         },
@@ -89,11 +85,24 @@
           ]
         },
         {
-          "title": "Mielno, ul. 6-go Marca 35 (budynek MOPS)",
+          "title": "Sławoborze, (Ochotnicza Straż Pożarna)",
           "content": [
             {
               "date": "Marzec",
-              "text": "20.03 od godziny 11.00"
+              "text": "4.03 w godzinach: od 12.00 do 15.00"
+            }
+          ]
+        },
+        {
+          "title": "Szczecin, ul. Pszenna 29",
+          "content": [
+            {
+              "date": "Luty",
+              "text": "17.02 w godzinach: od 15.00 do 16.00"
+            },
+            {
+              "date": "Marzec",
+              "text": "3.03 w godzinach: od 15.00 do 16.00"
             }
           ]
         }
