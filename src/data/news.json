@@ -352,6 +352,24 @@
           ]
         }
       ]
+    },
+    {
+      "id": 5,
+      "name": "łódzkie",
+      "events": [
+        {
+          "id": 1,
+          "month": "Wrzesień",
+          "type": "Działanie towarzyszące",
+          "title": "Zgierz ul. Rembowskiego 36/40, powiat zgierski",
+          "content": [
+            {
+              "date": "29.09.2022 - godz. 14:00",
+              "text": "Systemy spania w warunkach terenowych"
+            }
+          ]
+        }
+      ]
     }
   ],
   "giveOutFoodEvents": [
