@@ -5,10 +5,11 @@
 }
 
 .yearBox {
-  @include flex(column, center, center);
+  @include flex(row, center, center);
   background: $year-bg;
   color: $yearColor;
   width: 100%;
+  min-height: 5vh;
 }
 
 .churchLinkBox {
@@ -18,6 +19,7 @@
 
 .textFooter {
   margin: 5px;
+  font-size: 0.8rem;
 }
 
 /* XXXL ExtraExtraLarge Devices, UltraWide Desktops  */
@@ -30,20 +32,35 @@
 
 /* XL Extra Extra Large Devices, Laptops  */
 @media (min-width: 1200px) and (max-width: 1399px) {
+  .yearBox {
+    @include flex(column, center, center);
+  }
 }
 
 /* LG Large Devices, Tablets iPad Pro */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .yearBox {
+    @include flex(column, center, center);
+  }
 }
 
 /* MD Medium Devices, Tablets iPad */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .yearBox {
+    @include flex(column, center, center);
+  }
 }
 
 /* SM Small Devices, Small tablets Large Phones */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+  .yearBox {
+    @include flex(column, center, center);
+  }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 0px) and (max-width: 575px) {
+  .yearBox {
+    @include flex(column, center, center);
+  }
 }
