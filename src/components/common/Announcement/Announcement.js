@@ -3,7 +3,8 @@ import styles from './Announcement.module.scss';
 const Announcement = (announcement) => {
   return (
     <div className={styles.root}>
-      <h6 className={styles.announcementTitle}>{announcement.type ? `${announcement.type}: ${announcement.title}` : announcement.title}</h6>
+      <h6 className={styles.announcementTitle}>{announcement.type}</h6>
+      <h6 className={styles.announcementTitle}>{announcement.title}</h6>
       {
         announcement.content.map((item, index) => (
           <div key={index} className={styles.announcementDetails}>

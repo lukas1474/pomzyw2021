@@ -212,6 +212,24 @@
       ]
     },
     {
+      "id": 13,
+      "name": "świętokrzyskie",
+      "events": [
+        {
+          "id": 1,
+          "month": "Wrzesień",
+          "type": "Działanie towarzyszące",
+          "title": "Fundacja Aktywnych Mam - Ostrowiec Świętokrzyski, ul. Osiedle Słoneczne 17, powiat sandomierski",
+          "content": [
+            {
+              "date": "30.09.2022 - godz. 15:30",
+              "text": "Warsztaty kulinarne dla różnych grup pokoleniowych z udziałem ekspertów kulinarnych, kuchmistrzów, dietetyków. Pokazujące różne możliwości przygotowania potraw i wykorzystywania artykułów spożywczych."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 11,
       "name": "pomorskie",
       "events": [
