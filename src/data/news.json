@@ -212,6 +212,40 @@
       ]
     },
     {
+      "id": 14,
+      "name": "warmińsko-mazurskie",
+      "events": [
+        {
+          "id": 1,
+          "month": "Październik",
+          "type": "Działanie towarzyszące",
+          "title": "Bartoszyce, ul. Kopernika 5, powiat bartoszycki",
+          "content": [
+            {
+              "date": "10.10.2022 - godz. 15:00 - 15:45",
+              "text": "Warsztaty kulinarne."
+            },
+            {
+              "date": "10.10.2022 - godz. 16:00 - 16:45",
+              "text": "Warsztaty - Zdrowe żywienie."
+            },
+            {
+              "date": "10.10.2022 - godz. 17:00 - 17:45",
+              "text": "Warsztaty - Radzenie sobie ze stresem."
+            },
+            {
+              "date": "10.10.2022 - godz. 18:00 - 18:45",
+              "text": "Warsztaty - Chroń swoje dane osobowe."
+            },
+            {
+              "date": "10.10.2022 - godz. 19:00 - 19:45",
+              "text": "Warsztaty - Ruch to zdrowie"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 13,
       "name": "świętokrzyskie",
       "events": [
@@ -224,6 +258,18 @@
             {
               "date": "30.09.2022 - godz. 15:30",
               "text": "Warsztaty kulinarne dla różnych grup pokoleniowych z udziałem ekspertów kulinarnych, kuchmistrzów, dietetyków. Pokazujące różne możliwości przygotowania potraw i wykorzystywania artykułów spożywczych."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "month": "Październik",
+          "type": "Działanie towarzyszące",
+          "title": "Fundacja Aktywnych Mam - Ostrowiec Świętokrzyski, ul. Osiedle Słoneczne 17, powiat sandomierski",
+          "content": [
+            {
+              "date": "07.10.2022 - godz. 15:30",
+              "text": "Elementy muzykoterapii z wykorzystaniem instrumentów muzycznych z grupy membranofonów - cel: rozładowanie napięcia nerwowego (stresu)."
             }
           ]
         }
