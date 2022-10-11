@@ -45,7 +45,7 @@
           "id": 4,
           "month": "Marzec",
           "type": "Działanie towarzyszące",
-          "title": "Gmina Barwice, powiat szczeciński",
+          "title": "Gmina Barwice, powiat szczecinecki",
           "content": [
             {
               "date": "25.03.2022 - godz. 14:00",
@@ -206,6 +206,38 @@
             {
               "date": "27.07.2022 - godz. 16:00 - 18:00",
               "text": "Działania sportowe - rodzinny piknik strzelecki. Zdrowa i aktywna forma spędzania czasu na świeżym powietrzu."
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "month": "Październik",
+          "type": "Działanie towarzyszące",
+          "title": "Przybkowo - świetlica, gmina Barwice, powiat szczecinecki",
+          "content": [
+            {
+              "date": "12.10.2022 - godz. 16:00",
+              "text": "Działania kulinarne."
+            },
+            {
+              "date": "12.10.2022 - godz. 16:30",
+              "text": "Działania ekonomiczne."
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "month": "Październik",
+          "type": "Działanie towarzyszące",
+          "title": "Nielep - świetlica, gmina Rąbino, powiat świdwiński",
+          "content": [
+            {
+              "date": "13.10.2022 - godz. 16:00",
+              "text": "Działania kulinarne."
+            },
+            {
+              "date": "13.10.2022 - godz. 16:30",
+              "text": "Działania ekonomiczne."
             }
           ]
         }
