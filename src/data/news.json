@@ -308,6 +308,40 @@
       ]
     },
     {
+      "id": 12,
+      "name": "śląskie",
+      "events": [
+        {
+          "id": 1,
+          "month": "Październik",
+          "type": "Działanie towarzyszące",
+          "title": "Towarzystwo Pomocy im. św. Brata Alberta, Siemianowice Śląskie ul. Sobieskiego 21",
+          "content": [
+            {
+              "date": "18.10.2022 - godz. 10:00-10:30",
+              "text": "Działanie kulinarne - Wykorzystanie produktów z POPŻ w gospodarstwie domowym - sałatka z makrelą i warzywami."
+            },
+            {
+              "date": "18.10.2022 - godz. 10:30-11:00",
+              "text": "Działanie ekonomiczne: O wartości pieniądza."
+            },
+            {
+              "date": "18.10.2022 - godz. 11:00-11:30",
+              "text": "Działanie dietetyczne - Zdrowe odżywianie."
+            },
+            {
+              "date": "18.10.2022 - godz. 11:30-12.00",
+              "text": "Zdrowy tryb życia: Oczyszczanie organizmu."
+            },
+            {
+              "date": "18.10.2022 - godz. 12:00",
+              "text": "Jak chronić swoje dane osobowe?"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 11,
       "name": "pomorskie",
       "events": [
@@ -444,6 +478,30 @@
             {
               "date": "14.06.2022 - godz. 12:00-12:45",
               "text": "Działanie ekonomiczne: efektywne gospodarowanie pieniędzmi. Zasady zdrowego żywienia + dietetyka."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "month": "Październik",
+          "type": "Działanie towarzyszące",
+          "title": "Romanów 17, Goszczyn, powiat grójecki",
+          "content": [
+            {
+              "date": "17.10.2022 - godz. 10:00-10:30",
+              "text": "Działanie kulinarne - Wykorzystanie produktów z POPŻ w gospodarstwie domowym - sałatka z makrelą i warzywami."
+            },
+            {
+              "date": "17.10.2022 - godz. 10:30-11:00",
+              "text": "Działanie ekonomiczne: O wartości pieniądza."
+            },
+            {
+              "date": "17.10.2022 - godz. 11:00-11:30",
+              "text": "Działanie dietetyczne - Zdrowe odżywianie."
+            },
+            {
+              "date": "17.10.2022 - godz. 11:30",
+              "text": "Zdrowy tryb życia: Wpływ komory normobarycznej na funkcjonowanie organizmu - działanie przeprowadzone w komorze."
             }
           ]
         }
