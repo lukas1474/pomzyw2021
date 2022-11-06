@@ -2,12 +2,14 @@
 
 .root {
   @include flex(column, center, center);
+  color: $yearColor;
+  background: $year-bg;
 }
 
 .yearBox {
   @include flex(row, center, center);
-  background: $year-bg;
-  color: $yearColor;
+  // background: $year-bg;
+  // color: $yearColor;
   width: 100%;
   min-height: 5vh;
 }
