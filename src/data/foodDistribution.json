@@ -102,7 +102,40 @@
             },
             {
               "date": "Marzec",
-              "text": "3.03 w godzinach: od 15.00 do 16.00"
+              "text": "03.03 w godzinach: od 15.00 do 16.00"
+            }
+          ]
+        },
+        {
+          "title": "Szczecin, ul. Stolczyńska 156",
+          "content": [
+            {
+              "date": "Luty",
+              "text": "17.02 w godzinach: od 15.00 do 18.00"
+            },
+            {
+              "date": "Marzec",
+              "text": "03.03, 18.03, 24.03 w godzinach: od 15.00 do 18.00"
+            },
+            {
+              "date": "Czerwiec",
+              "text": "13.06 w godzinach: od 15.00 do 18.00"
+            },
+            {
+              "date": "Lipiec",
+              "text": "14.07, 21.07 w godzinach: od 15.00 do 18.00"
+            },
+            {
+              "date": "Sierpień",
+              "text": "24.08 w godzinach: od 15.00 do 18.00"
+            },
+            {
+              "date": "Wrzesień",
+              "text": "21.09, 22.09, 29.09 w godzinach: od 15.00 do 18.00"
+            },
+            {
+              "date": "Październik",
+              "text": "04.10 w godzinach: od 15.00 do 18.00"
             }
           ]
         }
