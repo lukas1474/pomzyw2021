@@ -12,6 +12,7 @@ import MainPage from './components/views/MainPage/MainPage';
 import Announcements from './components/views/Announcements/Announcements';
 import NotFound from './components/views/NotFound/NotFound';
 import ScrollToTop from './components/utils/ScrollToTop';
+import Gdpr from './components/infoPages/Gdpr/Gdpr';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={MainPage} />
             <Route exact path="/ogloszenia" component={Announcements} />
+            <Route exact path="/rodo" component={Gdpr} />
             <Route path="*" component={NotFound} />
           </Switch>
         </MainLayout>

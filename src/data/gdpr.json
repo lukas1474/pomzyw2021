@@ -1,0 +1,106 @@
+{
+  "id": 1,
+
+  "data": [
+    {
+      "id": 2,
+      "type": "paragraph",
+      "value": "Zgodnie z art. 13 ust. 1 i 2 rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE poniżej przekazujemy następujące informacje:"
+    },
+    {
+      "id": 3,
+      "type": "title",
+      "value": "Tożsamość administratora i dane kontaktowe"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "value": "Administratorem Państwa danych osobowych jest Kościół Starokatolicki z siedzibą w Świdwinie."
+    },
+    {
+      "id": 5,
+      "type": "title",
+      "value": "Dane kontaktowe inspektora ochrony danych osobowych"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "value": "W sprawach dotyczących przetwarzania danych osobowych prosimy o kontakt z Inspektorem Ochrony Danych drogą elektroniczną – adres email: kontakt@pomoczywnosciowa.pl lub pisemnie na adres siedziby administratora."
+    },
+    {
+      "id": 7,
+      "type": "title",
+      "value": "Cele przetwarzania i podstawa prawna przetwarzania"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "value": "Przetwarzanie Państwa danych osobowych jest niezbędne do udzielenia pomocy żywnościowej w ramach Programu Operacyjnego Pomoc Żywnościowa 2014-2020 (PO PŻ), współfinansowanego ze środków Europejskiego Funduszu Pomocy Najbardziej Potrzebującym i jest niezbędne do wypełnienia obowiązku prawnego ciążącego na administratorze."
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "value": "Podstawą przetwarzania Państwa danych osobowych jest art. 6 ust. 1 lit. c Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO) - oraz art. 134m ust. 1 i 2 ustawy z dnia 12 marca 2004r. o pomocy społecznej. Ponadto w przypadku podania przez Państwa informacji/danych, o których mowa w art. 7 ustawy z dnia 12 marca 2004r. o pomocy społecznej związanych ze stanem zdrowia, podstawą przetwarzania jest także  art. 9 ust. 2 lit. g RODO."
+    },
+    {
+      "id": 10,
+      "type": "title",
+      "value": "Odbiorcy danych lub kategorie odbiorców danych"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "value": "Państwa dane osobowe mogą być przekazywane podmiotom upoważnionym do ich pozyskania na podstawie przepisów prawa tj. innym podmiotom uczestniczącym w realizacji Programu Operacyjnego Pomoc Żywnościowa 2014-2020."
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "value": "Administrator nie będzie przekazywał Państwa danych osobowych do państwa trzeciego lub do organizacji międzynarodowej."
+    },
+    {
+      "id": 13,
+      "type": "title",
+      "value": "Okres przechowywania danych"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "value": "Państwa dane będą przechowywane do momentu wygaśnięcia obowiązku przechowywania danych wynikającego z przepisów, tj. przez okres realizacji Programu – do czasu zatwierdzenia sprawozdania końcowego przez Komisję Europejską oraz 5 lat po zatwierdzeniu sprawozdania. Sprawozdania końcowe jest składane do KE z dniem 30 września 2024r."
+    },
+    {
+      "id": 15,
+      "type": "title",
+      "value": "Prawa podmiotów danych"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "value": "Przysługuje Państwu prawo dostępu do swoich danych osobowych, prawo do żądania ich sprostowania, do ograniczania przetwarzania tych danych oraz prawo do żądania ich usunięcia po upływie okresu, o którym mowa powyżej."
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "value": "W trakcie przetwarzania Państwa danych osobowych nie będzie dochodzić do zautomatyzowanego podejmowania decyzji, ani do profilowania."
+    },
+    {
+      "id": 18,
+      "type": "title",
+      "value": "Prawo wniesienia skargi do organu nadzorczego"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "value": "Przysługuje Państwu prawo wniesienia skargi do organu nadzorczego, tj. do Prezesa Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa, tel: 22 860 70 86."
+    },
+    {
+      "id": 20,
+      "type": "title",
+      "value": "Informacja o dobrowolności podania danych"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "value": "Podanie przez Państwa danych jest niezbędne do wypełnienia obowiązku prawnego, o którym mowa w art. 134m ust. 1 i 2 ustawy o pomocy społecznej ciążącego na administratorze w związku z realizacją POPŻ."
+    }
+  ]
+}

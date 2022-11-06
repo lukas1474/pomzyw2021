@@ -304,6 +304,25 @@
               "text": "Elementy muzykoterapii z wykorzystaniem instrumentów muzycznych z grupy membranofonów - cel: rozładowanie napięcia nerwowego (stresu)."
             }
           ]
+        },
+        {
+          "id": 3,
+          "month": "Październik",
+          "type": "Działanie towarzyszące",
+          "title": "Centrum Pomocy Uchodźcom - Skarżysko Kamienna, ul. Plac Floriański 1/303, powiat skarżyski",
+          "content": [
+            {
+              "date": "31.10.2022 - godz. 10:00 - 11:00",
+              "text": "Warsztaty edukacji ekonomicznej - temat: O wartości pieniądza."
+            },
+            {
+              "date": "31.10.2022 - godz. 11:00 - 12:00",
+              "text": "Warsztaty kulturoznawcze - temat: Ja Europejczyk."
+            },{
+              "date": "31.10.2022 - godz. 12:00 - 13:00",
+              "text": "Bezpieczeństwo w sieci - temat: Jak chronić swoje dane osobowe?"
+            }
+          ]
         }
       ]
     },

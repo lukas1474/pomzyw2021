@@ -19,41 +19,8 @@
   padding-top: 15px;
 }
 
-.announcementsTitle {
-  @include sectionTitle;
-}
-
-.announcementsSubtitle,
-.announcementSubtitle {
-  @include subsectionTitle;
-  @include flex(null, null, flex-start);
-}
-
 .container {
   margin-top: 25px;
-  .dropdown > button,
-  .dropdown > button:active,
-  .dropdown > button:focus,
-  .dropdown > button:checked,
-  .dropdown.show > button,
-  .dropdown.show > button:active,
-  .dropdown.show > button:focus,
-  .dropdown.show > button:checked {
-    background-color: inherit;
-    color: $text-color;
-    border-color: #dee2e6;
-  }
-  .dropdownItem {
-    background-color: inherit;
-    color: $text-color;
-    border-color: #dee2e6;
-  }
-}
-
-.announcementsName {
-  margin-top: 25px;
-  line-height: 1.5;
-  list-style: none;
 }
 
 .row {
@@ -63,31 +30,14 @@
   padding-left: 0;
 }
 
-.announcementsList {
-  @extend .row;
-  li {
-    margin-bottom: 1rem;
-    &::after {
-      background-color: rgb(145, 144, 144);
-      content: "";
-      display: block;
-      height: 1px;
-      left: 50%;
-      margin-top: 0.5rem;
-      position: absolute;
-      transform: translate(-50%, -50%);
-      width: 50px;
-    }
-    &:last-child {
-      &::after {
-        display: none;
-      }
-    }
-  }
+.rodoDetailsTitle {
+  font-weight: bold;
+  margin-top: 10px;
 }
 
-.announcementDetails {
-  margin-left: 6%;
+.rodoTitle {
+  @include sectionTitle;
+  font-size: 1.8rem;
 }
 
 /* ExtraExtraLarge Devices, UltraWide Desktops  */
@@ -110,26 +60,17 @@
   .root {
     width: 80%;
 
-    .announcementsSubtitle,
-    .announcementSubtitle {
-      margin: 15px;
-    }
-
     .row {
       margin: 0 15px 0 15px;
     }
   }
 }
 
+
 /* Medium Devices, Tablets iPad */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .root {
     width: 95%;
-
-    .announcementsSubtitle,
-    .announcementSubtitle {
-      margin: 15px 10px 15px 10px;
-    }
 
     .row {
       margin: 0 10px 0 10px;
@@ -137,22 +78,27 @@
   }
 }
 
+
 /* Small Devices, Small tablets Large Phones */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .root {
     width: 95%;
 
+    .rodoTitle {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
     .container {
       margin-top: 25px;
     }
 
-    .announcementsSubtitle,
-    .announcementSubtitle {
-      margin: 15px 5px 15px 5px;
+    .rodoDetails {
+      font-size: 0.85rem;
     }
 
-    .announcementsName {
-      margin-top: 0;
+    .rodoDetailsTitle {
+      font-size: 0.85rem;
     }
 
     .row {
@@ -161,25 +107,26 @@
   }
 }
 
+
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 0px) and (max-width: 479px) {
   .root {
     width: 95%;
 
+    .rodoTitle {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
     .container {
       margin-top: 25px;
     }
 
-    .announcementsName {
-      margin-top: 0;
+    .rodoDetails {
+      font-size: 0.85rem;
     }
 
-    .announcementsSubtitle,
-    .announcementSubtitle {
-      margin: 5px 3px 0 3px;
-    }
-
-    .announcementDetails {
+    .rodoDetailsTitle {
       font-size: 0.85rem;
     }
 
