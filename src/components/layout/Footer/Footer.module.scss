@@ -8,8 +8,6 @@
 
 .yearBox {
   @include flex(row, center, center);
-  // background: $year-bg;
-  // color: $yearColor;
   width: 100%;
   min-height: 5vh;
 }
