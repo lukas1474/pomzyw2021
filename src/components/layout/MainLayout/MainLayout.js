@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './MainLayout.module.scss';
 
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
@@ -9,7 +10,9 @@ const MainLayout = ({children}) => {
   return (
     <div>
       <Header />
-      {children}
+      <div className={styles.mainLayoutSections}>
+        {children}
+      </div>
       <Footer />
     </div>
   );

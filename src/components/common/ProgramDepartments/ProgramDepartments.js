@@ -46,11 +46,6 @@ const ProgramDepartments = () => {
               </li>
             );
           })}
-          <li className={`col-12 col-md-8 ${styles.departmentContainer}`}>
-            Dokument do pobrania:
-            <br/>
-            <a href="/documents/opisDzialan.pdf" download="Pomoc_zywnosciowa_opis_dzialan.pdf"> Opis działań realizowanych przez Organizację Partnerską wraz z wykazem magazynów organizacji partnerskich regionalnych w ramach Programu Operacyjnego Pomoc Żywnościowa 2014-2020 współfinansowanego z Europejskiego Funduszu Pomocy Najbardziej Potrzebującym Podprogram 2021</a>
-          </li>
         </ul>
       </div>
     </div>
