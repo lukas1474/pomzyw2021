@@ -1,20 +1,37 @@
 {
   "title": "Terminy wydawania żywności w województwach",
+  "year": "2022",
   "voivodships": [
     {
       "id": 16,
       "name": "zachodniopomorskie",
       "places": [
         {
-          "title": "Magazyn Kościoła Starokatolickiego w Barwicach, ul. Zwycięzców 26, 78-460 Barwice",
+          "title": "Magazyn Kościoła Starokatolickiego, ul. Zwycięzców 26, 78-460 Barwice, powiat szczeciniecki",
           "content": [
             {
               "date": "Luty",
-              "text": "1.02, 8.02, 15.02, 22.02, 23.02 w godzinach: od 11:00 do 12:00"
+              "text": "01.02, 14.02, 23.02, 24.02"
             },
             {
               "date": "Marzec",
-              "text": "8.03, 15.03, 22.03, 29.03 w godzinach od 10:00 do 11:00"
+              "text": "08.03, 18.03, 22.03, 24.03"
+            },
+            {
+              "date": "Kwiecień",
+              "text": "29.04"
+            },
+            {
+              "date": "Maj",
+              "text": "10.05"
+            },
+            {
+              "date": "Wrzesień",
+              "text": "01.09"
+            },
+            {
+              "date": "Październik",
+              "text": "03.10, 13.10"
             }
           ]
         },
@@ -23,24 +40,35 @@
           "content": [
             {
               "date": "Styczeń",
-              "text": "28.01 w godzinach od 13.00 do 16.00"
+              "text": "28.01"
             },
             {
               "date": "Luty",
-              "text": "3.02, 16.02, 26.02 w godzinach: od 14:00 do 16:00"
+              "text": "03.02"
             },
             {
-              "date": "Marzec",
-              "text": "11.03, 16.03 w godzinach od 14:00 do 16:00"
-            }
-          ]
-        },
-        {
-          "title": "Rąbino, (Pałac)",
-          "content": [
+              "date": "Kwiecień",
+              "text": "11.04, 14.04, 16.04, 29.04"
+            },
             {
-              "date": "Luty",
-              "text": "15.02 od godziny 12.00"
+              "date": "Maj",
+              "text": "18.05, 31.05"
+            },
+            {
+              "date": "Czerwiec",
+              "text": "10.06, 23.06"
+            },
+            {
+              "date": "Lipiec",
+              "text": "09.07, 15.07"
+            },
+            {
+              "date": "Wrzesień",
+              "text": "05.09, 10.09, 15.09, 16.09, 20.09, 21.09, 23.09, 29.09"
+            },
+            {
+              "date": "Październik",
+              "text": "05.10"
             }
           ]
         },
@@ -53,7 +81,68 @@
             },
             {
               "date": "Marzec",
-              "text": "24.03 od godziny 10.00"
+              "text": "25.03, 28.03, 29.03, 30.03, 31.03"
+            },
+            {
+              "date": "Kwiecień",
+              "text": "04.04"
+            },
+            {
+              "date": "Maj",
+              "text": "20.05, 23.05, 24.05, 25.05, 27.05"
+            },
+            {
+              "date": "Czerwiec",
+              "text": "09.06"
+            },
+            {
+              "date": "Październik",
+              "text": "05.10, 06.10, 07.10"
+            }
+          ]
+        },
+        {
+          "title": "Karlino, ul. Traugutta 6 (budynek GOPS), powiat białogardzki",
+          "content": [
+            {
+              "date": "Styczeń",
+              "text": "28.01"
+            },
+            {
+              "date": "Luty",
+              "text": "03.02"
+            },
+            {
+              "date": "Marzec",
+              "text": "16.03"
+            },
+            {
+              "date": "Maj",
+              "text": "30.05"
+            },
+            {
+              "date": "Czerwiec",
+              "text": "01.06, 02.06, 03.06, 10.06, 13.06"
+            },
+            {
+              "date": "Lipiec",
+              "text": "27.07, 28.07"
+            },
+            {
+              "date": "Sierpień",
+              "text": "16.08"
+            },{
+              "date": "Wrzesień",
+              "text": "15.09, 22.09"
+            }
+          ]
+        },
+        {
+          "title": "Karlino, ul. Wigury 1 (budynek OSP), powiat białogardzki",
+          "content": [
+            {
+              "date": "Maj",
+              "text": "26.05"
             }
           ]
         },
@@ -62,80 +151,147 @@
           "content": [
             {
               "date": "Wrzesień",
-              "text": "09.09 od godziny 15:00 do 18:00"
+              "text": "08.09, 09.09, 12.09"
             }
           ]
         },
         {
-          "title": "Mielno, ul. 6-go Marca 35 (budynek MOPS)",
+          "title": "Koszalin, ul. Rodła 9",
           "content": [
             {
               "date": "Marzec",
-              "text": "20.03 od godziny 11.00"
-            }
-          ]
-        },
-        {
-          "title": "Rymań, Koszalińska 18 (Dom Kultury)",
-          "content": [
-            {
-              "date": "Marzec",
-              "text": "4.03 w godzinach: od 15.00 do 18.00 oraz 23.03 od godziny 12.00"
-            }
-          ]
-        },
-        {
-          "title": "Sławoborze, (Ochotnicza Straż Pożarna)",
-          "content": [
-            {
-              "date": "Marzec",
-              "text": "4.03 w godzinach: od 12.00 do 15.00"
-            }
-          ]
-        },
-        {
-          "title": "Szczecin, ul. Pszenna 29",
-          "content": [
-            {
-              "date": "Luty",
-              "text": "17.02 w godzinach: od 15.00 do 16.00"
+              "text": "13.03, 20.03"
             },
             {
-              "date": "Marzec",
-              "text": "03.03 w godzinach: od 15.00 do 16.00"
-            }
-          ]
-        },
-        {
-          "title": "Szczecin, ul. Stolczyńska 156",
-          "content": [
-            {
-              "date": "Luty",
-              "text": "17.02 w godzinach: od 15.00 do 18.00"
-            },
-            {
-              "date": "Marzec",
-              "text": "03.03, 18.03, 24.03 w godzinach: od 15.00 do 18.00"
+              "date": "Maj",
+              "text": "27.05, 31.05"
             },
             {
               "date": "Czerwiec",
-              "text": "13.06 w godzinach: od 15.00 do 18.00"
+              "text": "10.06, 23.06"
+            }
+          ]
+        },
+        {
+          "title": "Mielno, ul. 6-go Marca 35 (budynek MOPS), powiat koszaliński",
+          "content": [
+            {
+              "date": "Marzec",
+              "text": "20.03"
             },
             {
-              "date": "Lipiec",
-              "text": "14.07, 21.07 w godzinach: od 15.00 do 18.00"
-            },
-            {
-              "date": "Sierpień",
-              "text": "24.08 w godzinach: od 15.00 do 18.00"
+              "date": "Maj",
+              "text": "24.05, 25.05"
             },
             {
               "date": "Wrzesień",
-              "text": "21.09, 22.09, 29.09 w godzinach: od 15.00 do 18.00"
+              "text": "07.09, 26.09"
+            }
+          ]
+        },
+        {
+          "title": "Rąbino 1058Z 22, (budynek OSP), powiat świdwiński",
+          "content": [
+            {
+              "date": "Marzec",
+              "text": "26.03"
+            },
+            {
+              "date": "Maj",
+              "text": "12.05"
+            },
+            {
+              "date": "Czerwiec",
+              "text": "28.06"
+            },
+            {
+              "date": "Wrzesień",
+              "text": "06.09, 23.09"
+            }
+          ]
+        },
+        {
+          "title": "Rąbino 85, (Pałac), powiat świdwiński",
+          "content": [
+            {
+              "date": "Luty",
+              "text": "15.02"
+            }
+          ]
+        },
+        {
+          "title": "Rymań, Koszalińska 18 (Dom Kultury), powiat kołobrzeski",
+          "content": [
+            {
+              "date": "Marzec",
+              "text": "04.03"
+            }
+          ]
+        },
+        {
+          "title": "Rymań, Leśna 4 (budynek OSP), powiat kołobrzeski",
+          "content": [
+            {
+              "date": "Marzec",
+              "text": "23.03"
+            },
+            {
+              "date": "Wrzesień",
+              "text": "23.09"
+            }
+          ]
+        },
+        {
+          "title": "Sławoborze, Parcela (budynek OSP), powiat świdwiński",
+          "content": [
+            {
+              "date": "Marzec",
+              "text": "04.03"
+            },
+            {
+              "date": "Maj",
+              "text": "10.05, 13.05"
+            },
+            {
+              "date": "Czerwiec",
+              "text": "10.06, 13.06, 14.06, 15.06, 22.06"
+            },
+            {
+              "date": "Wrzesień",
+              "text": "13.09, 16.09"
+            }
+          ]
+        },
+        {
+          "title": "Szczecin, ul. Stolczyńska 156/1",
+          "content": [
+            {
+              "date": "Luty",
+              "text": "17.02"
+            },
+            {
+              "date": "Marzec",
+              "text": "03.03, 18.03, 24.03"
+            },
+            {
+              "date": "Czerwiec",
+              "text": "13.06"
+            },
+            {
+              "date": "Lipiec",
+              "text": "14.07, 21.07"
+            },
+            {
+              "date": "Sierpień",
+              "text": "24.08"
+            },
+            {
+              "date": "Wrzesień",
+              "text": "21.09, 22.09, 29.09"
             },
             {
               "date": "Październik",
-              "text": "04.10 w godzinach: od 15.00 do 18.00"
+              "text": "04.10"
             }
           ]
         }
