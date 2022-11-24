@@ -33,6 +33,22 @@
           "id": 3,
           "month": "Marzec",
           "type": "Działanie towarzyszące",
+          "title": "Rymań, Leśna 4 (budynek OSP), powiat kołobrzeski",
+          "content": [
+            {
+              "date": "23.03.2022",
+              "text": "Indywidualne/ w formie ulotek/ stacjonarne działania ekonomiczne - Efektywne gospodarowanie pieniędzmi."
+            },
+            {
+              "date": "23.03.2022",
+              "text": "Indywidualne/ w formie ulotek/ stacjonarne działania kulinarne - Wykorzystanie produktów POPŻ w gospodarstwie domowym."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "month": "Marzec",
+          "type": "Działanie towarzyszące",
           "title": "Rąbino OSP, gmina Rąbino, powiat świdwiński",
           "content": [
             {
@@ -42,7 +58,7 @@
           ]
         },
         {
-          "id": 4,
+          "id": 5,
           "month": "Marzec",
           "type": "Działanie towarzyszące",
           "title": "Gmina Barwice, powiat szczecinecki",
@@ -50,11 +66,15 @@
             {
               "date": "25.03.2022 - godz. 14:00",
               "text": "Indywidualne/ w formie ulotek/ telefoniczne działania aktywizujące w zakresie ekonomii - Efektywne gospodarowanie pieniędzmi."
+            },
+            {
+              "date": "25.03.2022 - godz. 15:00",
+              "text": "Indywidualne/ w formie ulotek/ działania dietetyczne - Zdrowy styl życia."
             }
           ]
         },
         {
-          "id": 5,
+          "id": 6,
           "month": "Marzec",
           "type": "Działanie towarzyszące",
           "title": "Gmina Rąbino, powiat świdwiński",
@@ -66,7 +86,7 @@
           ]
         },
         {
-          "id": 6,
+          "id": 7,
           "month": "Marzec",
           "type": "Działanie towarzyszące",
           "title": "Szkoła Podstawowa Nr 3 im. Bolesława Krzywoustego w Białogardzie",
@@ -78,7 +98,19 @@
           ]
         },
         {
-          "id": 7,
+          "id": 8,
+          "month": "Kwiecień",
+          "type": "Działanie towarzyszące",
+          "title": "Białogard, ul. Moniuszki 49 (Hala AKS)",
+          "content": [
+            {
+              "date": "12.04.2022",
+              "text": "Działania towarzyszące sportowe."
+            }
+          ]
+        },
+        {
+          "id": 9,
           "month": "Maj",
           "type": "Działanie towarzyszące",
           "title": "Rąbino, powiat świdwiński",
@@ -90,7 +122,7 @@
           ]
         },
         {
-          "id": 8,
+          "id": 10,
           "month": "Czerwiec",
           "type": "Działanie towarzyszące",
           "title": "Rąbino, powiat świdwiński",
@@ -102,7 +134,7 @@
           ]
         },
         {
-          "id": 9,
+          "id": 11,
           "month": "Czerwiec",
           "type": "Działanie towarzyszące",
           "title": "Koszalin, ul. Rodła 9",
@@ -118,7 +150,7 @@
           ]
         },
         {
-          "id": 10,
+          "id": 12,
           "month": "Lipiec",
           "type": "Działanie towarzyszące",
           "title": "Mielno - budynek MOPS, powiat koszaliński",
@@ -134,7 +166,7 @@
           ]
         },
         {
-          "id": 11,
+          "id": 13,
           "month": "Lipiec",
           "type": "Działanie towarzyszące",
           "title": "Karlino - budynek Domu Kultury, powiat białogardzki",
@@ -150,7 +182,7 @@
           ]
         },
         {
-          "id": 12,
+          "id": 14,
           "month": "Lipiec",
           "type": "Działanie towarzyszące",
           "title": "Rąbino - budynek OSP, powiat świdwiński",
@@ -166,7 +198,7 @@
           ]
         },
         {
-          "id": 13,
+          "id": 15,
           "month": "Lipiec",
           "type": "Działanie towarzyszące",
           "title": "Sławoborze - budynek świetlicy Rokosowo, powiat świdwiński",
@@ -182,7 +214,7 @@
           ]
         },
         {
-          "id": 14,
+          "id": 16,
           "month": "Lipiec",
           "type": "Działanie towarzyszące",
           "title": "Czaplinek - ul. Moniuszki 26",
@@ -198,7 +230,7 @@
           ]
         },
         {
-          "id": 15,
+          "id": 17,
           "month": "Lipiec",
           "type": "Działanie towarzyszące",
           "title": "Białogard",
@@ -210,10 +242,10 @@
           ]
         },
         {
-          "id": 16,
+          "id": 18,
           "month": "Październik",
           "type": "Działanie towarzyszące",
-          "title": "Przybkowo - świetlica, gmina Barwice, powiat szczecinecki",
+          "title": "Parchlino, gmina Barwice, powiat szczecinecki",
           "content": [
             {
               "date": "12.10.2022 - godz. 16:00",
@@ -226,7 +258,7 @@
           ]
         },
         {
-          "id": 16,
+          "id": 19,
           "month": "Październik",
           "type": "Działanie towarzyszące",
           "title": "Nielep - świetlica, gmina Rąbino, powiat świdwiński",
