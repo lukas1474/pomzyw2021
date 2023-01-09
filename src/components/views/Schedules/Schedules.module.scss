@@ -35,6 +35,32 @@
   @include sectionTitle;
   font-size: 1.8rem;
 }
+.schedulesSubtitle{
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.schedulesBoldText {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.schedulesList {
+  padding-top: 30px;
+}
+
+.schedulesPlaces {
+  text-decoration: underline;
+}
+ul li {
+  padding-left: 5%;
+  list-style: none;
+}
+
+.schedulesExtraText {
+  font-weight: bold;
+}
 
 /* ExtraExtraLarge Devices, UltraWide Desktops  */
 @media (min-width: 1921px) {

@@ -14,6 +14,7 @@ import NotFound from './components/views/NotFound/NotFound';
 import ScrollToTop from './components/utils/ScrollToTop';
 import Gdpr from './components/infoPages/Gdpr/Gdpr';
 import ToDownload from './components/views/ToDownload/ToDownload';
+import Schedules from './components/views/Schedules/Schedules';
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
             <Route exact path="/" component={MainPage} />
             <Route exact path="/ogloszenia" component={Announcements} />
             <Route exact path="/dopobrania" component={ToDownload} />
+            <Route exact path="/harmonogramy" component={Schedules} />
             <Route exact path="/rodo" component={Gdpr} />
             <Route path="*" component={NotFound} />
           </Switch>
