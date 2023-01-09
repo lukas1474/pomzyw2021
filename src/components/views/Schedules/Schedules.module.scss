@@ -1,0 +1,143 @@
+@import "../../../styles/settings.scss";
+
+.root {
+  background: $white;
+  border-radius: 10px;
+  color: $text-color;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 0 auto;
+  min-height: 80vh;
+}
+
+.section {
+  width: 100%;
+  padding-bottom: $padding-below-sections;
+  padding-top: 15px;
+}
+
+.container {
+  margin-top: 25px;
+}
+
+.row {
+  @include flex(row, null, center);
+  list-style: none;
+  margin: 0 25px 0 25px;
+  padding-left: 0;
+}
+
+.schedulesTitle {
+  @include sectionTitle;
+  font-size: 1.8rem;
+}
+.schedulesSubtitle{
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.schedulesBoldText {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.schedulesList {
+  padding-top: 30px;
+}
+
+.schedulesPlaces {
+  text-decoration: underline;
+}
+ul li {
+  padding-left: 5%;
+  list-style: none;
+}
+
+.schedulesExtraText {
+  font-weight: bold;
+}
+
+/* ExtraExtraLarge Devices, UltraWide Desktops  */
+@media (min-width: 1921px) {
+  .root {
+    width: 55vw;
+    max-width: 1200px;
+  }
+}
+
+/* ExtraLarge Devices, Desktops  */
+@media (min-width: 1200px) and (max-width: 1920px) {
+  .root {
+    width: 55%;
+  }
+}
+
+/* Large Devices, Laptops, Large Tablets iPad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .root {
+    width: 80%;
+
+    .row {
+      margin: 0 15px 0 15px;
+    }
+  }
+}
+
+
+/* Medium Devices, Tablets iPad */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .root {
+    width: 95%;
+
+    .row {
+      margin: 0 10px 0 10px;
+    }
+  }
+}
+
+
+/* Small Devices, Small tablets Large Phones */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .root {
+    width: 95%;
+
+    .schedulesTitle {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .container {
+      margin-top: 25px;
+    }
+
+    .row {
+      margin: 0 5px 0 5px;
+    }
+  }
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .root {
+    width: 95%;
+
+    .schedulesTitle {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .container {
+      margin-top: 25px;
+    }
+
+    .row {
+      margin: 0 3px 0 3px;
+    }
+  }
+}
