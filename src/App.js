@@ -18,11 +18,11 @@ import Schedules from './components/views/Schedules/Schedules';
 
 function App() {
 
-  // useEffect(() => {
-  //   const TRACKING_ID = process.env.REACT_APP_GOOGLE_ANALYTICS_API_KEY;
-  //   ReactGA.initialize(TRACKING_ID);
-  //   ReactGA.send({ hitType: 'pageview'});
-  // }, []);
+  useEffect(() => {
+    const TRACKING_ID = process.env.REACT_APP_GOOGLE_ANALYTICS_API_KEY;
+    ReactGA.initialize(TRACKING_ID);
+    ReactGA.send({ hitType: 'pageview'});
+  }, []);
 
   gsap.registerPlugin(ScrollTrigger);
   return (
