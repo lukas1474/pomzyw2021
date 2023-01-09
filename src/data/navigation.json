@@ -13,24 +13,30 @@
   },
   {
     "id": 3,
-    "linkSrc": "ogloszenia",
-    "linkName": "Ogłoszenia",
+    "linkSrc": "#oNas",
+    "linkName": "Kim jesteśmy?",
     "side": "L"
   },
   {
     "id": 4,
+    "linkSrc": "ogloszenia",
+    "linkName": "Ogłoszenia",
+    "side": "R"
+  },
+  {
+    "id": 5,
+    "linkSrc": "harmonogramy",
+    "linkName": "Harmonogramy",
+    "side": "R"
+  },
+  {
+    "id": 6,
     "linkSrc": "dopobrania",
     "linkName": "Do pobrania",
     "side": "R"
   },
   {
-    "id": 5,
-    "linkSrc": "#oNas",
-    "linkName": "Kim jesteśmy?",
-    "side": "R"
-  },
-  {
-    "id": 6,
+    "id": 7,
     "linkSrc": "#kontakt",
     "linkName": "kontakt",
     "side": "R"

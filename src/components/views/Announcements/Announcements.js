@@ -24,7 +24,7 @@ const Announcements = () => {
   const filteredEventsInVoivodships = eventsInVoivodships.filter((item) => item.id === currentEventsInVoivodships)[0];
 
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(5);
+  const [postsPerPage] = useState(7);
 
   const scrollWithOffset = (element) => {
     const yOffset = -100;
