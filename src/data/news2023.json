@@ -1,0 +1,249 @@
+{
+  "title": "Wydarzenia",
+  "eventsInVoivodships": [
+    {
+      "id": 16,
+      "name": "zachodniopomorskie",
+      "events": [
+        {
+          "id": 1,
+          "month": "Lipiec",
+          "type": "",
+          "title": "Karlino",
+          "content": [
+            {
+              "date": "25.07.2023",
+              "text": "Zdrowy styl życia w kontekście masażu jako metody fizjoterapii - wspomaganie leczenia, poprawa sprawności, profilaktyka w dziedzinie neurologii, ortopedii. Pozytywny wpływ na stan krążenia i ogólnego samopoczucia - pokaz kobido dla kobiet."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "month": "Lipiec",
+          "type": "",
+          "title": "Barwice",
+          "content": [
+            {
+              "date": "25.07.2023",
+              "text": "Zdrowy styl życia w kontekście masażu jako metody fizjoterapii - wspomaganie leczenia, poprawa sprawności, profilaktyka w dziedzinie neurologii, ortopedii. Pozytywny wpływ na stan krążenia i ogólnego samopoczucia - pokaz kobido dla kobiet."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "month": "Lipiec",
+          "type": "",
+          "title": "Białogard",
+          "content": [
+            {
+              "date": "26.07.2023",
+              "text": "Zdrowy styl życia w kontekście masażu jako metody fizjoterapii - wspomaganie leczenia, poprawa sprawności, profilaktyka w dziedzinie neurologii, ortopedii. Pozytywny wpływ na stan krążenia i ogólnego samopoczucia - pokaz kobido dla kobiet."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "month": "Lipiec",
+          "type": "",
+          "title": "Czaplinek",
+          "content": [
+            {
+              "date": "27.07.2023",
+              "text": "Zdrowy styl życia w kontekście masażu jako metody fizjoterapii - wspomaganie leczenia, poprawa sprawności, profilaktyka w dziedzinie neurologii, ortopedii. Pozytywny wpływ na stan krążenia i ogólnego samopoczucia - pokaz kobido dla kobiet."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "month": "Lipiec",
+          "type": "Piknik rodzinny - W zdrowym ciele zdrowy Duch",
+          "title": "",
+          "content": [
+            {
+              "date": "28.07.2023",
+              "text": "W programie prelekcje: Zdrowy styl życia oraz Program POPŻ Plus w perspektywie rodzinnego gospodarstwa domowego. Podsumowanie Programu POPŻ 2014- 2021. Pokaz masażu (kobido dla kobiet), grill, ognisko, strzelnica, animacje dla dzieci i wiele wiele innych."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "podlaskie",
+      "events": [
+        {
+          "id": 1,
+          "month": "Lipiec",
+          "type": "Działanie towarzyszące",
+          "title": "OPR podlaskie",
+          "content": [
+            {
+              "date": "08.07.2023",
+              "text": "Warsztat kulinarny  - „Wiosenno-letnie sałatki warzywno-owocowe”.  Prowadzący br. Andrzej Grzanecki"
+            },
+            {
+              "date": "08.07.2023",
+              "text": "Prowadzenie grupowych i indywidualnych konsultacji psychologiczno-terapeutycznych ukierunkowanych na pomoc osobom uzależnionym, współuzależnionym oraz zagrożonym wykluczeniem społecznym z miasta Suwałk i powiatu suwalskiego w wymiarze 1-2 h w trzech terminach zaraz po spotkaniach w ramach działań towarzyszących wyżej wymienionych. Prowadzący b. Andrzej Grzanecki."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "month": "Lipiec",
+          "type": "Działanie towarzyszące",
+          "title": "OPR podlaskie",
+          "content": [
+            {
+              "date": "22.07.2023",
+              "text": "Warsztaty profilaktyki zdrowia -  „Zdrowe odżywianie”. Prowadzący br. Krzysztof Pietkiewicz."
+            },
+            {
+              "date": "22.07.2023",
+              "text": "Prowadzenie grupowych i indywidualnych konsultacji psychologiczno-terapeutycznych ukierunkowanych na pomoc osobom uzależnionym, współuzależnionym oraz zagrożonym wykluczeniem społecznym z miasta Suwałk i powiatu suwalskiego w wymiarze 1-2 h w trzech terminach zaraz po spotkaniach w ramach działań towarzyszących wyżej wymienionych. Prowadzący b. Andrzej Grzanecki."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "month": "Sierpień",
+          "type": "Działanie towarzyszące",
+          "title": "OPR podlaskie",
+          "content": [
+            {
+              "date": "05.08.2023",
+              "text": "Szkolenie  -  „Jak żyć oszczędnie”. Prowadzący br. Stanisław Gutowski."
+            },
+            {
+              "date": "05.08.2023",
+              "text": "Prowadzenie grupowych i indywidualnych konsultacji psychologiczno-terapeutycznych ukierunkowanych na pomoc osobom uzależnionym, współuzależnionym oraz zagrożonym wykluczeniem społecznym z miasta Suwałk i powiatu suwalskiego w wymiarze 1-2 h w trzech terminach zaraz po spotkaniach w ramach działań towarzyszących wyżej wymienionych. Prowadzący b. Andrzej Grzanecki."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "śląskie",
+      "events": [
+        {
+          "id": 1,
+          "month": "Sierpień",
+          "type": "Działanie towarzyszące",
+          "title": "Śląski Oddział Pomocy Żywnościowej",
+          "content": [
+            {
+              "date": "23.08.2023",
+              "text": "Działanie kulinarne i dietetyczne"
+            },
+            {
+              "date": "24.08.2022",
+              "text": "Działanie ekonomiczne"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "pomorskie",
+      "events": [
+        {
+          "id": 1,
+          "month": "Lipiec",
+          "type": "Działanie towarzyszące",
+          "title": "Cieplewo (GOPS)",
+          "content": [
+            {
+              "date": "11.07.2023",
+              "text": "Działania ekonomiczne"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "month": "Lipiec",
+          "type": "Działanie towarzyszące",
+          "title": "Pszczółki (MOPS)",
+          "content": [
+            {
+              "date": "11.07.2023",
+              "text": "Działania ekonomiczne"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "month": "Lipiec",
+          "type": "Działanie towarzyszące",
+          "title": "Osieczna (OSP)",
+          "content": [
+            {
+              "date": "12.07.2023",
+              "text": "Działania ekonomiczne"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "giveOutFoodEvents": [
+    {
+      "id": 1,
+      "where": "Magazyn Kościoła Starokatolickiego w Barwicach, ul. Zwycięzców 26, 78-460 Barwice",
+      "february": "Luty:",
+      "februaryDates": "1.02, 8.02, 15.02, 22.02, 23.02 w godzinach: od 11:00 do 12:00",
+      "march": "Marzec:",
+      "marchDates": "8.03, 15.03, 22.03, 29.03 w godzinach od 10:00 do 11:00"
+    },
+    {
+      "id": 2,
+      "where": "Białogard, ul. Piłsudskiego 27",
+      "january": "Styczeń:",
+      "januaryDates": "28.01 w godzinach od 13.00 do 16.00",
+      "february": "Luty:",
+      "februaryDates": "3.02, 16.02, 26.02 w godzinach: od 14:00 do 16:00",
+      "march": "Marzec:",
+      "marchDates": "11.03, 16.03 w godzinach od 14:00 do 16:00"
+    },
+    {
+      "id": 3,
+      "where": "Rąbino (Pałac)",
+      "february": "Luty:",
+      "februaryDates": "15.02 od godziny 12.00"
+    },
+    {
+      "id": 4,
+      "where": "Czaplinek (budynek MOPS)",
+      "february": "Luty:",
+      "februaryDates": "15.02",
+      "march": "Marzec:",
+      "marchDates": "24.03 od godziny 10.00"
+    },
+    {
+      "id": 5,
+      "where": "Szczecin, ul. Pszenna 29",
+      "february": "Luty:",
+      "februaryDates": "17.02 w godzinach: od 15.00 do 16.00",
+      "march": "Marzec:",
+      "marchDates": "3.03 w godzinach: od 15.00 do 16.00"
+    },
+    {
+      "id": 6,
+      "where": "Sławoborze (Straż Pożarna)",
+      "march": "Marzec:",
+      "marchDates": "4.03 w godzinach: od 12.00 do 15.00"
+    },
+    {
+      "id": 7,
+      "where": "Rymań (Dom Kultury)",
+      "march": "Marzec:",
+      "marchDates": "4.03 w godzinach: od 15.00 do 18.00 oraz 23.03 od godziny 12.00"
+    },
+    {
+      "id": 8,
+      "where": "Mielno (budynek MOPS)",
+      "march": "Marzec:",
+      "marchDates": "20.03 od godziny 11.00"
+    }
+  ]
+}
