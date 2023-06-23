@@ -1,0 +1,110 @@
+{
+  "title": "Terminy wydawania żywności w województwach w 2023 roku",
+  "year": "2023",
+  "voivodships": [
+    {
+      "id": 16,
+      "name": "zachodniopomorskie",
+      "places": [
+        {
+          "title": "Białogard, ul. Ustronie Miejskie (Park Mroczkiewicza)",
+          "content": [
+            {
+              "date": "Czerwiec",
+              "text": "01.06 w godzinach: od 12.00 do 18.00"
+            }
+          ]
+        },
+        {
+          "title": "Karlino (MOPS), powiat białogardzki",
+          "content": [
+            {
+              "date": "Czerwiec",
+              "text": "02.06 w godzinach: od 11.00 do 14.00"
+            }
+          ]
+        },
+        {
+          "title": "Koszalin, ul. Matejki 3",
+          "content": [
+            {
+              "date": "Wrzesień",
+              "text": "08.09, 09.09, 12.09"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "pomorskie",
+      "places": [
+        {
+          "title": "Juszkowo (sala przy urzędzie gminy), ul. Zakątek 1",
+          "content": [
+            {
+              "date": "Lipiec",
+              "text": "04.07 w godzinach: od godziny 10.00"
+            }
+          ]
+        },
+        {
+          "title": "Skowarcz (wiejska świetlica), ul. Gdańska 22/24",
+          "content": [
+            {
+              "date": "Czerwiec",
+              "text": "28.06 od godziny 10.00"
+            }
+          ]
+        },
+        {
+          "title": "Osieczna (sala gminna przy urzędzie gminy), ul. Powstańców Wielkopolskich 6",
+          "content": [
+            {
+              "date": "Czerwiec",
+              "text": "06.06 od godziny 10.00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cos": [
+    {
+      "id": 15,
+      "name": "śląskie",
+      "places": [
+        {
+          "title": "Magazyn Kościoła Starokatolickiego w Barwicach, ul. Zwycięzców 26, 78-460 Barwice",
+          "content": [
+            {
+              "date": "Luty",
+              "text": "1.02, 8.02, 15.02, 22.02, 23.02 w godzinach: od 11:00 do 12:00"
+            },
+            {
+              "date": "Marzec",
+              "text": "8.03, 15.03, 22.03, 29.03 w godzinach od 10:00 do 11:00"
+            }
+          ]
+        },
+        {
+          "title": "Białogard, ul. Piłsudskiego 27",
+          "content": [
+            {
+              "date": "Styczeń",
+              "text": "28.01 w godzinach od 13.00 do 16.00"
+            },
+            {
+              "date": "Luty",
+              "text": "3.02, 16.02, 26.02 w godzinach: od 14:00 do 16:00"
+            },
+            {
+              "date": "Marzec",
+              "text": "11.03, 16.03 w godzinach od 14:00 do 16:00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

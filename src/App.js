@@ -10,6 +10,7 @@ import'./styles/global.scss';
 import MainLayout from './components/layout/MainLayout/MainLayout';
 import MainPage from './components/views/MainPage/MainPage';
 import Announcements from './components/views/Announcements/Announcements';
+import Announcements2023 from './components/views/Announcements2023/Announcements2023';
 import NotFound from './components/views/NotFound/NotFound';
 import ScrollToTop from './components/utils/ScrollToTop';
 import Gdpr from './components/infoPages/Gdpr/Gdpr';
@@ -32,7 +33,8 @@ function App() {
           <ScrollToTop />
           <Switch>
             <Route exact path="/" component={MainPage} />
-            <Route exact path="/ogloszenia" component={Announcements} />
+            <Route exact path="/ogloszenia-2022" component={Announcements} />
+            <Route exact path="/ogloszenia-2023" component={Announcements2023} />
             <Route exact path="/dopobrania" component={ToDownload} />
             <Route exact path="/harmonogramy" component={Schedules} />
             <Route exact path="/rodo" component={Gdpr} />

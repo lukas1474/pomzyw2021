@@ -19,24 +19,30 @@
   },
   {
     "id": 4,
-    "linkSrc": "ogloszenia",
-    "linkName": "Ogłoszenia",
-    "side": "R"
+    "linkSrc": "ogloszenia-2022",
+    "linkName": "Ogłoszenia 2022",
+    "side": "L"
   },
   {
     "id": 5,
+    "linkSrc": "ogloszenia-2023",
+    "linkName": "Ogłoszenia 2023",
+    "side": "R"
+  },
+  {
+    "id": 6,
     "linkSrc": "harmonogramy",
     "linkName": "Harmonogramy",
     "side": "R"
   },
   {
-    "id": 6,
+    "id": 7,
     "linkSrc": "dopobrania",
     "linkName": "Do pobrania",
     "side": "R"
   },
   {
-    "id": 7,
+    "id": 8,
     "linkSrc": "#kontakt",
     "linkName": "kontakt",
     "side": "R"
