@@ -9,11 +9,15 @@
           "id": 1,
           "month": "Lipiec",
           "type": "",
-          "title": "Karlino",
+          "title": "Karlino, ul. Parkowa 1 (Ośrodek kultury)",
           "content": [
             {
-              "date": "25.07.2023",
+              "date": "25.07.2023 - godz. 11:00",
               "text": "Zdrowy styl życia w kontekście masażu jako metody fizjoterapii - wspomaganie leczenia, poprawa sprawności, profilaktyka w dziedzinie neurologii, ortopedii. Pozytywny wpływ na stan krążenia i ogólnego samopoczucia - pokaz kobido dla kobiet."
+            },
+            {
+              "date": "25.07.2023 - godz. 11:00",
+              "text": "Informacje ekonomiczne, oszczędzanie, budżetowanie, optymalizacja wydatków."
             }
           ]
         },
@@ -21,10 +25,10 @@
           "id": 2,
           "month": "Lipiec",
           "type": "",
-          "title": "Barwice",
+          "title": "Białogard, ul. Chopina 8 (świetlica szkoły nr 3)",
           "content": [
             {
-              "date": "25.07.2023",
+              "date": "26.07.2023 - godz. 11:00",
               "text": "Zdrowy styl życia w kontekście masażu jako metody fizjoterapii - wspomaganie leczenia, poprawa sprawności, profilaktyka w dziedzinie neurologii, ortopedii. Pozytywny wpływ na stan krążenia i ogólnego samopoczucia - pokaz kobido dla kobiet."
             }
           ]
@@ -33,10 +37,10 @@
           "id": 3,
           "month": "Lipiec",
           "type": "",
-          "title": "Białogard",
+          "title": "Czaplinek, ul. Ławińska 1A (Dom Kultury)",
           "content": [
             {
-              "date": "26.07.2023",
+              "date": "27.07.2023 - godz. 11:00",
               "text": "Zdrowy styl życia w kontekście masażu jako metody fizjoterapii - wspomaganie leczenia, poprawa sprawności, profilaktyka w dziedzinie neurologii, ortopedii. Pozytywny wpływ na stan krążenia i ogólnego samopoczucia - pokaz kobido dla kobiet."
             }
           ]
@@ -44,24 +48,68 @@
         {
           "id": 4,
           "month": "Lipiec",
-          "type": "",
-          "title": "Czaplinek",
+          "type": "Piknik rodzinny - W zdrowym ciele zdrowy Duch",
+          "title": "Białogard, Plac Wyspiańskiego",
           "content": [
             {
-              "date": "27.07.2023",
-              "text": "Zdrowy styl życia w kontekście masażu jako metody fizjoterapii - wspomaganie leczenia, poprawa sprawności, profilaktyka w dziedzinie neurologii, ortopedii. Pozytywny wpływ na stan krążenia i ogólnego samopoczucia - pokaz kobido dla kobiet."
+              "date": "28.07.2023 - godz. 14:00 - 18:00",
+              "text": "W programie prelekcje: Zdrowy styl życia oraz Program POPŻ Plus w perspektywie rodzinnego gospodarstwa domowego. Podsumowanie Programu POPŻ 2014- 2021. Pokaz masażu (kobido dla kobiet), grill, ognisko, strzelnica, animacje dla dzieci i wiele wiele innych."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "warmińsko-mazurskie",
+      "events": [
+        {
+          "id": 1,
+          "month": "Lipiec",
+          "type": "Działania towarzyszące",
+          "title": "Bartoszyce, ul. Kopernika 5",
+          "content": [
+            {
+              "date": "14.07.2023 - godz. 12:00",
+              "text": "Bezpieczeństwo w sieci."
+            },
+            {
+              "date": "14.07.2023 - godz. 13:15",
+              "text": "Dbaj o siebie."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "świętokrzyskie",
+      "events": [
+        {
+          "id": 1,
+          "month": "Czerwiec",
+          "type": "Działanie towarzyszące",
+          "title": "Ostrowiec Świętokrzyski, ul. Osiedle Słoneczne 17, Fundacja Aktywnych Mam",
+          "content": [
+            {
+              "date": "30.06.2023 - godz. 15:30",
+              "text": "Warsztaty kulinarne dla różnych grup pokoleniowych z udziałem ekspertów kulinarnych, kuchmistrzów, dietetyków pokazujące różne możliwości przygotowania potraw i wykorzystania artykułów spożywczych."
             }
           ]
         },
         {
-          "id": 5,
+          "id": 2,
           "month": "Lipiec",
-          "type": "Piknik rodzinny - W zdrowym ciele zdrowy Duch",
-          "title": "",
+          "type": "Działanie towarzyszące",
+          "title": "Ostrowiec Świętokrzyski, ul. Osiedle Słoneczne 17, Fundacja Aktywnych Mam",
           "content": [
             {
-              "date": "28.07.2023",
-              "text": "W programie prelekcje: Zdrowy styl życia oraz Program POPŻ Plus w perspektywie rodzinnego gospodarstwa domowego. Podsumowanie Programu POPŻ 2014- 2021. Pokaz masażu (kobido dla kobiet), grill, ognisko, strzelnica, animacje dla dzieci i wiele wiele innych."
+              "date": "07.07.2023 - godz. 15:00",
+              "text": "Elementy muzykoterapii z wykorzystaniem instrumentów muzycznych z grupy membranofonów."
+            },
+            {
+              "date": "07.07.2023 - godz. 17:00",
+              "text": "Metoda ruchu rozwijającego według Weroniki Sherbone."
             }
           ]
         }
@@ -74,48 +122,24 @@
         {
           "id": 1,
           "month": "Lipiec",
-          "type": "Działanie towarzyszące",
-          "title": "OPR podlaskie",
+          "type": "Działania towarzyszące",
+          "title": "Suwałki, ul. Kościuszki 71",
           "content": [
             {
-              "date": "08.07.2023",
-              "text": "Warsztat kulinarny  - „Wiosenno-letnie sałatki warzywno-owocowe”.  Prowadzący br. Andrzej Grzanecki"
-            },
-            {
-              "date": "08.07.2023",
-              "text": "Prowadzenie grupowych i indywidualnych konsultacji psychologiczno-terapeutycznych ukierunkowanych na pomoc osobom uzależnionym, współuzależnionym oraz zagrożonym wykluczeniem społecznym z miasta Suwałk i powiatu suwalskiego w wymiarze 1-2 h w trzech terminach zaraz po spotkaniach w ramach działań towarzyszących wyżej wymienionych. Prowadzący b. Andrzej Grzanecki."
+              "date": "08.07.2023 - godz. 16:00",
+              "text": "Warsztat kulinarny - „Wiosenno - letnie sałatki warzywno - owocowe”.  Prowadzący br. Andrzej Grzanecki"
             }
           ]
         },
         {
           "id": 2,
           "month": "Lipiec",
-          "type": "Działanie towarzyszące",
-          "title": "OPR podlaskie",
+          "type": "Działania towarzyszące",
+          "title": "Suwałki, ul. Kościuszki 71",
           "content": [
             {
-              "date": "22.07.2023",
+              "date": "22.07.2023 - godz. 16:00",
               "text": "Warsztaty profilaktyki zdrowia -  „Zdrowe odżywianie”. Prowadzący br. Krzysztof Pietkiewicz."
-            },
-            {
-              "date": "22.07.2023",
-              "text": "Prowadzenie grupowych i indywidualnych konsultacji psychologiczno-terapeutycznych ukierunkowanych na pomoc osobom uzależnionym, współuzależnionym oraz zagrożonym wykluczeniem społecznym z miasta Suwałk i powiatu suwalskiego w wymiarze 1-2 h w trzech terminach zaraz po spotkaniach w ramach działań towarzyszących wyżej wymienionych. Prowadzący b. Andrzej Grzanecki."
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "month": "Sierpień",
-          "type": "Działanie towarzyszące",
-          "title": "OPR podlaskie",
-          "content": [
-            {
-              "date": "05.08.2023",
-              "text": "Szkolenie  -  „Jak żyć oszczędnie”. Prowadzący br. Stanisław Gutowski."
-            },
-            {
-              "date": "05.08.2023",
-              "text": "Prowadzenie grupowych i indywidualnych konsultacji psychologiczno-terapeutycznych ukierunkowanych na pomoc osobom uzależnionym, współuzależnionym oraz zagrożonym wykluczeniem społecznym z miasta Suwałk i powiatu suwalskiego w wymiarze 1-2 h w trzech terminach zaraz po spotkaniach w ramach działań towarzyszących wyżej wymienionych. Prowadzący b. Andrzej Grzanecki."
             }
           ]
         }
@@ -128,16 +152,28 @@
         {
           "id": 1,
           "month": "Sierpień",
-          "type": "Działanie towarzyszące",
-          "title": "Śląski Oddział Pomocy Żywnościowej",
+          "type": "Działania towarzyszące",
+          "title": "Siemianowice Śląskie, ul. Sobieskiego 21, Dom św. brata Alberta",
           "content": [
             {
-              "date": "23.08.2023",
-              "text": "Działanie kulinarne i dietetyczne"
+              "date": "23.08.2023 - godz. 16:00",
+              "text": "Warsztat kulinarny - „Wiosenno-letnie sałatki warzywno-owocowe”"
             },
             {
-              "date": "24.08.2022",
-              "text": "Działanie ekonomiczne"
+              "date": "23.08.2023 - godz. 16:30",
+              "text": "Promocja zdrowego stylu życia"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "month": "Sierpień",
+          "type": "Działania towarzyszące",
+          "title": "Siemianowice Śląskie, ul. Sobieskiego 21, Dom św. brata Alberta",
+          "content": [
+            {
+              "date": "24.08.2023 - godz. 10:00",
+              "text": "Działania ekonomiczne - ekonomia oszczędzania w gospodarstwie domowym."
             }
           ]
         }
@@ -150,36 +186,104 @@
         {
           "id": 1,
           "month": "Lipiec",
-          "type": "Działanie towarzyszące",
-          "title": "Cieplewo (GOPS)",
+          "type": "Działania towarzyszące",
+          "title": "Cieplewo (GOPS), sala gminna Juszkowo",
           "content": [
             {
-              "date": "11.07.2023",
-              "text": "Działania ekonomiczne"
+              "date": "11.07.2023 - godz. 10:00",
+              "text": "Działania ekonomiczne - ekonomia oszczędzania w gospodarstwie domowym."
             }
           ]
         },
         {
           "id": 2,
           "month": "Lipiec",
-          "type": "Działanie towarzyszące",
-          "title": "Pszczółki (MOPS)",
+          "type": "Działania towarzyszące",
+          "title": "Pszczółki (MOPS), sala gminna Skowarcz",
           "content": [
             {
-              "date": "11.07.2023",
-              "text": "Działania ekonomiczne"
+              "date": "11.07.2023 - godz. 12:00",
+              "text": "Działania ekonomiczne - ekonomia oszczędzania w gospodarstwie domowym."
             }
           ]
         },
         {
           "id": 3,
           "month": "Lipiec",
-          "type": "Działanie towarzyszące",
+          "type": "Działania towarzyszące",
           "title": "Osieczna (OSP)",
           "content": [
             {
-              "date": "12.07.2023",
-              "text": "Działania ekonomiczne"
+              "date": "12.07.2023 - godz. 10:00",
+              "text": "Działania ekonomiczne - ekonomia oszczędzania w gospodarstwie domowym."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "mazowieckie",
+      "events": [
+        {
+          "id": 1,
+          "month": "Lipiec",
+          "type": "Działania towarzyszące",
+          "title": "Grójec, Rynek - miejsce zadaszone",
+          "content": [
+            {
+              "date": "11.07.2023 - godz. 13:00",
+              "text": "Działania ekonomiczne - efektywne gospodarowanie pieniędzmi"
+            },
+            {
+              "date": "11.07.2023 - godz. 13:30",
+              "text": "Działania kulinarne, zasady zdrowego żywienia."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "month": "Lipiec",
+          "type": "Działania towarzyszące",
+          "title": "Błędów - budynek Straży Pożarnej w gminie Błędów",
+          "content": [
+            {
+              "date": "12.07.2023 - godz. 13:00",
+              "text": "Działania dietetyczno - zdrowotne. Temat: Zdrowe odżywianie"
+            },
+            {
+              "date": "12.07.2023 - godz. 13:30",
+              "text": "Działania ekonomiczne. Temat: Efektywne wykorzystanie pieniądza."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "łódzkie",
+      "events": [
+        {
+          "id": 1,
+          "month": "Lipiec",
+          "type": "Działania towarzyszące",
+          "title": "Łódź, ul. Karskiego 5, Centrum Wspinaczkowe STRATOSFERA - godz. 12:00 - 15:00",
+          "content": [
+            {
+              "date": "19.07.2023 - godz. 12:00 - 15:00",
+              "text": "Zdrowy styl życia w ramach działań wspinaczkowych."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "month": "Lipiec",
+          "type": "Działanie towarzysząca",
+          "title": "Łódź, ul. Karskiego 5, Centrum Wspinaczkowe STRATOSFERA - godz. 12:00 - 15:00",
+          "content": [
+            {
+              "date": "20.07.2023 - godz. 14:00",
+              "text": "Zdrowy styl życia w ramach działań wspinaczkowych."
             }
           ]
         }

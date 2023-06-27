@@ -77,7 +77,7 @@
   .menu {
     @include flex(row, center, center);
     bottom: 45%;
-    height: 5vh;
+    height: 5.5vh;
     margin: 0 1rem 0 1rem;
     position: absolute;
     transition: $transition;
@@ -90,7 +90,7 @@
 
     .navLink {
       color: $menu-link;
-      font-size: 1.15rem;
+      font-size: 0.95rem;
       font-weight: 500;
       text-transform: uppercase;
 
