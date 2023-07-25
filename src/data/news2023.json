@@ -6,19 +6,7 @@
       "name": "zachodniopomorskie",
       "events": [
         {
-          "id": 3,
-          "month": "Lipiec",
-          "type": "",
-          "title": "Czaplinek, ul. Ławińska 1A (Dom Kultury)",
-          "content": [
-            {
-              "date": "27.07.2023 - godz. 11:00",
-              "text": "Zdrowy styl życia w kontekście masażu jako metody fizjoterapii - wspomaganie leczenia, poprawa sprawności, profilaktyka w dziedzinie neurologii, ortopedii. Pozytywny wpływ na stan krążenia i ogólnego samopoczucia - pokaz kobido dla kobiet."
-            }
-          ]
-        },
-        {
-          "id": 4,
+          "id": 1,
           "month": "Lipiec",
           "type": "",
           "title": "Karlino (Dom Kultury)",
@@ -34,7 +22,7 @@
           ]
         },
         {
-          "id": 5,
+          "id": 2,
           "month": "Lipiec",
           "type": "",
           "title": "Białogard, ul. Ustronie Miejskie 1",
@@ -50,7 +38,7 @@
           ]
         },
         {
-          "id": 6,
+          "id": 3,
           "month": "Lipiec",
           "type": "Piknik rodzinny - W zdrowym ciele zdrowy Duch",
           "title": "Białogard, Plac Wyspiańskiego",
