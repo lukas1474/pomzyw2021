@@ -6,34 +6,6 @@
       "name": "zachodniopomorskie",
       "events": [
         {
-          "id": 1,
-          "month": "Lipiec",
-          "type": "",
-          "title": "Karlino, ul. Parkowa 1 (Ośrodek kultury)",
-          "content": [
-            {
-              "date": "25.07.2023 - godz. 11:00",
-              "text": "Zdrowy styl życia w kontekście masażu jako metody fizjoterapii - wspomaganie leczenia, poprawa sprawności, profilaktyka w dziedzinie neurologii, ortopedii. Pozytywny wpływ na stan krążenia i ogólnego samopoczucia - pokaz kobido dla kobiet."
-            },
-            {
-              "date": "25.07.2023 - godz. 11:00",
-              "text": "Informacje ekonomiczne, oszczędzanie, budżetowanie, optymalizacja wydatków."
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "month": "Lipiec",
-          "type": "",
-          "title": "Białogard, ul. Chopina 8 (świetlica szkoły nr 3)",
-          "content": [
-            {
-              "date": "26.07.2023 - godz. 11:00",
-              "text": "Zdrowy styl życia w kontekście masażu jako metody fizjoterapii - wspomaganie leczenia, poprawa sprawności, profilaktyka w dziedzinie neurologii, ortopedii. Pozytywny wpływ na stan krążenia i ogólnego samopoczucia - pokaz kobido dla kobiet."
-            }
-          ]
-        },
-        {
           "id": 3,
           "month": "Lipiec",
           "type": "",
@@ -48,11 +20,43 @@
         {
           "id": 4,
           "month": "Lipiec",
+          "type": "",
+          "title": "Karlino (Dom Kultury)",
+          "content": [
+            {
+              "date": "27.07.2023 - godz. 12:00 - 13:00",
+              "text": "Warsztat z zakresu różnych technik masażu wraz z pokazem."
+            },
+            {
+              "date": "27.07.2023 - godz. 13:00",
+              "text": "Działania z zakresu konsultacji rehabilitacyjnych. W trakcie działań wspólne przygotowanie zdrowej, pełnej witamin sałatki wiosennej oraz kilka słów o nowym programie POPŻ 2023 i podsumowanie dotychczasowych edycji."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "month": "Lipiec",
+          "type": "",
+          "title": "Białogard, ul. Ustronie Miejskie 1",
+          "content": [
+            {
+              "date": "27.07.2023 - godz. 14:00 - 15:00",
+              "text": "Warsztat z zakresu różnych technik masażu wraz z pokazem."
+            },
+            {
+              "date": "27.07.2023 - godz. 15:00",
+              "text": "Działania z zakresu konsultacji rehabilitacyjnych. W trakcie działań wspólne przygotowanie zdrowej, pełnej witamin sałatki wiosennej oraz kilka słów o nowym programie POPŻ 2023 i podsumowanie dotychczasowych edycji."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "month": "Lipiec",
           "type": "Piknik rodzinny - W zdrowym ciele zdrowy Duch",
           "title": "Białogard, Plac Wyspiańskiego",
           "content": [
             {
-              "date": "28.07.2023 - godz. 14:00 - 18:00",
+              "date": "28.07.2023 - godz. 16:00 - 18:00",
               "text": "W programie prelekcje: Zdrowy styl życia oraz Program POPŻ Plus w perspektywie rodzinnego gospodarstwa domowego. Podsumowanie Programu POPŻ 2014- 2021. Pokaz masażu (kobido dla kobiet), grill, ognisko, strzelnica, animacje dla dzieci i wiele wiele innych."
             }
           ]
@@ -70,11 +74,11 @@
           "title": "Bartoszyce, ul. Kopernika 5",
           "content": [
             {
-              "date": "14.07.2023 - godz. 12:00",
+              "date": "14.07.2023 - godz. 15:30",
               "text": "Bezpieczeństwo w sieci."
             },
             {
-              "date": "14.07.2023 - godz. 13:15",
+              "date": "14.07.2023 - godz. 16:30",
               "text": "Dbaj o siebie."
             }
           ]
