@@ -8,6 +8,7 @@ const ToDownload = () => {
         <h2 className={styles.toDownloadTitle}>Dokumenty do pobrania</h2>
         <div className={`container ${styles.container}`}>
           <div className={`row ${styles.row}`}>
+            <h4 className={styles.announcementsSubtitle}>2022</h4>
             <ul>
               <li>
                 <p>Opis działań realizowanych przez Organizację Partnerską o zasięgu ogólnopolskim Kościołem Starokatolickim w Rzeczypospolitej Polskiej (OPO) w ramach Programu Operacyjnego Pomoc Żywnościowa 2014-2020 Europejskiego Funduszu Pomocy Najbardziej Potrzebującym realizowanego w Podprogramie 2021.</p>
@@ -33,6 +34,13 @@ const ToDownload = () => {
               <li>
                 <p>Sprawozdanie końcowe z dystrybucji artykułów spożywczych - strona 3 i 4</p>
                 <a href="/documents/Załącznik nr 11_2021-str 3 i 4.pdf" download="Sprawozdanie końcowe z dystrybucji artykułów spożywczych - Załącznik nr 11_2021 - strona 3 i 4.pdf">Pobierz</a>
+              </li>
+            </ul>
+            <h4 className={styles.announcementsSubtitle}>2023</h4>
+            <ul>
+              <li>
+                <p>Plan/harmonogram działań towarzyszących - Zachodniopomorski Oddział Pomocy Regionalnej z siedzibą w Świdwinie, ul. Słowackiego 12A w ujęciu miesięcznym.</p>
+                <a href="/documents/Harmonogram Zachodniopomorski OPR.pdf" download="Plan/harmonogram działań towarzyszących - Zachodniopomorski Oddział Pomocy Regionalnej.pdf">Pobierz</a>
               </li>
             </ul>
           </div>
