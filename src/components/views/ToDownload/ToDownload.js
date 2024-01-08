@@ -15,6 +15,7 @@ const ToDownload = () => {
                 <p>Wykaz magazynów organizacji partnerskich regionalnych w ramach Programu Operacyjnego Pomoc Żywnościowa 2014-2020 współfinansowanego z Europejskiego Funduszu Pomocy Najbardziej Potrzebującym Podprogram 2021.</p>
                 <a href="/documents/opisDzialan.pdf" download="Pomoc_zywnosciowa_opis_dzialan.pdf">Pobierz</a>
               </li>
+              <div className={styles.fileToDowloadBottomLine}></div>
               <br />
               <li>
                 <p>Sprawozdanie końcowe z przebiegu działań w ramach środków towarzyszących</p>
@@ -35,13 +36,40 @@ const ToDownload = () => {
                 <p>Sprawozdanie końcowe z dystrybucji artykułów spożywczych - strona 3 i 4</p>
                 <a href="/documents/Załącznik nr 11_2021-str 3 i 4.pdf" download="Sprawozdanie końcowe z dystrybucji artykułów spożywczych - Załącznik nr 11_2021 - strona 3 i 4.pdf">Pobierz</a>
               </li>
+              <div className={styles.fileToDowloadBottomLine}></div>
             </ul>
             <h4 className={styles.announcementsSubtitle}>2023</h4>
-            <ul>
+            <ul className={styles.fileContainer}>
               <li>
                 <p>Plan/harmonogram działań towarzyszących - Zachodniopomorski Oddział Pomocy Regionalnej z siedzibą w Świdwinie, ul. Słowackiego 12A w ujęciu miesięcznym.</p>
                 <a href="/documents/Harmonogram Zachodniopomorski OPR.pdf" download="Plan/harmonogram działań towarzyszących - Zachodniopomorski Oddział Pomocy Regionalnej.pdf">Pobierz</a>
               </li>
+              <div className={styles.fileToDowloadBottomLine}></div>
+              <br />
+              <li>
+                <p>Realizacja Podprogramu 2021 Plus w ramach Programu Operacyjnego Pomoc Żywnościowa 2014-2020.</p>
+              </li>
+              <br />
+              <li>
+                <p>Sprawozdanie końcowe z przebiegu działań w ramach środków towarzyszących</p>
+                <a href="/documents/Załącznik nr 12_2021 Plus.pdf" download="Sprawozdanie końcowe z przebiegu działań w ramach środków towarzyszących - Załącznik nr 12_2021 Plus.pdf">Pobierz</a>
+              </li>
+              <br />
+              <li>
+                <p>Sprawozdanie końcowe z dystrybucji artykułów spożywczych - strona 1</p>
+                <a href="/documents/Załącznik nr 11_2021 Plus 1.pdf" download="Sprawozdanie końcowe z dystrybucji artykułów spożywczych - Załącznik nr 11_2021 Plus 1.pdf">Pobierz</a>
+              </li>
+              <br />
+              <li>
+                <p>Sprawozdanie końcowe z dystrybucji artykułów spożywczych - strona 2</p>
+                <a href="/documents/Załącznik nr 11_2021 Plus 2.pdf" download="Sprawozdanie końcowe z dystrybucji artykułów spożywczych - Załącznik nr 11_2021 Plus 2.pdf">Pobierz</a>
+              </li>
+              <br />
+              <li>
+                <p>Sprawozdanie końcowe z dystrybucji artykułów spożywczych - strona 3 i 4</p>
+                <a href="/documents/Załącznik nr 11_2021 Plus 3.pdf" download="Sprawozdanie końcowe z dystrybucji artykułów spożywczych - Załącznik nr 11_2021 Plus 3.pdf">Pobierz</a>
+              </li>
+              <div className={styles.fileToDowloadBottomLine}></div>
             </ul>
           </div>
         </div>
