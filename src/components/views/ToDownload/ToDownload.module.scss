@@ -36,6 +36,14 @@
   font-size: 1.8rem;
 }
 
+.fileToDowloadBottomLine {
+  width: 50px;
+  position: relative;
+  border-bottom: 1px solid rgb(145, 144, 144);
+  left: 50%;
+  height: 8px;
+}
+
 /* ExtraExtraLarge Devices, UltraWide Desktops  */
 @media (min-width: 1921px) {
   .root {
