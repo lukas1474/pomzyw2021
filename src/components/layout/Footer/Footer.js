@@ -7,7 +7,7 @@ const Footer = () => (
   <footer className={styles.root}>
     <div className={styles.yearBox}>
       <div className={styles.churchLinkBox}>
-        <p className={styles.textFooter}>© 2023</p>
+        <p className={styles.textFooter}>© 2024</p>
         <a href="https://www.starokatolicki.eu/" className={styles.textFooter}>Kościół Starokatolicki w RP</a>
       </div>
       <p className={styles.textFooter}>
