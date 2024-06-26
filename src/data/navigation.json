@@ -19,14 +19,23 @@
   },
   {
     "id": 4,
-    "linkSrc": "ogloszenia-2022",
-    "linkName": "Ogłoszenia 2022",
+    "links": [
+      {
+        "name": "Ogłoszenia 2022",
+        "src": "ogloszenia-2022"
+      },
+      {
+        "name": "Ogłoszenia 2023",
+        "src": "ogloszenia-2023"
+      }
+    ],
+    "linkName": "Ogłoszenia",
     "side": "L"
   },
   {
     "id": 5,
-    "linkSrc": "ogloszenia-2023",
-    "linkName": "Ogłoszenia 2023",
+    "linkSrc": "podprogram-2023",
+    "linkName": "Podprogram 2023",
     "side": "R"
   },
   {

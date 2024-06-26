@@ -11,6 +11,8 @@ import navigation from '../../../data/navigation.json';
 const Navigation = () => {
   const [scroll, setScroll] = useState(false);
   const [activeRWD, setActiveRWD] = useState(false);
+  const [isOpen, setOpen] = useState(false);
+  const toggleDropdown = () => setOpen(!isOpen);
 
   function scrollFunction() {
     if (window.innerWidth >= 1200) {
@@ -147,7 +149,6 @@ const Navigation = () => {
         );
     }
   }, [activeRWD]); // eslint-disable-line react-hooks/exhaustive-deps
-
   return (
     <nav className={scroll ? styles.root : styles.rootScroll} ref={menuRef}
     >
@@ -165,7 +166,31 @@ const Navigation = () => {
               .filter((item) => item.side === `L`)
               .map((item) => (
                 <Col key={item.id} className="p-3 p-xl-0">
-                  <NavHashLink
+                  {item.links ? <div className={styles.dropdown} onClick={toggleDropdown}><p>OGŁOSZENIA
+
+                    <svg  className={isOpen ? styles.iconOpen : styles.icon} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+
+                  </p>
+
+                  <ul className={isOpen ? styles.dropdownListOpen : styles.dropdownList} >
+                    {
+                      item.links.map((link, index) => (
+                        <li key={index}>
+                          <NavHashLink
+                            smooth
+                            className={styles.navLink}
+                            to={`/${link.src}`}
+                            scroll={(el) => scrollWithOffset(el)}
+                            onClick={() => setActiveRWD(false)}
+                          >
+                            {link.name}
+                          </NavHashLink>
+                        </li>
+                      ))
+                    }
+
+                  </ul>
+                  </div> :   <NavHashLink
                     smooth
                     className={styles.navLink}
                     to={`/${item.linkSrc}`}
@@ -173,7 +198,8 @@ const Navigation = () => {
                     onClick={() => setActiveRWD(false)}
                   >
                     {item.linkName}
-                  </NavHashLink>
+                  </NavHashLink> }
+
                 </Col>
               ))}
           </div>

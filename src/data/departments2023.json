@@ -1,0 +1,255 @@
+{
+  "department": [
+    {
+      "id": 1,
+      "title": "Dolnośląski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "address": "ul. Rynek 60/2, 50-116 Wrocław.",
+      "correspondence": "Jolanta Tkaczyk, ul. Petyhorska 2/1, 25-125 Kielce",
+      "warehouse": "Magazyn Kościoła Starokatolickiego 10",
+      "warehouseAddress": "Nowy Jaworów 3, 58- 140 Jaworzyna Śląska",
+      "storekeepers": [
+        {
+          "name": "Jan Borowczyk",
+          "tel": "+48 531 988 886"
+        }
+      ],
+      "coordinators": [
+        {
+          "name": "Anna Zając",
+          "tel": "+48 730 939 888"
+        },
+        {
+          "name": " Łukasz Mikołajczyk",
+          "tel": " +48 534 203 687"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Kujawsko-Pomorski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "address": "ul. Poznańska 32, 85-129 Bydgoszcz",
+      "warehouse": "Magazyn Kościoła Starokatolickiego 8",
+      "warehouseAddress": "ul. Spichlerzowa 3, 86-008 Koronowo",
+      "storekeepers": [
+        {
+          "name": "Radosław Koniec",
+          "tel": "+48 797 252 520"
+        }
+      ],
+      "coordinators": [
+        {
+          "name": "Anna Zając",
+          "tel": "+48 730 939 888"
+        },
+        {
+          "name": " Łukasz Mikołajczyk",
+          "tel": " +48 534 203 687"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Łódzki Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "address": "ul. Przemysłowa 2, 95- 050 Konstantynów Łódzki",
+      "correspondence": "Jolanta Tkaczyk, ul. Petyhorska 2/1, 25-125 Kielce",
+      "warehouse": "Magazyn Kościoła Starokatolickiego 7",
+      "warehouseAddress": "ul. Przemysłowa 2, 95- 050 Konstantynów Łódzki",
+      "storekeepers": [
+        {
+          "name": "Miłosz Roszkowski",
+          "tel": "+48 531 059 059"
+        }
+      ],
+      "coordinators": [
+        {
+          "name": "Anna Zając",
+          "tel": "+48 730 939 888"
+        },
+        {
+          "name": " Łukasz Mikołajczyk",
+          "tel": " +48 534 203 687"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Mazowiecki Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "address": "ul. Krakowska 110/114, BUD B55, pok. 236, 02- 256 Warszawa",
+      "correspondence": "Jolanta Tkaczyk, ul. Petyhorska 2/1, 25-125 Kielce",
+      "warehouse": "Magazyn Kościoła Starokatolickiego 2",
+      "warehouseAddress": "ul. Modlińska 60, 03- 198 Warszawa",
+      "storekeepers": [
+        {
+          "name": "biskup Tomasz Maciuk",
+          "tel": "+48 511 391 313"
+        }
+      ],
+      "coordinators": [
+        {
+          "name": "Anna Zając",
+          "tel": "+48 730 939 888"
+        },
+        {
+          "name": " Łukasz Mikołajczyk",
+          "tel": " +48 534 203 687"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Pomorski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "address": "ul. Petyhorska 2/1, 25-125 Kielce",
+      "correspondence": "Jolanta Tkaczyk, ul. Petyhorska 2/1, 25-125 Kielce",
+      "warehouse": "Magazyn Kościoła Starokatolickiego 4",
+      "warehouseAddress": "ul. Oliwska 21/23, 80- 563 Gdańsk",
+      "storekeepers": [
+        {
+          "name": "Bartosz Formela",
+          "tel": "+48 795 501 150"
+        },
+        {
+          "name": "Grzegorz Formela",
+          "tel": "+48 796 010 264"
+        }
+      ],
+      "coordinators": [
+        {
+          "name": "Anna Zając",
+          "tel": "+48 730 939 888"
+        },
+        {
+          "name": " Łukasz Mikołajczyk",
+          "tel": " +48 534 203 687"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Śląski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "address": "ul. Mikołowska 44, 40- 065 Katowice",
+      "correspondence": "Jolanta Tkaczyk, ul. Petyhorska 2/1, 25-125 Kielce",
+      "warehouse": "Magazyn Kościoła Starokatolickiego 3",
+      "warehouseAddress": "ul. Gliwicka 234, 40- 860 Gliwice",
+      "storekeepers": [
+        {
+          "name": "Mikołaj Rykowski",
+          "tel": "+48 694 019 254"
+        },
+        {
+          "name": "Marta Wilczyńska",
+          "tel": "+48 790 203 645"
+        }
+      ],
+      "coordinators": [
+        {
+          "name": "Anna Zając",
+          "tel": "+48 730 939 888"
+        },
+        {
+          "name": " Łukasz Mikołajczyk",
+          "tel": " +48 534 203 687"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Świętokrzyski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "address": "ul. Ostrowiecka 42, 27- 400 Miłków",
+      "warehouse": "Magazyn Kościoła Starokatolickiego 5",
+      "warehouseAddress": "ul. Ostrowiecka 42, 27- 400 Miłków",
+      "storekeepers": [
+        {
+          "name": "Norbert Kaczmarczyk",
+          "tel": "+48 575 459 007"
+        }
+      ],
+      "coordinators": [
+        {
+          "name": "Anna Zając",
+          "tel": "+48 730 939 888"
+        },
+        {
+          "name": " Łukasz Mikołajczyk",
+          "tel": " +48 534 203 687"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Warmińsko-Mazurski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "address": "ul. Kopernika 5, 11-200 Bartoszyce",
+      "warehouse": "Magazyn Kościoła Starokatolickiego 6",
+      "warehouseAddress": "ul. Kopernika 5, 11-200 Bartoszyce",
+      "storekeepers": [
+        {
+          "name": "Tomasz Huta",
+          "tel": "+48 736 904 770"
+        },
+        {
+          "name": "Aleksandra Chruściel",
+          "tel": "+48 515 456 127"
+        }
+      ],
+      "coordinators": [
+        {
+          "name": "Anna Zając",
+          "tel": "+48 730 939 888"
+        },
+        {
+          "name": " Łukasz Mikołajczyk",
+          "tel": " +48 534 203 687"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Wiekopolski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "address": "ul. Wysogotowska 104, 62-081 Przezmierowo",
+      "warehouse": "Magazyn Kościoła Starokatolickiego 9",
+      "warehouseAddress": "ul. Poznańska 169, 62-080 Tarnowo Podgórne",
+      "storekeepers": [
+        {
+          "name": "Tomasz Taran",
+          "tel": "+48 690 804 480"
+        }
+      ],
+      "coordinators": [
+        {
+          "name": "Anna Zając",
+          "tel": "+48 730 939 888"
+        },
+        {
+          "name": " Łukasz Mikołajczyk",
+          "tel": " +48 534 203 687"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Zachodniopomorski Oddział Pomocy Żywnościowej Kościoła Starokatolickiego w RP",
+      "address": "Knyki 34, 78-460-Barwice",
+      "warehouse": "Magazyn Kościoła Starokatolickiego 1",
+      "warehouseAddress": "ul. Połczyńska 10b, 78-200 Białogard",
+      "storekeepers": [
+        {
+          "name": "Robert Borkowski",
+          "tel": "+48 793 530 012"
+        },
+        {
+          "name": "Łukasz Mikołajczyk",
+          "tel": "+48 534 203 687"
+        }
+      ],
+      "coordinators": [
+        {
+          "name": "Anna Zając",
+          "tel": "+48 730 939 888"
+        },
+        {
+          "name": " Łukasz Mikołajczyk",
+          "tel": " +48 534 203 687"
+        }
+      ]
+    }
+  ]
+}

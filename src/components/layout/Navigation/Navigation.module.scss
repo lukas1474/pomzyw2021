@@ -108,6 +108,50 @@
   }
 }
 
+.dropdown {
+  position: relative;
+  cursor: pointer;
+  .dropdownList {
+    @include flex(column, center, center);
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 100%;
+    height: auto;
+    padding: 1rem 0 1rem 0;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    transition: all 0.3s;
+    padding-left: 0;
+    z-index: 1;
+    background-color: #f0f0f0;
+  }
+  .dropdownListOpen {
+    @extend .dropdownList;
+    display: flex;
+    transition: all 0.3s;
+  }
+  ul li {
+    @include flex(column, center, center);
+    padding-bottom: 0.5rem;
+  }
+  .icon {
+    transition: all 0.2s ease-in-out;
+    transform: rotate(0deg);
+    font-size: 13px;
+    height: 1em;
+    width: 1rem;
+    color: #91a5be;
+    margin-left: 0.25rem;
+  }
+  .iconOpen {
+    @extend .icon;
+    transform: rotate(90deg);
+  }
+}
+
 .rootScroll {
   @extend .root;
   top: -2rem;
@@ -153,6 +197,20 @@
 
     .burgerButton {
       display: flex;
+    }
+    .dropdown {
+      .dropdownList,
+      .dropdownListOpen {
+        position: relative;
+        border: none;
+        left: 0;
+        transform: translate(0, 0);
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+    }
+    .dropdownListOpen {
+      @include flex(column, flex-start, flex-start);
     }
   }
 }

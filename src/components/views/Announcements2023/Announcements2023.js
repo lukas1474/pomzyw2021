@@ -120,7 +120,7 @@ const Announcements2023 = () => {
   return (
     <div className={styles.root} id="ogloszenia" ref={announcementsRef}>
       <div className={styles.section}>
-        <h2 className={styles.announcementsTitle}>Ogłoszenia</h2>
+        <h2 className={styles.announcementsTitle}>Ogłoszenia 2023</h2>
         <div className={`container ${styles.container}`} ref={eventsRef}>
           <h4 className={styles.announcementsSubtitle}>{news.title}</h4>
           <div className={`row ${styles.row}`}>
