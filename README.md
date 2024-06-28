@@ -34,10 +34,10 @@ yarn test
 
 ## Author
 
-👤 **Łukasz Sobel, Karol Sobolewski | CrucialFix**
+👤 **Łukasz Sobel, Karol Sobolewski | Scriptorium**
 
-* Website: info@crucialfix.pl
-* Github: [@crucialfixpl](https://github.com/crucialfixpl)
+* Contact: info@sciptorium.dev
+* Github: [@scriptoriumwebdev](https://github.com/scriptoriumwebdev)
 
 ## Show your support
 
