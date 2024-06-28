@@ -8,7 +8,7 @@
 > Website of a food bank, that helps people in troubled financial situation.
 
 ### 🏠
-[@pomoczywnosciowa.pl](https://pomoczywnosciowa.pl)
+[pomoczywnosciowa.pl](https://pomoczywnosciowa.pl)
 ## Prerequisites
 
 - npm >=6.14.15
