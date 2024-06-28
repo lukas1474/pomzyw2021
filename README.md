@@ -7,7 +7,7 @@
 
 > Website of a food bank, that helps people in troubled financial situation.
 
-### 🏠 [Homepage](https;//www.pomoczywnosciowa.pl/)
+### 🏠 [pomoczywnosciowa.pl](https;//pomoczywnosciowa.pl/)
 
 ## Prerequisites
 
